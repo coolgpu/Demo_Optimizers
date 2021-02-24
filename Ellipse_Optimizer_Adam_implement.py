@@ -61,12 +61,12 @@ def main():
         for i_batch, sample_batched in enumerate(xy_dataloader):
             x, y = sample_batched['x'], sample_batched['y']
 
-            # Forward pass
+            # Step 1: Perform forward pass
             y_pred_sqr = Wb ** 2 * (1.0 - (x + c) ** 2 / Wa ** 2)
             y_pred_sqr[y_pred_sqr < 0.00000001] = 0.00000001  # handle negative values caused by noise
             y_pred = torch.sqrt(y_pred_sqr)
 
-            # Compute loss
+            # Step 2: Compute loss
             loss = (y_pred - y).pow(2).sum()
 
             if flag_log:
@@ -75,15 +75,15 @@ def main():
                 if t % 10 == 0 and i_batch == 0:
                     print(logstr)
 
-            if flag_manual_implement:
-                # fully-manual: perform back-propagation and calculate the gradients of loss w.r.t. Wa and Wb
+            if flag_manual_implement: # do the job manually
+                # Step 3: perform back-propagation and calculate the gradients of loss w.r.t. Wa and Wb
                 dWa_via_yi = 2.0 * (y_pred - y) * ((x+c) ** 2) * (Wb**2) / (Wa**3) / y_pred
                 dWa = dWa_via_yi[y_pred_sqr > 0.00000001].sum()
 
                 dWb_via_yi = (2.0 * (y_pred - y) * y_pred / Wb)
                 dWb = dWb_via_yi[y_pred_sqr > 0.00000001].sum()
 
-                # Update weights using Adam algorithm.
+                # Step 4: Update weights using Adam algorithm.
                 with torch.no_grad():
                     beta1_to_pow_t *= beta1
                     beta1_correction = 1.0 - beta1_to_pow_t
@@ -97,10 +97,12 @@ def main():
                     VdWb = beta1 * VdWb + (1.0 - beta1) * dWb
                     SdWb = beta2 * SdWb + (1.0 - beta2) * dWb * dWb
                     Wb -= learning_rate * (VdWb / beta1_correction) / (torch.sqrt(SdWb) / math.sqrt(beta2_correction) + eps)
-            else:
-                # Use Torch built-in autograd and optim to do the job
+
+            else:  # do the same job using Torch built-in autograd and optim
                 optimizer.zero_grad()
+                # Step 3: perform back-propagation and calculate the gradients of loss w.r.t. Wa and Wb
                 loss.backward()
+                # Step 4: Update weights using Adam algorithm.
                 optimizer.step()
 
     # log the final results
