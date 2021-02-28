@@ -83,8 +83,8 @@ def main():
 
     wblist_SGD_MOMENTUM = []
     walist_SGD_MOMENTUM = []
-    point_SGD_MOMENTUM, = ax.plot([], [], 'mo', lw=0.5, markersize=4)
-    line_SGD_MOMENTUM, = ax.plot([], [], '-m', lw=2, label='SGD_Momentum')
+    point_SGD_MOMENTUM, = ax.plot([], [], 'ro', lw=0.5, markersize=4)
+    line_SGD_MOMENTUM, = ax.plot([], [], '-r', lw=2, label='SGD_Momentum')
 
     wblist_Adam = []
     walist_Adam = []
@@ -93,15 +93,14 @@ def main():
 
     wblist_RMSprop = []
     walist_RMSprop = []
-    point_RMSprop, = ax.plot([], [], 'ko', lw=0.5, markersize=4)
-    line_RMSprop, = ax.plot([], [], '-k', lw=2, label='RMSprop')
+    point_RMSprop, = ax.plot([], [], 'mo', lw=0.5, markersize=4)
+    line_RMSprop, = ax.plot([], [], '-m', lw=2, label='RMSprop')
 
     text_update = ax.text(0.03, 0.03, '', transform=ax.transAxes, color="white", fontsize=14)
 
     leg = ax.legend()
     fig.tight_layout()
-
-    plt.show(block=False)
+    # plt.show(block=False)
 
     # initialization function: plot the background of each frame
     def init():
@@ -173,7 +172,7 @@ def main():
     # save the animation as an mp4.  This requires ffmpeg or mencoder to be installed.
     anim.save('LossAnimation.mp4', fps=30, bitrate=1800, extra_args=['-vcodec', 'libx264'])
 
-
+    plt.show()
 
 
     print('Done!')
