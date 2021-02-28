@@ -180,7 +180,7 @@ def main():
     anim = animation.FuncAnimation(fig, animate, init_func=init, frames=nframes, interval=intervalms, blit=True)
 
     # save the animation as an mp4.  This requires ffmpeg or mencoder to be installed.
-    anim.save('LossAnimation.mp4', fps=30, bitrate=1800, extra_args=['-vcodec', 'libx264'])
+    anim.save('Animation_of_loss_vs_TrainingUpdates.mp4', fps=30, bitrate=1800, extra_args=['-vcodec', 'libx264'])
 
     plt.show()
 
