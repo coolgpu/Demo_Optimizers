@@ -67,38 +67,41 @@ def main():
     ax = fig.add_subplot(111)
     ax.contour(WbGrid, WaGrid, loss, levels=15, linewidths=0.5, colors='gray')
     cntr1 = ax.contourf(WaGrid, WbGrid, loss, levels=100, cmap="RdBu_r")
-    fig.colorbar(cntr1, ax=ax)
+    fig.colorbar(cntr1, ax=ax, shrink=0.75)
     ax.set(xlim=(0, 2.0), ylim=(0, 2.0))
-    ax.set_title('Loss as a function of Wa and Wb')
+    ax.set_title('Loss as a function of Wa and Wb', fontsize=16)
     plt.xlabel("Wa")
     plt.ylabel("Wb")
     ax.set_aspect('equal', adjustable='box')
     ax.plot(a, b, 'yo', ms=3)
     ax.plot(Wa0, Wb0, 'ko', ms=3)
 
-    plt.show(block=False)
-
-    wblist_Adam = []
-    walist_Adam = []
-    point_Adam, = ax.plot([], [], 'go', lw=0.5, markersize=4)
-    line_Adam, = ax.plot([], [], '-g', lw=2)
-
-    wblist_RMSprop = []
-    walist_RMSprop = []
-    point_RMSprop, = ax.plot([], [], 'ko', lw=0.5, markersize=4)
-    line_RMSprop, = ax.plot([], [], '-k', lw=2)
-
     wblist_SGD = []
     walist_SGD = []
     point_SGD, = ax.plot([], [], 'yo', lw=0.5, markersize=4)
-    line_SGD, = ax.plot([], [], '-y', lw=2)
+    line_SGD, = ax.plot([], [], '-y', lw=2, label='SGD')
 
     wblist_SGD_MOMENTUM = []
     walist_SGD_MOMENTUM = []
     point_SGD_MOMENTUM, = ax.plot([], [], 'mo', lw=0.5, markersize=4)
-    line_SGD_MOMENTUM, = ax.plot([], [], '-m', lw=2)
+    line_SGD_MOMENTUM, = ax.plot([], [], '-m', lw=2, label='SGD_Momentum')
+
+    wblist_Adam = []
+    walist_Adam = []
+    point_Adam, = ax.plot([], [], 'go', lw=0.5, markersize=4)
+    line_Adam, = ax.plot([], [], '-g', lw=2, label='Adam')
+
+    wblist_RMSprop = []
+    walist_RMSprop = []
+    point_RMSprop, = ax.plot([], [], 'ko', lw=0.5, markersize=4)
+    line_RMSprop, = ax.plot([], [], '-k', lw=2, label='RMSprop')
 
     text_update = ax.text(0.03, 0.03, '', transform=ax.transAxes, color="white", fontsize=14)
+
+    leg = ax.legend()
+    fig.tight_layout()
+
+    plt.show(block=False)
 
     # initialization function: plot the background of each frame
     def init():
@@ -166,6 +169,9 @@ def main():
     # call the animator.  blit=True means only re-draw the parts that have changed.
     intervalms = 10  # this means 10 ms per frame
     anim = animation.FuncAnimation(fig, animate, init_func=init, frames=nframes, interval=intervalms, blit=True)
+
+    # save the animation as an mp4.  This requires ffmpeg or mencoder to be installed.
+    anim.save('LossAnimation.mp4', fps=30, bitrate=1800, extra_args=['-vcodec', 'libx264'])
 
 
 
