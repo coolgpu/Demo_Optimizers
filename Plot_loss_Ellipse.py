@@ -18,7 +18,17 @@ def read_optimizer_results(filename):
     EpochTraces = df['Epoch'].values
     minibatchTraces = df['minibatch'].values
     updateTraces = df['update'].values
-    return WaTraces, WbTraces, LossTraces, EpochTraces, minibatchTraces, updateTraces
+
+    # get the meta data in the 1st 3 lines
+    with open(filename, "r") as f:
+        line1 = f.readline()
+        method = line1.split()[0]
+        line2 = f.readline()
+        lr = line2.split()[-1]
+        # line3 = f.readline()
+        # _, wa, wb = line3.split()
+
+    return WaTraces, WbTraces, LossTraces, EpochTraces, minibatchTraces, updateTraces, lr, method
 
 def main():
     device = torch.device('cpu')
@@ -30,10 +40,10 @@ def main():
     batch_size = 512
 
     # load previously generated results
-    WaTraces_Adam, WbTraces_Adam, LossTraces_Adam, EpochTraces, minibatchTraces, updateTraces = read_optimizer_results(r'Adam_custom_implement_results.log')
-    WaTraces_SGD, WbTraces_SGD, LossTraces_SGD, _, _, _ = read_optimizer_results(r'SGD_custom_implement_results.log')
-    WaTraces_SGD_MOMENTUM, WbTraces_SGD_MOMENTUM, LossTraces_SGD_MOMENTUM, _, _, _ = read_optimizer_results(r'SGD_w_Momentum_custom_implement_results.log')
-    WaTraces_RMSprop, WbTraces_RMSprop, LossTraces_RMSprop, _, _, _ = read_optimizer_results(r'RMSprop_custom_implement_results.log')
+    WaTraces_Adam, WbTraces_Adam, LossTraces_Adam, EpochTraces, minibatchTraces, updateTraces, lr_Adam, method_Adam = read_optimizer_results(r'Adam_custom_implement_results.log')
+    WaTraces_SGD, WbTraces_SGD, LossTraces_SGD, _, _, _, lr_SGD, method_SGD = read_optimizer_results(r'SGD_custom_implement_results.log')
+    WaTraces_SGD_MOMENTUM, WbTraces_SGD_MOMENTUM, LossTraces_SGD_MOMENTUM, _, _, _, lr_SGD_MOMENTUM, method_SGD_MOMENTUM = read_optimizer_results(r'SGD_w_Momentum_custom_implement_results.log')
+    WaTraces_RMSprop, WbTraces_RMSprop, LossTraces_RMSprop, _, _, _, lr_RMSprop, method_RMSprop = read_optimizer_results(r'RMSprop_custom_implement_results.log')
 
     nframes = len(WaTraces_Adam)
 
@@ -79,22 +89,22 @@ def main():
     wblist_SGD = []
     walist_SGD = []
     point_SGD, = ax.plot([], [], 'yo', lw=0.5, markersize=4)
-    line_SGD, = ax.plot([], [], '-y', lw=2, label='SGD')
+    line_SGD, = ax.plot([], [], '-y', lw=2, label=method_SGD+' '+lr_SGD)
 
     wblist_SGD_MOMENTUM = []
     walist_SGD_MOMENTUM = []
     point_SGD_MOMENTUM, = ax.plot([], [], 'ro', lw=0.5, markersize=4)
-    line_SGD_MOMENTUM, = ax.plot([], [], '-r', lw=2, label='SGD_Momentum')
+    line_SGD_MOMENTUM, = ax.plot([], [], '-r', lw=2, label=method_SGD_MOMENTUM+' '+lr_SGD_MOMENTUM)
 
     wblist_Adam = []
     walist_Adam = []
     point_Adam, = ax.plot([], [], 'go', lw=0.5, markersize=4)
-    line_Adam, = ax.plot([], [], '-g', lw=2, label='Adam')
+    line_Adam, = ax.plot([], [], '-g', lw=2, label=method_Adam+' '+lr_Adam)
 
     wblist_RMSprop = []
     walist_RMSprop = []
     point_RMSprop, = ax.plot([], [], 'mo', lw=0.5, markersize=4)
-    line_RMSprop, = ax.plot([], [], '-m', lw=2, label='RMSprop')
+    line_RMSprop, = ax.plot([], [], '-m', lw=2, label=method_RMSprop+' '+lr_RMSprop)
 
     text_update = ax.text(0.03, 0.03, '', transform=ax.transAxes, color="white", fontsize=14)
 
