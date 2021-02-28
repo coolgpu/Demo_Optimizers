@@ -7,7 +7,7 @@ from torch import optim
 
 
 def main():
-    flag_manual_implement = False  # True: using our custom implementation; False: using Torch built-in
+    flag_manual_implement = True  # True: using our custom implementation; False: using Torch built-in
     flag_plot_final_result = True
     flag_log = True
 
@@ -27,17 +27,17 @@ def main():
     nsamples = 512
     batch_size = 64
     epoch = 100
-    learning_rate = 0.01
+    learning_rate = 0.002
     alpha = 0.9
     eps = 1e-08
 
     xy_dataset = EllipseDataset(nsamples, a, b, noise_scale=0.1)
     xy_dataloader = DataLoader(xy_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 
-    Wa = torch.rand([], device=device, requires_grad=True)
-    Wb = torch.rand([], device=device, requires_grad=True)
-    # Wa = torch.tensor(0.2866007089614868, device=device, requires_grad=True)
-    # Wb = torch.tensor(0.7565606236457825, device=device, requires_grad=True)
+    # Wa = torch.rand([], device=device, requires_grad=True)
+    # Wb = torch.rand([], device=device, requires_grad=True)
+    Wa = torch.tensor(0.10, device=device, requires_grad=True)
+    Wb = torch.tensor(1.8, device=device, requires_grad=True)
 
     if flag_log:
         logstr = 'nsamples={}, batch_size={}, epoch={}, lr={}\ninitial Wa={}, Wb={}\n' \
@@ -53,6 +53,7 @@ def main():
     else:
         optimizer = optim.RMSprop([Wa, Wb], lr=learning_rate, alpha=alpha, eps=eps)
 
+    update = 0
     for t in range(epoch):
         for i_batch, sample_batched in enumerate(xy_dataloader):
             x, y = sample_batched['x'], sample_batched['y']
@@ -66,7 +67,9 @@ def main():
             loss = (y_pred - y).pow(2).sum()
 
             if flag_log:
-                logstr = 'Epoch={}, minibatch={} loss={:.5f}, Wa={:.4f}, Wb={:.4f}\n'.format(t, i_batch, loss.item(), Wa.data.numpy(), Wb.data.numpy())
+                update += 1
+                logstr = 'update={}, Epoch={}, minibatch={}, loss={:.5f}, Wa={:.4f}, Wb={:.4f}\n'.format(
+                    update, t, i_batch, loss.item(), Wa.data.numpy(), Wb.data.numpy())
                 foutput.write(logstr)
                 if t % 10 == 0 and i_batch == 0:
                     print(logstr)

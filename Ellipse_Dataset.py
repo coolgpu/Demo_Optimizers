@@ -22,7 +22,7 @@ def generate_training_data(N, a, b, noise_scale=0.1, plot_data=True):
     yMars = torch.cat((yMars, torch.flip(-yMars,[0])))
 
     if plot_data:
-        fig = plt.figure()
+        fig = plt.figure(figsize=(10, 10))
         ax = fig.add_subplot(111)
         plt.scatter(xHohmann, yNoise, color="green", s=0.5)
         plt.plot(xEarth, yEarth, color="blue", linewidth=1.0, linestyle="--")
@@ -39,6 +39,30 @@ def generate_training_data(N, a, b, noise_scale=0.1, plot_data=True):
         plt.xlim(-2, 2)
         plt.ylim(-2, 2)
         ax.set_aspect('equal', adjustable='box')
+
+        # ellipse in polar coordinates
+        e = c / a
+        Thetas = torch.linspace(0, math.pi, N)
+        R = a * (1 - e**2) / (1 + e * torch.cos(Thetas))
+        xPolar = R * torch.cos(Thetas)
+        yPolar = R * torch.sin(Thetas)
+        # plt.plot(xPolar, yPolar, color="black", linewidth=1.0, linestyle="-")
+
+        N0 = 2000
+        theta = 0.0
+        Xs = [1.0]
+        Ys = [0.0]
+
+        for i in range(N0):
+            r = a * (1 - e ** 2) / (1 + e * math.cos(theta))
+            d_theta = math.pi * b / a / N0 / ((1-e*e)/(1+e*math.cos(theta)))**2
+            theta += d_theta
+            newX = r * math.cos(theta)
+            newY = r * math.sin(theta)
+            Xs.append(newX)
+            Ys.append(newY)
+
+        plt.plot(Xs, Ys, color="blue", linewidth=1.0, linestyle="-")
         plt.show(block=False)
 
     return (xHohmann, yNoise)

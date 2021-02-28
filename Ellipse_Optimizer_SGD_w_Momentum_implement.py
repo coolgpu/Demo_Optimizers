@@ -7,7 +7,7 @@ from torch import optim
 
 
 def main():
-    flag_manual_implement = False  # True: using our custom implementation; False: using Torch built-in
+    flag_manual_implement = True  # True: using our custom implementation; False: using Torch built-in
     flag_plot_final_result = True
     flag_log = True
 
@@ -25,19 +25,19 @@ def main():
     b = 1.234378
     c = math.sqrt(a * a - b * b)
     nsamples = 512
-    batch_size = 512
+    batch_size = 64
     epoch = 100
-    learning_rate = 0.0005 # 1e-4
+    learning_rate = 0.00003 # 1e-4
     momentum = 0.9
     dampening = 0.0
 
     xy_dataset = EllipseDataset(nsamples, a, b, noise_scale=0.1)
     xy_dataloader = DataLoader(xy_dataset, batch_size=batch_size, shuffle=True, num_workers=0)
 
-    Wa = torch.rand([], device=device, requires_grad=True)
-    Wb = torch.rand([], device=device, requires_grad=True)
-    # Wa = torch.tensor(0.2866007089614868, device=device, requires_grad=True)
-    # Wb = torch.tensor(0.7565606236457825, device=device, requires_grad=True)
+    # Wa = torch.rand([], device=device, requires_grad=True)
+    # Wb = torch.rand([], device=device, requires_grad=True)
+    Wa = torch.tensor(0.10, device=device, requires_grad=True)
+    Wb = torch.tensor(1.8, device=device, requires_grad=True)
 
     if flag_log:
         logstr = 'nsamples={}, batch_size={}, epoch={}, lr={}\ninitial Wa={}, Wb={}\n'\
@@ -52,6 +52,8 @@ def main():
         optimizer = None
     else:
         optimizer = optim.SGD([Wa, Wb], lr=learning_rate, momentum=momentum, dampening=dampening)
+
+    update = 0
     for t in range(epoch):
         for i_batch, sample_batched in enumerate(xy_dataloader):
             x, y = sample_batched['x'], sample_batched['y']
@@ -65,7 +67,9 @@ def main():
             loss = (y_pred - y).pow(2).sum()
 
             if flag_log:
-                logstr = 'Epoch={}, minibatch={} loss={:.5f}, Wa={:.4f}, Wb={:.4f},'.format(t, i_batch, loss.item(), Wa.data.numpy(), Wb.data.numpy())
+                update += 1
+                logstr = 'update={}, Epoch={}, minibatch={}, loss={:.5f}, Wa={:.4f}, Wb={:.4f}\n'.format(
+                    update, t, i_batch, loss.item(), Wa.data.numpy(), Wb.data.numpy())
                 foutput.write(logstr)
                 if t % 10 == 0 and i_batch == 0:
                     print(logstr)
@@ -77,9 +81,6 @@ def main():
 
                 dWb_via_yi = (2.0 * (y_pred - y) * y_pred / Wb)
                 dWb = dWb_via_yi[y_pred_sqr > 0.00000001].sum()
-
-                logstr = ' dWa={:.4f}, dWb={:.4f}\n'.format(dWa.data.numpy(), dWb.data.numpy())
-                foutput.write(logstr)
 
                 # Step 4: Update weights using Gradient Descent algorithm.
                 with torch.no_grad():
@@ -93,8 +94,6 @@ def main():
                 optimizer.zero_grad()
                 # Step 3: perform back-propagation and calculate the gradients of loss w.r.t. Wa and Wb
                 loss.backward()
-                logstr = ' dWa={:.4f}, dWb={:.4f}\n'.format(Wa.grad.data.numpy(), Wb.grad.data.numpy())
-                foutput.write(logstr)
                 # Step 4: Update weights using Adam algorithm.
                 optimizer.step()
 
