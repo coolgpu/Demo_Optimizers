@@ -1,805 +1,805 @@
 SDG_w_Momentum using torch built-in
 nsamples=512, batch_size=64, epoch=100, lr=3e-05
 initial Wa=0.10000000149011612, Wb=1.7999999523162842
-Epoch=0, minibatch=0 loss=60.90100, Wa=0.1000, Wb=1.8000, dWa=-0.6793, dWb=6.2158
-Epoch=0, minibatch=1 loss=56.29499, Wa=0.1000, Wb=1.7998, dWa=-3.1679, dWb=0.8896
-Epoch=0, minibatch=2 loss=55.43511, Wa=0.1001, Wb=1.7996, dWa=-33.8508, dWb=1.3907
-Epoch=0, minibatch=3 loss=65.93208, Wa=0.1013, Wb=1.7994, dWa=10.5738, dWb=3.1319
-Epoch=0, minibatch=4 loss=54.86081, Wa=0.1019, Wb=1.7991, dWa=-1.5507, dWb=2.1948
-Epoch=0, minibatch=5 loss=55.45068, Wa=0.1026, Wb=1.7988, dWa=3.0540, dWb=1.8966
-Epoch=0, minibatch=6 loss=58.37702, Wa=0.1031, Wb=1.7984, dWa=-44.2519, dWb=1.9642
-Epoch=0, minibatch=7 loss=56.53358, Wa=0.1049, Wb=1.7981, dWa=-61.6752, dWb=2.0420
-Epoch=1, minibatch=0 loss=58.95705, Wa=0.1084, Wb=1.7977, dWa=-71.2526, dWb=0.6776
-Epoch=1, minibatch=1 loss=57.46046, Wa=0.1136, Wb=1.7973, dWa=-131.2262, dWb=2.2898
-Epoch=1, minibatch=2 loss=60.02883, Wa=0.1223, Wb=1.7969, dWa=-3.9507, dWb=2.3206
-Epoch=1, minibatch=3 loss=51.43661, Wa=0.1302, Wb=1.7964, dWa=-74.6439, dWb=0.9377
-Epoch=1, minibatch=4 loss=51.25135, Wa=0.1395, Wb=1.7960, dWa=14.8735, dWb=6.2458
-Epoch=1, minibatch=5 loss=48.91928, Wa=0.1475, Wb=1.7954, dWa=-63.0914, dWb=4.6275
-Epoch=1, minibatch=6 loss=53.51249, Wa=0.1566, Wb=1.7948, dWa=-106.8652, dWb=1.9094
-Epoch=1, minibatch=7 loss=58.61481, Wa=0.1680, Wb=1.7942, dWa=-47.2945, dWb=5.7596
-Epoch=2, minibatch=0 loss=51.23108, Wa=0.1796, Wb=1.7934, dWa=-7.0354, dWb=3.2620
-Epoch=2, minibatch=1 loss=55.69259, Wa=0.1903, Wb=1.7926, dWa=-16.7365, dWb=4.0527
-Epoch=2, minibatch=2 loss=54.03472, Wa=0.2004, Wb=1.7918, dWa=-314.4190, dWb=6.2980
-Epoch=2, minibatch=3 loss=39.07370, Wa=0.2190, Wb=1.7909, dWa=-41.0700, dWb=6.0820
-Epoch=2, minibatch=4 loss=47.34493, Wa=0.2369, Wb=1.7899, dWa=-93.9924, dWb=5.2399
-Epoch=2, minibatch=5 loss=49.77087, Wa=0.2559, Wb=1.7888, dWa=-224.1177, dWb=4.8820
-Epoch=2, minibatch=6 loss=53.04425, Wa=0.2797, Wb=1.7877, dWa=-332.0743, dWb=4.5042
-Epoch=2, minibatch=7 loss=41.30389, Wa=0.3110, Wb=1.7866, dWa=1.6674, dWb=6.7982
-Epoch=3, minibatch=0 loss=46.05548, Wa=0.3392, Wb=1.7853, dWa=-58.9031, dWb=5.2352
-Epoch=3, minibatch=1 loss=41.16367, Wa=0.3663, Wb=1.7841, dWa=-28.2845, dWb=10.7374
-Epoch=3, minibatch=2 loss=42.14777, Wa=0.3916, Wb=1.7826, dWa=-65.7816, dWb=6.9244
-Epoch=3, minibatch=3 loss=36.53791, Wa=0.4163, Wb=1.7811, dWa=-34.0511, dWb=13.0628
-Epoch=3, minibatch=4 loss=32.71773, Wa=0.4396, Wb=1.7793, dWa=-3.8738, dWb=14.4120
-Epoch=3, minibatch=5 loss=33.57426, Wa=0.4606, Wb=1.7773, dWa=0.7316, dWb=15.6674
-Epoch=3, minibatch=6 loss=36.31520, Wa=0.4796, Wb=1.7751, dWa=-33.3000, dWb=7.3089
-Epoch=3, minibatch=7 loss=34.17192, Wa=0.4976, Wb=1.7728, dWa=-131.3206, dWb=9.9489
-Epoch=4, minibatch=0 loss=35.28995, Wa=0.5178, Wb=1.7704, dWa=-44.7029, dWb=11.7267
-Epoch=4, minibatch=1 loss=27.96376, Wa=0.5372, Wb=1.7680, dWa=-14.2051, dWb=14.5688
-Epoch=4, minibatch=2 loss=29.66602, Wa=0.5552, Wb=1.7653, dWa=-57.6613, dWb=12.6362
-Epoch=4, minibatch=3 loss=29.33188, Wa=0.5731, Wb=1.7625, dWa=-7.4168, dWb=14.0703
-Epoch=4, minibatch=4 loss=24.81127, Wa=0.5895, Wb=1.7596, dWa=-73.5406, dWb=17.1449
-Epoch=4, minibatch=5 loss=26.88667, Wa=0.6064, Wb=1.7565, dWa=-11.8864, dWb=14.3879
-Epoch=4, minibatch=6 loss=29.16542, Wa=0.6219, Wb=1.7532, dWa=-69.6235, dWb=11.2203
-Epoch=4, minibatch=7 loss=20.54651, Wa=0.6380, Wb=1.7500, dWa=-4.4311, dWb=14.3032
-Epoch=5, minibatch=0 loss=25.16374, Wa=0.6527, Wb=1.7466, dWa=-30.6011, dWb=13.7718
-Epoch=5, minibatch=1 loss=23.92215, Wa=0.6667, Wb=1.7432, dWa=-12.7273, dWb=10.9385
-Epoch=5, minibatch=2 loss=19.22139, Wa=0.6798, Wb=1.7397, dWa=-145.5521, dWb=19.7763
-Epoch=5, minibatch=3 loss=20.21832, Wa=0.6959, Wb=1.7361, dWa=-104.5973, dWb=22.6970
-Epoch=5, minibatch=4 loss=25.51724, Wa=0.7136, Wb=1.7321, dWa=-38.3212, dWb=11.3090
-Epoch=5, minibatch=5 loss=21.47853, Wa=0.7306, Wb=1.7281, dWa=-57.5535, dWb=14.8893
-Epoch=5, minibatch=6 loss=17.31292, Wa=0.7476, Wb=1.7242, dWa=3.0708, dWb=19.6841
-Epoch=5, minibatch=7 loss=20.08200, Wa=0.7629, Wb=1.7200, dWa=1.0429, dWb=17.5003
-Epoch=6, minibatch=0 loss=12.30278, Wa=0.7766, Wb=1.7157, dWa=-20.9208, dWb=24.4371
-Epoch=6, minibatch=1 loss=17.98293, Wa=0.7896, Wb=1.7111, dWa=-4.4703, dWb=15.1984
-Epoch=6, minibatch=2 loss=19.79063, Wa=0.8013, Wb=1.7065, dWa=-61.8284, dWb=15.6756
-Epoch=6, minibatch=3 loss=19.93870, Wa=0.8138, Wb=1.7019, dWa=-24.6112, dWb=18.7789
-Epoch=6, minibatch=4 loss=15.59427, Wa=0.8258, Wb=1.6972, dWa=-64.4091, dWb=14.3310
-Epoch=6, minibatch=5 loss=13.81695, Wa=0.8385, Wb=1.6926, dWa=-13.7608, dWb=18.9133
-Epoch=6, minibatch=6 loss=13.36352, Wa=0.8503, Wb=1.6878, dWa=-54.8452, dWb=19.0276
-Epoch=6, minibatch=7 loss=12.75021, Wa=0.8626, Wb=1.6829, dWa=-12.8256, dWb=19.6056
-Epoch=7, minibatch=0 loss=12.92307, Wa=0.8741, Wb=1.6780, dWa=-7.5839, dWb=23.1977
-Epoch=7, minibatch=1 loss=12.93150, Wa=0.8846, Wb=1.6728, dWa=-40.9446, dWb=20.6333
-Epoch=7, minibatch=2 loss=11.86644, Wa=0.8953, Wb=1.6676, dWa=-36.3780, dWb=15.3523
-Epoch=7, minibatch=3 loss=8.71358, Wa=0.9061, Wb=1.6624, dWa=-0.6077, dWb=22.5838
-Epoch=7, minibatch=4 loss=14.77028, Wa=0.9157, Wb=1.6570, dWa=-38.7638, dWb=12.7009
-Epoch=7, minibatch=5 loss=10.25595, Wa=0.9256, Wb=1.6518, dWa=-67.1659, dWb=20.1286
-Epoch=7, minibatch=6 loss=9.39179, Wa=0.9365, Wb=1.6465, dWa=-17.7401, dWb=19.5078
-Epoch=7, minibatch=7 loss=11.50449, Wa=0.9469, Wb=1.6412, dWa=-68.2274, dWb=17.6987
-Epoch=8, minibatch=0 loss=9.39369, Wa=0.9582, Wb=1.6358, dWa=-46.9721, dWb=17.4279
-Epoch=8, minibatch=1 loss=9.04908, Wa=0.9698, Wb=1.6305, dWa=-45.3140, dWb=15.8159
-Epoch=8, minibatch=2 loss=9.08033, Wa=0.9817, Wb=1.6253, dWa=-40.9255, dWb=23.4427
-Epoch=8, minibatch=3 loss=9.40676, Wa=0.9935, Wb=1.6198, dWa=-17.1437, dWb=19.2893
-Epoch=8, minibatch=4 loss=9.87808, Wa=1.0047, Wb=1.6143, dWa=-34.6497, dWb=15.8815
-Epoch=8, minibatch=5 loss=7.99098, Wa=1.0158, Wb=1.6089, dWa=-51.0370, dWb=21.7266
-Epoch=8, minibatch=6 loss=6.02163, Wa=1.0274, Wb=1.6034, dWa=-0.0423, dWb=24.5516
-Epoch=8, minibatch=7 loss=6.10685, Wa=1.0378, Wb=1.5977, dWa=-9.8460, dWb=18.2214
-Epoch=9, minibatch=0 loss=6.13204, Wa=1.0474, Wb=1.5920, dWa=0.8248, dWb=17.9408
-Epoch=9, minibatch=1 loss=6.96973, Wa=1.0561, Wb=1.5864, dWa=2.8756, dWb=24.3292
-Epoch=9, minibatch=2 loss=5.96682, Wa=1.0638, Wb=1.5806, dWa=-12.1942, dWb=18.2301
-Epoch=9, minibatch=3 loss=5.88671, Wa=1.0711, Wb=1.5748, dWa=-14.2756, dWb=15.9574
-Epoch=9, minibatch=4 loss=5.14646, Wa=1.0781, Wb=1.5691, dWa=-17.6519, dWb=20.8682
-Epoch=9, minibatch=5 loss=4.65409, Wa=1.0849, Wb=1.5634, dWa=-5.1619, dWb=18.4229
-Epoch=9, minibatch=6 loss=5.71892, Wa=1.0912, Wb=1.5576, dWa=-20.9295, dWb=20.2362
-Epoch=9, minibatch=7 loss=4.11635, Wa=1.0975, Wb=1.5519, dWa=-0.1383, dWb=18.8390
-Epoch=10, minibatch=0 loss=4.38188, Wa=1.1031, Wb=1.5461, dWa=0.7009, dWb=17.4452
-Epoch=10, minibatch=1 loss=4.74192, Wa=1.1082, Wb=1.5404, dWa=-18.2362, dWb=16.1234
-Epoch=10, minibatch=2 loss=3.72551, Wa=1.1133, Wb=1.5348, dWa=0.1338, dWb=20.3813
-Epoch=10, minibatch=3 loss=3.75573, Wa=1.1180, Wb=1.5292, dWa=-16.3510, dWb=19.0661
-Epoch=10, minibatch=4 loss=3.94429, Wa=1.1226, Wb=1.5235, dWa=-0.4136, dWb=19.7658
-Epoch=10, minibatch=5 loss=4.25724, Wa=1.1268, Wb=1.5178, dWa=-12.0281, dWb=19.0006
-Epoch=10, minibatch=6 loss=3.22268, Wa=1.1309, Wb=1.5121, dWa=-3.8726, dWb=17.9866
-Epoch=10, minibatch=7 loss=4.30462, Wa=1.1347, Wb=1.5065, dWa=-14.8347, dWb=13.6599
-Epoch=11, minibatch=0 loss=2.46942, Wa=1.1386, Wb=1.5010, dWa=-2.3904, dWb=14.7797
-Epoch=11, minibatch=1 loss=3.15280, Wa=1.1422, Wb=1.4956, dWa=-22.4696, dWb=15.9533
-Epoch=11, minibatch=2 loss=2.93009, Wa=1.1461, Wb=1.4902, dWa=3.6124, dWb=15.8219
-Epoch=11, minibatch=3 loss=3.44992, Wa=1.1495, Wb=1.4850, dWa=-9.7817, dWb=16.2748
-Epoch=11, minibatch=4 loss=2.91666, Wa=1.1528, Wb=1.4797, dWa=-0.4954, dWb=16.7045
-Epoch=11, minibatch=5 loss=2.82037, Wa=1.1559, Wb=1.4745, dWa=-24.3777, dWb=15.6874
-Epoch=11, minibatch=6 loss=2.70783, Wa=1.1593, Wb=1.4693, dWa=-28.9003, dWb=16.1654
-Epoch=11, minibatch=7 loss=2.19574, Wa=1.1633, Wb=1.4642, dWa=-5.5933, dWb=14.9815
-Epoch=12, minibatch=0 loss=2.47742, Wa=1.1670, Wb=1.4591, dWa=1.8447, dWb=15.1187
-Epoch=12, minibatch=1 loss=2.38137, Wa=1.1704, Wb=1.4541, dWa=-4.0100, dWb=14.2873
-Epoch=12, minibatch=2 loss=2.40080, Wa=1.1735, Wb=1.4492, dWa=3.0410, dWb=16.7737
-Epoch=12, minibatch=3 loss=2.03167, Wa=1.1762, Wb=1.4442, dWa=-0.5003, dWb=15.4241
-Epoch=12, minibatch=4 loss=1.84280, Wa=1.1786, Wb=1.4393, dWa=-19.8420, dWb=13.5857
-Epoch=12, minibatch=5 loss=1.62182, Wa=1.1814, Wb=1.4345, dWa=-1.7535, dWb=12.2875
-Epoch=12, minibatch=6 loss=1.91834, Wa=1.1840, Wb=1.4298, dWa=-9.3346, dWb=11.4431
-Epoch=12, minibatch=7 loss=1.42777, Wa=1.1866, Wb=1.4252, dWa=-2.7337, dWb=11.8807
-Epoch=13, minibatch=0 loss=1.48379, Wa=1.1890, Wb=1.4207, dWa=-5.9259, dWb=12.9034
-Epoch=13, minibatch=1 loss=1.59012, Wa=1.1914, Wb=1.4162, dWa=-3.2744, dWb=12.4294
-Epoch=13, minibatch=2 loss=1.62867, Wa=1.1936, Wb=1.4119, dWa=-1.3457, dWb=13.3514
-Epoch=13, minibatch=3 loss=1.21198, Wa=1.1956, Wb=1.4076, dWa=-9.0991, dWb=11.4479
-Epoch=13, minibatch=4 loss=1.16771, Wa=1.1977, Wb=1.4033, dWa=-1.0917, dWb=11.9623
-Epoch=13, minibatch=5 loss=1.73917, Wa=1.1996, Wb=1.3992, dWa=-7.8076, dWb=10.6790
-Epoch=13, minibatch=6 loss=1.34024, Wa=1.2016, Wb=1.3951, dWa=-0.4793, dWb=11.2461
-Epoch=13, minibatch=7 loss=0.97141, Wa=1.2034, Wb=1.3911, dWa=-1.1303, dWb=9.7663
-Epoch=14, minibatch=0 loss=1.25550, Wa=1.2050, Wb=1.3872, dWa=0.2739, dWb=11.2251
-Epoch=14, minibatch=1 loss=1.02184, Wa=1.2065, Wb=1.3834, dWa=-6.2324, dWb=10.4059
-Epoch=14, minibatch=2 loss=0.92035, Wa=1.2080, Wb=1.3796, dWa=-22.2349, dWb=9.3515
-Epoch=14, minibatch=3 loss=0.89614, Wa=1.2100, Wb=1.3759, dWa=-4.7879, dWb=9.6600
-Epoch=14, minibatch=4 loss=1.12838, Wa=1.2120, Wb=1.3723, dWa=-11.4555, dWb=9.2983
-Epoch=14, minibatch=5 loss=0.83606, Wa=1.2141, Wb=1.3688, dWa=-13.4930, dWb=9.9591
-Epoch=14, minibatch=6 loss=0.71998, Wa=1.2164, Wb=1.3653, dWa=2.1459, dWb=9.3906
-Epoch=14, minibatch=7 loss=0.71735, Wa=1.2184, Wb=1.3619, dWa=-15.6124, dWb=8.9616
-Epoch=15, minibatch=0 loss=0.78047, Wa=1.2207, Wb=1.3586, dWa=0.4511, dWb=8.3181
-Epoch=15, minibatch=1 loss=0.62269, Wa=1.2227, Wb=1.3554, dWa=-3.9453, dWb=8.4219
-Epoch=15, minibatch=2 loss=0.64916, Wa=1.2247, Wb=1.3522, dWa=-3.8508, dWb=7.8268
-Epoch=15, minibatch=3 loss=0.69065, Wa=1.2266, Wb=1.3491, dWa=0.1602, dWb=9.2854
-Epoch=15, minibatch=4 loss=0.64446, Wa=1.2283, Wb=1.3460, dWa=-4.4352, dWb=9.2246
-Epoch=15, minibatch=5 loss=0.55212, Wa=1.2299, Wb=1.3430, dWa=-3.4783, dWb=7.7399
-Epoch=15, minibatch=6 loss=0.49312, Wa=1.2315, Wb=1.3401, dWa=1.5340, dWb=8.4515
-Epoch=15, minibatch=7 loss=0.54766, Wa=1.2329, Wb=1.3371, dWa=-15.8351, dWb=6.7789
-Epoch=16, minibatch=0 loss=0.42016, Wa=1.2346, Wb=1.3343, dWa=-1.6642, dWb=7.3450
-Epoch=16, minibatch=1 loss=0.54129, Wa=1.2362, Wb=1.3315, dWa=-3.2163, dWb=7.0976
-Epoch=16, minibatch=2 loss=0.43918, Wa=1.2377, Wb=1.3288, dWa=0.8149, dWb=7.5929
-Epoch=16, minibatch=3 loss=0.41983, Wa=1.2391, Wb=1.3262, dWa=-5.7831, dWb=6.9642
-Epoch=16, minibatch=4 loss=0.36447, Wa=1.2405, Wb=1.3236, dWa=1.6571, dWb=6.7706
-Epoch=16, minibatch=5 loss=0.40485, Wa=1.2417, Wb=1.3210, dWa=-0.7644, dWb=5.8601
-Epoch=16, minibatch=6 loss=0.36528, Wa=1.2428, Wb=1.3186, dWa=2.1349, dWb=7.3705
-Epoch=16, minibatch=7 loss=0.36466, Wa=1.2437, Wb=1.3161, dWa=-1.7946, dWb=6.2895
-Epoch=17, minibatch=0 loss=0.36894, Wa=1.2446, Wb=1.3137, dWa=-3.3862, dWb=5.7632
-Epoch=17, minibatch=1 loss=0.30685, Wa=1.2455, Wb=1.3114, dWa=0.6807, dWb=6.0578
-Epoch=17, minibatch=2 loss=0.21504, Wa=1.2463, Wb=1.3091, dWa=-0.9905, dWb=4.9285
-Epoch=17, minibatch=3 loss=0.29565, Wa=1.2470, Wb=1.3070, dWa=2.5568, dWb=6.4369
-Epoch=17, minibatch=4 loss=0.29379, Wa=1.2476, Wb=1.3048, dWa=-1.2764, dWb=5.4296
-Epoch=17, minibatch=5 loss=0.27972, Wa=1.2482, Wb=1.3027, dWa=-0.6726, dWb=5.3976
-Epoch=17, minibatch=6 loss=0.20971, Wa=1.2487, Wb=1.3006, dWa=1.0950, dWb=4.8782
-Epoch=17, minibatch=7 loss=0.26866, Wa=1.2492, Wb=1.2986, dWa=1.6734, dWb=6.1228
-Epoch=18, minibatch=0 loss=0.25402, Wa=1.2495, Wb=1.2966, dWa=0.2897, dWb=5.6139
-Epoch=18, minibatch=1 loss=0.18799, Wa=1.2498, Wb=1.2947, dWa=1.0656, dWb=4.5777
-Epoch=18, minibatch=2 loss=0.19403, Wa=1.2501, Wb=1.2928, dWa=-0.1511, dWb=4.6358
-Epoch=18, minibatch=3 loss=0.15342, Wa=1.2503, Wb=1.2909, dWa=0.7164, dWb=3.8798
-Epoch=18, minibatch=4 loss=0.19301, Wa=1.2505, Wb=1.2892, dWa=0.0941, dWb=4.3706
-Epoch=18, minibatch=5 loss=0.23185, Wa=1.2507, Wb=1.2874, dWa=-0.2493, dWb=4.8883
-Epoch=18, minibatch=6 loss=0.17985, Wa=1.2508, Wb=1.2857, dWa=-1.8183, dWb=4.0572
-Epoch=18, minibatch=7 loss=0.15883, Wa=1.2510, Wb=1.2841, dWa=-1.6980, dWb=3.4980
-Epoch=19, minibatch=0 loss=0.15491, Wa=1.2512, Wb=1.2825, dWa=0.4469, dWb=3.2078
-Epoch=19, minibatch=1 loss=0.16650, Wa=1.2514, Wb=1.2809, dWa=1.1735, dWb=4.3303
-Epoch=19, minibatch=2 loss=0.15102, Wa=1.2516, Wb=1.2794, dWa=-1.2917, dWb=3.9208
-Epoch=19, minibatch=3 loss=0.16619, Wa=1.2517, Wb=1.2779, dWa=0.3973, dWb=3.2967
-Epoch=19, minibatch=4 loss=0.16531, Wa=1.2518, Wb=1.2765, dWa=0.8255, dWb=4.3236
-Epoch=19, minibatch=5 loss=0.09542, Wa=1.2519, Wb=1.2751, dWa=0.4874, dWb=2.6708
-Epoch=19, minibatch=6 loss=0.10293, Wa=1.2520, Wb=1.2738, dWa=-1.8937, dWb=1.9440
-Epoch=19, minibatch=7 loss=0.14117, Wa=1.2521, Wb=1.2725, dWa=-2.4875, dWb=3.6363
-Epoch=20, minibatch=0 loss=0.11838, Wa=1.2523, Wb=1.2712, dWa=-9.6102, dWb=3.2339
-Epoch=20, minibatch=1 loss=0.11740, Wa=1.2528, Wb=1.2700, dWa=-1.1395, dWb=3.0240
-Epoch=20, minibatch=2 loss=0.10119, Wa=1.2532, Wb=1.2688, dWa=0.9899, dWb=3.1356
-Epoch=20, minibatch=3 loss=0.10347, Wa=1.2536, Wb=1.2676, dWa=-0.3147, dWb=2.1646
-Epoch=20, minibatch=4 loss=0.12296, Wa=1.2539, Wb=1.2665, dWa=-6.0256, dWb=2.3636
-Epoch=20, minibatch=5 loss=0.08779, Wa=1.2544, Wb=1.2654, dWa=-0.8292, dWb=2.1413
-Epoch=20, minibatch=6 loss=0.12904, Wa=1.2549, Wb=1.2644, dWa=0.5318, dWb=3.0970
-Epoch=20, minibatch=7 loss=0.08220, Wa=1.2553, Wb=1.2634, dWa=-0.0437, dWb=1.9631
-Epoch=21, minibatch=0 loss=0.07691, Wa=1.2556, Wb=1.2624, dWa=0.3297, dWb=1.8370
-Epoch=21, minibatch=1 loss=0.08628, Wa=1.2559, Wb=1.2614, dWa=-0.7811, dWb=1.6534
-Epoch=21, minibatch=2 loss=0.10741, Wa=1.2562, Wb=1.2606, dWa=1.7232, dWb=3.1967
-Epoch=21, minibatch=3 loss=0.10404, Wa=1.2565, Wb=1.2597, dWa=-2.0585, dWb=2.5895
-Epoch=21, minibatch=4 loss=0.06865, Wa=1.2567, Wb=1.2588, dWa=0.3498, dWb=1.9141
-Epoch=21, minibatch=5 loss=0.08782, Wa=1.2570, Wb=1.2579, dWa=-1.7212, dWb=2.1314
-Epoch=21, minibatch=6 loss=0.08216, Wa=1.2572, Wb=1.2571, dWa=-2.8896, dWb=1.5438
-Epoch=21, minibatch=7 loss=0.07508, Wa=1.2575, Wb=1.2563, dWa=0.7487, dWb=1.7735
-Epoch=22, minibatch=0 loss=0.06140, Wa=1.2578, Wb=1.2555, dWa=0.4704, dWb=1.6048
-Epoch=22, minibatch=1 loss=0.08876, Wa=1.2580, Wb=1.2548, dWa=1.1268, dWb=2.6951
-Epoch=22, minibatch=2 loss=0.07215, Wa=1.2582, Wb=1.2540, dWa=0.5702, dWb=1.7678
-Epoch=22, minibatch=3 loss=0.07893, Wa=1.2583, Wb=1.2533, dWa=-0.1944, dWb=1.8383
-Epoch=22, minibatch=4 loss=0.07344, Wa=1.2584, Wb=1.2526, dWa=-0.0358, dWb=1.1442
-Epoch=22, minibatch=5 loss=0.07431, Wa=1.2586, Wb=1.2519, dWa=-0.5783, dWb=1.8057
-Epoch=22, minibatch=6 loss=0.06141, Wa=1.2587, Wb=1.2513, dWa=-1.4797, dWb=0.9560
-Epoch=22, minibatch=7 loss=0.07519, Wa=1.2588, Wb=1.2506, dWa=-0.6166, dWb=1.2337
-Epoch=23, minibatch=0 loss=0.07170, Wa=1.2590, Wb=1.2500, dWa=0.0330, dWb=1.5109
-Epoch=23, minibatch=1 loss=0.07217, Wa=1.2591, Wb=1.2494, dWa=1.1935, dWb=1.7780
-Epoch=23, minibatch=2 loss=0.06084, Wa=1.2592, Wb=1.2489, dWa=-0.4773, dWb=1.2240
-Epoch=23, minibatch=3 loss=0.06523, Wa=1.2593, Wb=1.2483, dWa=0.6770, dWb=0.9391
-Epoch=23, minibatch=4 loss=0.06500, Wa=1.2594, Wb=1.2478, dWa=0.1794, dWb=1.2728
-Epoch=23, minibatch=5 loss=0.05933, Wa=1.2594, Wb=1.2473, dWa=-0.4234, dWb=0.7426
-Epoch=23, minibatch=6 loss=0.06659, Wa=1.2595, Wb=1.2468, dWa=-0.5424, dWb=1.7020
-Epoch=23, minibatch=7 loss=0.06746, Wa=1.2596, Wb=1.2463, dWa=0.2829, dWb=0.8625
-Epoch=24, minibatch=0 loss=0.05198, Wa=1.2596, Wb=1.2458, dWa=0.4581, dWb=0.7975
-Epoch=24, minibatch=1 loss=0.05987, Wa=1.2597, Wb=1.2454, dWa=-0.8525, dWb=0.8657
-Epoch=24, minibatch=2 loss=0.06249, Wa=1.2597, Wb=1.2450, dWa=0.5283, dWb=1.0988
-Epoch=24, minibatch=3 loss=0.06807, Wa=1.2597, Wb=1.2446, dWa=0.0100, dWb=0.9307
-Epoch=24, minibatch=4 loss=0.05833, Wa=1.2598, Wb=1.2442, dWa=1.1570, dWb=1.4316
-Epoch=24, minibatch=5 loss=0.05464, Wa=1.2598, Wb=1.2437, dWa=-0.1207, dWb=0.5517
-Epoch=24, minibatch=6 loss=0.07205, Wa=1.2598, Wb=1.2434, dWa=-0.1463, dWb=1.3515
-Epoch=24, minibatch=7 loss=0.06713, Wa=1.2598, Wb=1.2430, dWa=-0.4350, dWb=0.5854
-Epoch=25, minibatch=0 loss=0.05978, Wa=1.2598, Wb=1.2426, dWa=-0.3573, dWb=1.0723
-Epoch=25, minibatch=1 loss=0.06083, Wa=1.2598, Wb=1.2423, dWa=-0.4694, dWb=0.3028
-Epoch=25, minibatch=2 loss=0.06543, Wa=1.2599, Wb=1.2419, dWa=-0.8240, dWb=1.1847
-Epoch=25, minibatch=3 loss=0.06095, Wa=1.2599, Wb=1.2416, dWa=1.3214, dWb=1.1051
-Epoch=25, minibatch=4 loss=0.05112, Wa=1.2599, Wb=1.2413, dWa=-0.7586, dWb=0.0644
-Epoch=25, minibatch=5 loss=0.05524, Wa=1.2600, Wb=1.2410, dWa=-0.2172, dWb=0.1176
-Epoch=25, minibatch=6 loss=0.06091, Wa=1.2600, Wb=1.2407, dWa=0.0352, dWb=1.0524
-Epoch=25, minibatch=7 loss=0.06173, Wa=1.2600, Wb=1.2404, dWa=1.3538, dWb=0.8160
-Epoch=26, minibatch=0 loss=0.05752, Wa=1.2600, Wb=1.2401, dWa=0.1244, dWb=0.9399
-Epoch=26, minibatch=1 loss=0.05674, Wa=1.2600, Wb=1.2399, dWa=0.6942, dWb=1.0084
-Epoch=26, minibatch=2 loss=0.05793, Wa=1.2600, Wb=1.2396, dWa=-0.6708, dWb=-0.0912
-Epoch=26, minibatch=3 loss=0.05354, Wa=1.2600, Wb=1.2393, dWa=1.1801, dWb=0.8979
-Epoch=26, minibatch=4 loss=0.06641, Wa=1.2599, Wb=1.2391, dWa=-0.4412, dWb=0.0672
-Epoch=26, minibatch=5 loss=0.06006, Wa=1.2599, Wb=1.2389, dWa=-1.4714, dWb=0.6283
-Epoch=26, minibatch=6 loss=0.05691, Wa=1.2599, Wb=1.2386, dWa=-0.5987, dWb=0.2454
-Epoch=26, minibatch=7 loss=0.05603, Wa=1.2599, Wb=1.2384, dWa=0.6041, dWb=0.5080
-Epoch=27, minibatch=0 loss=0.05288, Wa=1.2600, Wb=1.2382, dWa=0.0185, dWb=0.4159
-Epoch=27, minibatch=1 loss=0.06738, Wa=1.2600, Wb=1.2380, dWa=-0.3576, dWb=0.9721
-Epoch=27, minibatch=2 loss=0.05292, Wa=1.2600, Wb=1.2378, dWa=-0.0514, dWb=0.0612
-Epoch=27, minibatch=3 loss=0.04744, Wa=1.2600, Wb=1.2376, dWa=-0.3178, dWb=0.0036
-Epoch=27, minibatch=4 loss=0.05083, Wa=1.2600, Wb=1.2375, dWa=-0.0486, dWb=0.2688
-Epoch=27, minibatch=5 loss=0.06767, Wa=1.2601, Wb=1.2373, dWa=0.8428, dWb=0.9433
-Epoch=27, minibatch=6 loss=0.06090, Wa=1.2601, Wb=1.2371, dWa=-0.5421, dWb=0.4508
-Epoch=27, minibatch=7 loss=0.05844, Wa=1.2601, Wb=1.2370, dWa=-0.4322, dWb=-0.0250
-Epoch=28, minibatch=0 loss=0.06874, Wa=1.2601, Wb=1.2368, dWa=-0.4780, dWb=0.2419
-Epoch=28, minibatch=1 loss=0.05179, Wa=1.2601, Wb=1.2367, dWa=0.1264, dWb=0.2814
-Epoch=28, minibatch=2 loss=0.05860, Wa=1.2602, Wb=1.2365, dWa=-1.4035, dWb=-0.2430
-Epoch=28, minibatch=3 loss=0.04581, Wa=1.2602, Wb=1.2364, dWa=-0.2374, dWb=0.1984
-Epoch=28, minibatch=4 loss=0.04933, Wa=1.2603, Wb=1.2363, dWa=-0.2327, dWb=0.9612
-Epoch=28, minibatch=5 loss=0.05055, Wa=1.2604, Wb=1.2362, dWa=2.5813, dWb=0.3340
-Epoch=28, minibatch=6 loss=0.06436, Wa=1.2604, Wb=1.2361, dWa=0.3081, dWb=0.7690
-Epoch=28, minibatch=7 loss=0.06586, Wa=1.2604, Wb=1.2359, dWa=-1.3577, dWb=-0.1801
-Epoch=29, minibatch=0 loss=0.05921, Wa=1.2604, Wb=1.2358, dWa=-0.3768, dWb=0.0213
-Epoch=29, minibatch=1 loss=0.06008, Wa=1.2604, Wb=1.2357, dWa=1.2120, dWb=0.6703
-Epoch=29, minibatch=2 loss=0.04505, Wa=1.2604, Wb=1.2356, dWa=0.3048, dWb=0.3382
-Epoch=29, minibatch=3 loss=0.05345, Wa=1.2604, Wb=1.2355, dWa=-0.1945, dWb=0.0728
-Epoch=29, minibatch=4 loss=0.06095, Wa=1.2604, Wb=1.2354, dWa=-0.0498, dWb=-0.1847
-Epoch=29, minibatch=5 loss=0.05408, Wa=1.2604, Wb=1.2353, dWa=0.0353, dWb=0.4972
-Epoch=29, minibatch=6 loss=0.05782, Wa=1.2603, Wb=1.2352, dWa=-0.3422, dWb=0.7199
-Epoch=29, minibatch=7 loss=0.06230, Wa=1.2604, Wb=1.2351, dWa=-1.3770, dWb=-0.3786
-Epoch=30, minibatch=0 loss=0.04838, Wa=1.2604, Wb=1.2350, dWa=0.1437, dWb=0.1156
-Epoch=30, minibatch=1 loss=0.05435, Wa=1.2604, Wb=1.2349, dWa=-0.0431, dWb=0.1114
-Epoch=30, minibatch=2 loss=0.05320, Wa=1.2605, Wb=1.2348, dWa=0.0818, dWb=-0.1411
-Epoch=30, minibatch=3 loss=0.06518, Wa=1.2605, Wb=1.2348, dWa=-2.1118, dWb=0.6237
-Epoch=30, minibatch=4 loss=0.05765, Wa=1.2606, Wb=1.2347, dWa=-0.3838, dWb=-0.1976
-Epoch=30, minibatch=5 loss=0.05001, Wa=1.2607, Wb=1.2346, dWa=0.2514, dWb=0.2063
-Epoch=30, minibatch=6 loss=0.06560, Wa=1.2607, Wb=1.2346, dWa=0.7210, dWb=0.3082
-Epoch=30, minibatch=7 loss=0.05753, Wa=1.2608, Wb=1.2345, dWa=0.8586, dWb=0.3305
-Epoch=31, minibatch=0 loss=0.06272, Wa=1.2608, Wb=1.2344, dWa=-0.5115, dWb=-0.0933
-Epoch=31, minibatch=1 loss=0.05045, Wa=1.2608, Wb=1.2344, dWa=-0.4807, dWb=-0.1043
-Epoch=31, minibatch=2 loss=0.04430, Wa=1.2609, Wb=1.2343, dWa=0.8287, dWb=0.5522
-Epoch=31, minibatch=3 loss=0.06364, Wa=1.2609, Wb=1.2343, dWa=-0.6692, dWb=0.1322
-Epoch=31, minibatch=4 loss=0.05061, Wa=1.2609, Wb=1.2342, dWa=0.0224, dWb=-0.0336
-Epoch=31, minibatch=5 loss=0.06047, Wa=1.2609, Wb=1.2342, dWa=1.2163, dWb=0.1198
-Epoch=31, minibatch=6 loss=0.05732, Wa=1.2609, Wb=1.2341, dWa=-0.9575, dWb=0.1247
-Epoch=31, minibatch=7 loss=0.06136, Wa=1.2609, Wb=1.2341, dWa=0.5861, dWb=0.4191
-Epoch=32, minibatch=0 loss=0.05773, Wa=1.2609, Wb=1.2340, dWa=0.2469, dWb=0.5346
-Epoch=32, minibatch=1 loss=0.05857, Wa=1.2609, Wb=1.2339, dWa=0.7078, dWb=-0.1526
-Epoch=32, minibatch=2 loss=0.05744, Wa=1.2609, Wb=1.2339, dWa=0.9081, dWb=0.4813
-Epoch=32, minibatch=3 loss=0.04978, Wa=1.2609, Wb=1.2338, dWa=-0.5113, dWb=0.2067
-Epoch=32, minibatch=4 loss=0.04925, Wa=1.2608, Wb=1.2337, dWa=0.4594, dWb=-0.0922
-Epoch=32, minibatch=5 loss=0.05600, Wa=1.2608, Wb=1.2337, dWa=-0.6692, dWb=0.3404
-Epoch=32, minibatch=6 loss=0.05705, Wa=1.2608, Wb=1.2336, dWa=-0.7587, dWb=-0.1577
-Epoch=32, minibatch=7 loss=0.06509, Wa=1.2608, Wb=1.2336, dWa=-0.5980, dWb=-0.3701
-Epoch=33, minibatch=0 loss=0.06746, Wa=1.2608, Wb=1.2335, dWa=0.7860, dWb=-0.2268
-Epoch=33, minibatch=1 loss=0.05928, Wa=1.2608, Wb=1.2335, dWa=0.4527, dWb=0.7088
-Epoch=33, minibatch=2 loss=0.06110, Wa=1.2608, Wb=1.2335, dWa=0.1431, dWb=0.4220
-Epoch=33, minibatch=3 loss=0.04638, Wa=1.2607, Wb=1.2334, dWa=0.0941, dWb=0.0880
-Epoch=33, minibatch=4 loss=0.04996, Wa=1.2607, Wb=1.2334, dWa=0.8950, dWb=0.4444
-Epoch=33, minibatch=5 loss=0.04938, Wa=1.2607, Wb=1.2333, dWa=-1.3341, dWb=-0.1752
-Epoch=33, minibatch=6 loss=0.05955, Wa=1.2607, Wb=1.2333, dWa=-1.4358, dWb=-0.4301
-Epoch=33, minibatch=7 loss=0.05751, Wa=1.2607, Wb=1.2333, dWa=-0.2277, dWb=-0.3317
-Epoch=34, minibatch=0 loss=0.04968, Wa=1.2608, Wb=1.2332, dWa=0.2665, dWb=0.4159
-Epoch=34, minibatch=1 loss=0.05998, Wa=1.2608, Wb=1.2332, dWa=-0.0739, dWb=0.1161
-Epoch=34, minibatch=2 loss=0.06744, Wa=1.2608, Wb=1.2332, dWa=-0.3613, dWb=0.3973
-Epoch=34, minibatch=3 loss=0.05993, Wa=1.2609, Wb=1.2331, dWa=-0.1092, dWb=0.2106
-Epoch=34, minibatch=4 loss=0.05070, Wa=1.2609, Wb=1.2331, dWa=-0.4603, dWb=-0.7723
-Epoch=34, minibatch=5 loss=0.04604, Wa=1.2610, Wb=1.2331, dWa=1.0588, dWb=-0.0457
-Epoch=34, minibatch=6 loss=0.05764, Wa=1.2610, Wb=1.2331, dWa=-0.2273, dWb=0.2145
-Epoch=34, minibatch=7 loss=0.05871, Wa=1.2610, Wb=1.2331, dWa=-0.4108, dWb=-0.1604
-Epoch=35, minibatch=0 loss=0.04981, Wa=1.2610, Wb=1.2331, dWa=0.1947, dWb=0.6577
-Epoch=35, minibatch=1 loss=0.06129, Wa=1.2610, Wb=1.2330, dWa=-0.3581, dWb=-0.1601
-Epoch=35, minibatch=2 loss=0.06004, Wa=1.2611, Wb=1.2330, dWa=-0.3748, dWb=0.6084
-Epoch=35, minibatch=3 loss=0.06275, Wa=1.2611, Wb=1.2330, dWa=-0.2543, dWb=-0.3066
-Epoch=35, minibatch=4 loss=0.05860, Wa=1.2611, Wb=1.2330, dWa=0.1287, dWb=0.2596
-Epoch=35, minibatch=5 loss=0.06385, Wa=1.2612, Wb=1.2329, dWa=0.7691, dWb=-0.2788
-Epoch=35, minibatch=6 loss=0.04615, Wa=1.2612, Wb=1.2329, dWa=-0.4318, dWb=0.0583
-Epoch=35, minibatch=7 loss=0.04765, Wa=1.2612, Wb=1.2329, dWa=0.4085, dWb=-0.5051
-Epoch=36, minibatch=0 loss=0.06003, Wa=1.2612, Wb=1.2329, dWa=-0.6179, dWb=0.4929
-Epoch=36, minibatch=1 loss=0.06367, Wa=1.2612, Wb=1.2329, dWa=1.2844, dWb=-0.1236
-Epoch=36, minibatch=2 loss=0.04872, Wa=1.2612, Wb=1.2329, dWa=0.1108, dWb=0.0527
-Epoch=36, minibatch=3 loss=0.06360, Wa=1.2612, Wb=1.2329, dWa=-0.1218, dWb=0.3716
-Epoch=36, minibatch=4 loss=0.05160, Wa=1.2612, Wb=1.2328, dWa=0.5660, dWb=-0.0919
-Epoch=36, minibatch=5 loss=0.04990, Wa=1.2612, Wb=1.2328, dWa=-0.4011, dWb=-0.3230
-Epoch=36, minibatch=6 loss=0.05380, Wa=1.2611, Wb=1.2328, dWa=-0.4348, dWb=0.4071
-Epoch=36, minibatch=7 loss=0.05871, Wa=1.2611, Wb=1.2328, dWa=-0.2180, dWb=-0.5215
-Epoch=37, minibatch=0 loss=0.04978, Wa=1.2611, Wb=1.2328, dWa=-0.1563, dWb=-0.0018
-Epoch=37, minibatch=1 loss=0.04801, Wa=1.2612, Wb=1.2328, dWa=0.2190, dWb=0.2297
-Epoch=37, minibatch=2 loss=0.05030, Wa=1.2612, Wb=1.2328, dWa=-0.6646, dWb=-0.4068
-Epoch=37, minibatch=3 loss=0.05298, Wa=1.2612, Wb=1.2328, dWa=0.5831, dWb=0.5488
-Epoch=37, minibatch=4 loss=0.05526, Wa=1.2612, Wb=1.2328, dWa=0.7270, dWb=0.1740
-Epoch=37, minibatch=5 loss=0.05881, Wa=1.2612, Wb=1.2328, dWa=0.5056, dWb=-0.2063
-Epoch=37, minibatch=6 loss=0.06962, Wa=1.2611, Wb=1.2328, dWa=0.0556, dWb=0.6100
-Epoch=37, minibatch=7 loss=0.06526, Wa=1.2611, Wb=1.2327, dWa=-1.1826, dWb=-0.7353
-Epoch=38, minibatch=0 loss=0.05243, Wa=1.2611, Wb=1.2327, dWa=-0.2788, dWb=-0.6979
-Epoch=38, minibatch=1 loss=0.05830, Wa=1.2611, Wb=1.2328, dWa=0.2879, dWb=0.0431
-Epoch=38, minibatch=2 loss=0.05755, Wa=1.2611, Wb=1.2328, dWa=0.4579, dWb=0.6782
-Epoch=38, minibatch=3 loss=0.05054, Wa=1.2611, Wb=1.2328, dWa=-0.9233, dWb=0.0671
-Epoch=38, minibatch=4 loss=0.05815, Wa=1.2611, Wb=1.2328, dWa=-0.1700, dWb=0.3986
-Epoch=38, minibatch=5 loss=0.06629, Wa=1.2612, Wb=1.2328, dWa=0.8005, dWb=-0.6552
-Epoch=38, minibatch=6 loss=0.04145, Wa=1.2612, Wb=1.2328, dWa=-0.3147, dWb=-0.0464
-Epoch=38, minibatch=7 loss=0.06523, Wa=1.2612, Wb=1.2328, dWa=0.1789, dWb=0.4061
-Epoch=39, minibatch=0 loss=0.06189, Wa=1.2612, Wb=1.2328, dWa=-0.3283, dWb=0.0379
-Epoch=39, minibatch=1 loss=0.05367, Wa=1.2612, Wb=1.2327, dWa=0.1055, dWb=0.4657
-Epoch=39, minibatch=2 loss=0.04897, Wa=1.2612, Wb=1.2327, dWa=0.4101, dWb=0.0911
-Epoch=39, minibatch=3 loss=0.06034, Wa=1.2612, Wb=1.2327, dWa=-0.7036, dWb=-0.0438
-Epoch=39, minibatch=4 loss=0.04909, Wa=1.2612, Wb=1.2327, dWa=1.2438, dWb=0.1656
-Epoch=39, minibatch=5 loss=0.05364, Wa=1.2612, Wb=1.2327, dWa=0.6580, dWb=0.5163
-Epoch=39, minibatch=6 loss=0.06465, Wa=1.2611, Wb=1.2326, dWa=-0.7742, dWb=-0.8087
-Epoch=39, minibatch=7 loss=0.05779, Wa=1.2611, Wb=1.2326, dWa=-0.5392, dWb=-0.2732
-Epoch=40, minibatch=0 loss=0.05625, Wa=1.2611, Wb=1.2326, dWa=0.5518, dWb=-0.0668
-Epoch=40, minibatch=1 loss=0.05574, Wa=1.2611, Wb=1.2326, dWa=0.0884, dWb=0.1269
-Epoch=40, minibatch=2 loss=0.05812, Wa=1.2611, Wb=1.2326, dWa=-0.9874, dWb=-0.4232
-Epoch=40, minibatch=3 loss=0.06482, Wa=1.2611, Wb=1.2326, dWa=1.2881, dWb=0.6033
-Epoch=40, minibatch=4 loss=0.05074, Wa=1.2611, Wb=1.2326, dWa=-0.0922, dWb=-0.2653
-Epoch=40, minibatch=5 loss=0.04595, Wa=1.2611, Wb=1.2326, dWa=-0.8661, dWb=0.1871
-Epoch=40, minibatch=6 loss=0.05784, Wa=1.2611, Wb=1.2326, dWa=0.6508, dWb=0.0037
-Epoch=40, minibatch=7 loss=0.06049, Wa=1.2611, Wb=1.2326, dWa=-0.7493, dWb=-0.0824
-Epoch=41, minibatch=0 loss=0.06337, Wa=1.2611, Wb=1.2326, dWa=0.8364, dWb=0.7442
-Epoch=41, minibatch=1 loss=0.05907, Wa=1.2611, Wb=1.2326, dWa=0.0124, dWb=-0.6368
-Epoch=41, minibatch=2 loss=0.05475, Wa=1.2610, Wb=1.2326, dWa=-0.0272, dWb=0.8388
-Epoch=41, minibatch=3 loss=0.05102, Wa=1.2610, Wb=1.2326, dWa=-1.1315, dWb=-0.6125
-Epoch=41, minibatch=4 loss=0.06093, Wa=1.2611, Wb=1.2326, dWa=0.6118, dWb=-0.0676
-Epoch=41, minibatch=5 loss=0.04904, Wa=1.2611, Wb=1.2326, dWa=-0.4021, dWb=-0.2569
-Epoch=41, minibatch=6 loss=0.05745, Wa=1.2611, Wb=1.2326, dWa=0.0683, dWb=-0.1211
-Epoch=41, minibatch=7 loss=0.05431, Wa=1.2611, Wb=1.2326, dWa=-0.1543, dWb=0.1562
-Epoch=42, minibatch=0 loss=0.05743, Wa=1.2611, Wb=1.2326, dWa=0.4760, dWb=0.4501
-Epoch=42, minibatch=1 loss=0.05808, Wa=1.2611, Wb=1.2326, dWa=0.1938, dWb=0.1912
-Epoch=42, minibatch=2 loss=0.05464, Wa=1.2611, Wb=1.2326, dWa=-0.0681, dWb=-0.2971
-Epoch=42, minibatch=3 loss=0.06219, Wa=1.2611, Wb=1.2325, dWa=-0.7961, dWb=-0.4041
-Epoch=42, minibatch=4 loss=0.04994, Wa=1.2611, Wb=1.2326, dWa=0.0728, dWb=0.4539
-Epoch=42, minibatch=5 loss=0.04803, Wa=1.2611, Wb=1.2325, dWa=-0.1964, dWb=0.0367
-Epoch=42, minibatch=6 loss=0.06355, Wa=1.2611, Wb=1.2325, dWa=-0.2956, dWb=-0.4149
-Epoch=42, minibatch=7 loss=0.05605, Wa=1.2612, Wb=1.2325, dWa=0.5393, dWb=0.0269
-Epoch=43, minibatch=0 loss=0.06671, Wa=1.2612, Wb=1.2325, dWa=-0.4339, dWb=0.1627
-Epoch=43, minibatch=1 loss=0.05840, Wa=1.2612, Wb=1.2325, dWa=0.1189, dWb=-0.0095
-Epoch=43, minibatch=2 loss=0.05136, Wa=1.2612, Wb=1.2325, dWa=-0.2020, dWb=-0.2988
-Epoch=43, minibatch=3 loss=0.05207, Wa=1.2612, Wb=1.2326, dWa=-0.1114, dWb=0.2899
-Epoch=43, minibatch=4 loss=0.05144, Wa=1.2613, Wb=1.2326, dWa=0.3528, dWb=-0.1950
-Epoch=43, minibatch=5 loss=0.05851, Wa=1.2613, Wb=1.2326, dWa=0.1256, dWb=0.5054
-Epoch=43, minibatch=6 loss=0.05749, Wa=1.2613, Wb=1.2325, dWa=-0.1858, dWb=-1.3160
-Epoch=43, minibatch=7 loss=0.05396, Wa=1.2613, Wb=1.2326, dWa=0.5005, dWb=0.9460
-Epoch=44, minibatch=0 loss=0.05737, Wa=1.2613, Wb=1.2326, dWa=0.0285, dWb=-0.0269
-Epoch=44, minibatch=1 loss=0.05806, Wa=1.2613, Wb=1.2326, dWa=-0.8370, dWb=-0.3652
-Epoch=44, minibatch=2 loss=0.04611, Wa=1.2613, Wb=1.2326, dWa=-0.3771, dWb=0.0758
-Epoch=44, minibatch=3 loss=0.06431, Wa=1.2613, Wb=1.2326, dWa=1.8250, dWb=0.3030
-Epoch=44, minibatch=4 loss=0.05913, Wa=1.2613, Wb=1.2326, dWa=-0.0009, dWb=-0.0185
-Epoch=44, minibatch=5 loss=0.05679, Wa=1.2613, Wb=1.2326, dWa=0.8670, dWb=0.2557
-Epoch=44, minibatch=6 loss=0.05494, Wa=1.2612, Wb=1.2326, dWa=-0.3298, dWb=-0.0042
-Epoch=44, minibatch=7 loss=0.05334, Wa=1.2612, Wb=1.2326, dWa=-0.9408, dWb=-0.1098
-Epoch=45, minibatch=0 loss=0.05726, Wa=1.2612, Wb=1.2326, dWa=0.1655, dWb=0.0109
-Epoch=45, minibatch=1 loss=0.05954, Wa=1.2612, Wb=1.2326, dWa=0.0000, dWb=0.2168
-Epoch=45, minibatch=2 loss=0.05621, Wa=1.2611, Wb=1.2326, dWa=-0.2205, dWb=-0.3848
-Epoch=45, minibatch=3 loss=0.06036, Wa=1.2612, Wb=1.2326, dWa=-0.5739, dWb=-0.3913
-Epoch=45, minibatch=4 loss=0.05277, Wa=1.2612, Wb=1.2326, dWa=-1.3742, dWb=-0.2645
-Epoch=45, minibatch=5 loss=0.05707, Wa=1.2612, Wb=1.2326, dWa=0.9597, dWb=0.9808
-Epoch=45, minibatch=6 loss=0.05260, Wa=1.2612, Wb=1.2326, dWa=1.7630, dWb=0.0170
-Epoch=45, minibatch=7 loss=0.05425, Wa=1.2612, Wb=1.2326, dWa=-0.6135, dWb=-0.1078
-Epoch=46, minibatch=0 loss=0.05145, Wa=1.2612, Wb=1.2326, dWa=-0.2024, dWb=-0.5353
-Epoch=46, minibatch=1 loss=0.06447, Wa=1.2612, Wb=1.2326, dWa=-1.1622, dWb=-0.6210
-Epoch=46, minibatch=2 loss=0.05958, Wa=1.2612, Wb=1.2326, dWa=0.2023, dWb=0.7410
-Epoch=46, minibatch=3 loss=0.04893, Wa=1.2613, Wb=1.2326, dWa=1.1914, dWb=-0.0534
-Epoch=46, minibatch=4 loss=0.04967, Wa=1.2612, Wb=1.2326, dWa=0.3419, dWb=0.6449
-Epoch=46, minibatch=5 loss=0.06041, Wa=1.2612, Wb=1.2326, dWa=-0.1149, dWb=-0.1971
-Epoch=46, minibatch=6 loss=0.05938, Wa=1.2612, Wb=1.2326, dWa=-0.0714, dWb=0.0183
-Epoch=46, minibatch=7 loss=0.05610, Wa=1.2612, Wb=1.2326, dWa=-0.0402, dWb=0.1021
-Epoch=47, minibatch=0 loss=0.05020, Wa=1.2612, Wb=1.2326, dWa=-0.1675, dWb=-0.0298
-Epoch=47, minibatch=1 loss=0.05746, Wa=1.2612, Wb=1.2326, dWa=-1.6617, dWb=-0.2312
-Epoch=47, minibatch=2 loss=0.06242, Wa=1.2612, Wb=1.2326, dWa=-0.3716, dWb=-0.3809
-Epoch=47, minibatch=3 loss=0.05483, Wa=1.2613, Wb=1.2326, dWa=1.6867, dWb=-0.0402
-Epoch=47, minibatch=4 loss=0.05913, Wa=1.2613, Wb=1.2326, dWa=0.6806, dWb=0.3933
-Epoch=47, minibatch=5 loss=0.05976, Wa=1.2612, Wb=1.2326, dWa=0.1463, dWb=0.1255
-Epoch=47, minibatch=6 loss=0.05302, Wa=1.2612, Wb=1.2326, dWa=-0.2282, dWb=-0.0276
-Epoch=47, minibatch=7 loss=0.05325, Wa=1.2612, Wb=1.2326, dWa=0.0301, dWb=0.2766
-Epoch=48, minibatch=0 loss=0.05953, Wa=1.2612, Wb=1.2326, dWa=0.7362, dWb=0.1685
-Epoch=48, minibatch=1 loss=0.05554, Wa=1.2611, Wb=1.2325, dWa=-0.5374, dWb=0.0785
-Epoch=48, minibatch=2 loss=0.05613, Wa=1.2611, Wb=1.2325, dWa=0.5099, dWb=-0.1000
-Epoch=48, minibatch=3 loss=0.06785, Wa=1.2611, Wb=1.2325, dWa=0.3408, dWb=0.5930
-Epoch=48, minibatch=4 loss=0.04724, Wa=1.2610, Wb=1.2325, dWa=-0.0869, dWb=-0.3729
-Epoch=48, minibatch=5 loss=0.05742, Wa=1.2610, Wb=1.2325, dWa=-1.8576, dWb=-0.4096
-Epoch=48, minibatch=6 loss=0.05480, Wa=1.2610, Wb=1.2325, dWa=1.0344, dWb=-0.1443
-Epoch=48, minibatch=7 loss=0.05153, Wa=1.2610, Wb=1.2325, dWa=-0.3187, dWb=0.1868
-Epoch=49, minibatch=0 loss=0.04833, Wa=1.2610, Wb=1.2325, dWa=-0.6758, dWb=-0.1493
-Epoch=49, minibatch=1 loss=0.05826, Wa=1.2611, Wb=1.2325, dWa=-0.5647, dWb=0.3212
-Epoch=49, minibatch=2 loss=0.05317, Wa=1.2611, Wb=1.2325, dWa=-0.5405, dWb=0.6032
-Epoch=49, minibatch=3 loss=0.06012, Wa=1.2612, Wb=1.2324, dWa=-0.3516, dWb=-0.7366
-Epoch=49, minibatch=4 loss=0.06130, Wa=1.2612, Wb=1.2324, dWa=0.3553, dWb=0.0470
-Epoch=49, minibatch=5 loss=0.06901, Wa=1.2613, Wb=1.2324, dWa=0.6342, dWb=-0.2098
-Epoch=49, minibatch=6 loss=0.04760, Wa=1.2613, Wb=1.2324, dWa=0.3639, dWb=-0.2776
-Epoch=49, minibatch=7 loss=0.05244, Wa=1.2613, Wb=1.2325, dWa=0.7266, dWb=0.3972
-Epoch=50, minibatch=0 loss=0.05890, Wa=1.2613, Wb=1.2325, dWa=1.4888, dWb=0.3224
-Epoch=50, minibatch=1 loss=0.06519, Wa=1.2612, Wb=1.2324, dWa=-0.5971, dWb=-0.7500
-Epoch=50, minibatch=2 loss=0.06014, Wa=1.2612, Wb=1.2325, dWa=0.0258, dWb=0.0848
-Epoch=50, minibatch=3 loss=0.05766, Wa=1.2611, Wb=1.2325, dWa=-0.0253, dWb=0.7509
-Epoch=50, minibatch=4 loss=0.04937, Wa=1.2611, Wb=1.2325, dWa=0.3662, dWb=0.4256
-Epoch=50, minibatch=5 loss=0.05163, Wa=1.2611, Wb=1.2324, dWa=-0.8690, dWb=-0.3115
-Epoch=50, minibatch=6 loss=0.05997, Wa=1.2610, Wb=1.2324, dWa=0.2502, dWb=-0.2775
-Epoch=50, minibatch=7 loss=0.04728, Wa=1.2610, Wb=1.2324, dWa=-0.7355, dWb=-0.2731
-Epoch=51, minibatch=0 loss=0.05074, Wa=1.2610, Wb=1.2324, dWa=-1.2100, dWb=-0.0057
-Epoch=51, minibatch=1 loss=0.05457, Wa=1.2611, Wb=1.2324, dWa=-0.1561, dWb=-0.0600
-Epoch=51, minibatch=2 loss=0.05592, Wa=1.2611, Wb=1.2324, dWa=0.0048, dWb=-0.2597
-Epoch=51, minibatch=3 loss=0.05559, Wa=1.2612, Wb=1.2324, dWa=0.2746, dWb=-0.0523
-Epoch=51, minibatch=4 loss=0.04851, Wa=1.2612, Wb=1.2325, dWa=-0.3339, dWb=0.3624
-Epoch=51, minibatch=5 loss=0.06376, Wa=1.2612, Wb=1.2325, dWa=0.1329, dWb=-0.5127
-Epoch=51, minibatch=6 loss=0.06394, Wa=1.2613, Wb=1.2325, dWa=1.1155, dWb=0.3556
-Epoch=51, minibatch=7 loss=0.05713, Wa=1.2613, Wb=1.2325, dWa=0.1954, dWb=0.1616
-Epoch=52, minibatch=0 loss=0.05283, Wa=1.2612, Wb=1.2325, dWa=0.5484, dWb=-0.5693
-Epoch=52, minibatch=1 loss=0.05721, Wa=1.2612, Wb=1.2325, dWa=0.2544, dWb=0.1032
-Epoch=52, minibatch=2 loss=0.05528, Wa=1.2612, Wb=1.2325, dWa=0.3549, dWb=0.1436
-Epoch=52, minibatch=3 loss=0.05272, Wa=1.2611, Wb=1.2325, dWa=-0.1348, dWb=-0.0409
-Epoch=52, minibatch=4 loss=0.06217, Wa=1.2611, Wb=1.2325, dWa=0.2002, dWb=-0.1449
-Epoch=52, minibatch=5 loss=0.05124, Wa=1.2611, Wb=1.2325, dWa=-0.0778, dWb=0.3117
-Epoch=52, minibatch=6 loss=0.05383, Wa=1.2610, Wb=1.2325, dWa=-1.8991, dWb=-0.5933
-Epoch=52, minibatch=7 loss=0.06484, Wa=1.2611, Wb=1.2325, dWa=0.7001, dWb=0.8095
-Epoch=53, minibatch=0 loss=0.05701, Wa=1.2611, Wb=1.2325, dWa=-0.0296, dWb=-0.3363
-Epoch=53, minibatch=1 loss=0.06546, Wa=1.2611, Wb=1.2325, dWa=0.1989, dWb=0.0613
-Epoch=53, minibatch=2 loss=0.05513, Wa=1.2611, Wb=1.2325, dWa=-0.8383, dWb=-0.0127
-Epoch=53, minibatch=3 loss=0.05880, Wa=1.2611, Wb=1.2325, dWa=0.4300, dWb=0.4180
-Epoch=53, minibatch=4 loss=0.05038, Wa=1.2611, Wb=1.2325, dWa=0.5172, dWb=0.3406
-Epoch=53, minibatch=5 loss=0.05911, Wa=1.2611, Wb=1.2325, dWa=0.1052, dWb=-0.1346
-Epoch=53, minibatch=6 loss=0.05820, Wa=1.2611, Wb=1.2325, dWa=-0.2033, dWb=0.1039
-Epoch=53, minibatch=7 loss=0.04582, Wa=1.2611, Wb=1.2325, dWa=-0.2899, dWb=-0.4267
-Epoch=54, minibatch=0 loss=0.05645, Wa=1.2611, Wb=1.2325, dWa=-0.4049, dWb=0.4359
-Epoch=54, minibatch=1 loss=0.05579, Wa=1.2611, Wb=1.2325, dWa=-0.2055, dWb=-0.4871
-Epoch=54, minibatch=2 loss=0.05442, Wa=1.2611, Wb=1.2325, dWa=-0.2238, dWb=-0.2071
-Epoch=54, minibatch=3 loss=0.06215, Wa=1.2612, Wb=1.2325, dWa=-0.4730, dWb=-0.0992
-Epoch=54, minibatch=4 loss=0.05983, Wa=1.2612, Wb=1.2325, dWa=0.3799, dWb=-0.1982
-Epoch=54, minibatch=5 loss=0.05196, Wa=1.2612, Wb=1.2325, dWa=-0.7726, dWb=-0.3361
-Epoch=54, minibatch=6 loss=0.05206, Wa=1.2613, Wb=1.2325, dWa=0.2621, dWb=0.0624
-Epoch=54, minibatch=7 loss=0.05750, Wa=1.2613, Wb=1.2325, dWa=1.5301, dWb=0.8525
-Epoch=55, minibatch=0 loss=0.06251, Wa=1.2613, Wb=1.2325, dWa=-0.5102, dWb=-0.0907
-Epoch=55, minibatch=1 loss=0.05595, Wa=1.2613, Wb=1.2325, dWa=0.6092, dWb=-0.2083
-Epoch=55, minibatch=2 loss=0.05622, Wa=1.2613, Wb=1.2325, dWa=-0.9748, dWb=-0.2657
-Epoch=55, minibatch=3 loss=0.06262, Wa=1.2613, Wb=1.2325, dWa=0.3128, dWb=0.1180
-Epoch=55, minibatch=4 loss=0.05322, Wa=1.2613, Wb=1.2325, dWa=1.2537, dWb=0.4002
-Epoch=55, minibatch=5 loss=0.05426, Wa=1.2613, Wb=1.2325, dWa=-0.0356, dWb=-0.0795
-Epoch=55, minibatch=6 loss=0.05515, Wa=1.2612, Wb=1.2325, dWa=-0.2464, dWb=0.0811
-Epoch=55, minibatch=7 loss=0.05000, Wa=1.2612, Wb=1.2325, dWa=-0.1635, dWb=0.1187
-Epoch=56, minibatch=0 loss=0.06091, Wa=1.2612, Wb=1.2325, dWa=-0.7012, dWb=0.3017
-Epoch=56, minibatch=1 loss=0.05048, Wa=1.2612, Wb=1.2325, dWa=-0.7363, dWb=-0.2847
-Epoch=56, minibatch=2 loss=0.05517, Wa=1.2612, Wb=1.2325, dWa=0.2583, dWb=-0.0295
-Epoch=56, minibatch=3 loss=0.05960, Wa=1.2612, Wb=1.2325, dWa=0.6806, dWb=0.8813
-Epoch=56, minibatch=4 loss=0.05310, Wa=1.2612, Wb=1.2324, dWa=0.7008, dWb=0.1277
-Epoch=56, minibatch=5 loss=0.05294, Wa=1.2612, Wb=1.2324, dWa=1.3377, dWb=-0.5379
-Epoch=56, minibatch=6 loss=0.06517, Wa=1.2612, Wb=1.2324, dWa=-0.8298, dWb=-0.2513
-Epoch=56, minibatch=7 loss=0.05274, Wa=1.2611, Wb=1.2324, dWa=-0.6691, dWb=-0.2030
-Epoch=57, minibatch=0 loss=0.05776, Wa=1.2611, Wb=1.2324, dWa=-1.4041, dWb=-0.2835
-Epoch=57, minibatch=1 loss=0.05360, Wa=1.2612, Wb=1.2324, dWa=0.4650, dWb=-0.1281
-Epoch=57, minibatch=2 loss=0.05192, Wa=1.2612, Wb=1.2324, dWa=-0.8509, dWb=0.4428
-Epoch=57, minibatch=3 loss=0.05864, Wa=1.2612, Wb=1.2324, dWa=0.1031, dWb=-0.4232
-Epoch=57, minibatch=4 loss=0.05685, Wa=1.2612, Wb=1.2324, dWa=0.8650, dWb=0.1941
-Epoch=57, minibatch=5 loss=0.04946, Wa=1.2613, Wb=1.2324, dWa=0.2948, dWb=0.1502
-Epoch=57, minibatch=6 loss=0.05810, Wa=1.2613, Wb=1.2324, dWa=0.3686, dWb=-0.5001
-Epoch=57, minibatch=7 loss=0.06373, Wa=1.2612, Wb=1.2325, dWa=0.2186, dWb=0.5369
-Epoch=58, minibatch=0 loss=0.05840, Wa=1.2612, Wb=1.2325, dWa=0.7396, dWb=0.1146
-Epoch=58, minibatch=1 loss=0.06714, Wa=1.2612, Wb=1.2324, dWa=0.4751, dWb=-0.0174
-Epoch=58, minibatch=2 loss=0.04894, Wa=1.2611, Wb=1.2324, dWa=1.5809, dWb=0.0124
-Epoch=58, minibatch=3 loss=0.05236, Wa=1.2610, Wb=1.2324, dWa=-0.7025, dWb=-0.7991
-Epoch=58, minibatch=4 loss=0.05361, Wa=1.2610, Wb=1.2325, dWa=-2.0030, dWb=-0.2997
-Epoch=58, minibatch=5 loss=0.05428, Wa=1.2610, Wb=1.2325, dWa=0.4210, dWb=0.9267
-Epoch=58, minibatch=6 loss=0.06030, Wa=1.2610, Wb=1.2325, dWa=-0.4618, dWb=0.3595
-Epoch=58, minibatch=7 loss=0.05536, Wa=1.2610, Wb=1.2325, dWa=-0.3073, dWb=-0.3389
-Epoch=59, minibatch=0 loss=0.06549, Wa=1.2610, Wb=1.2325, dWa=-0.6622, dWb=0.5760
-Epoch=59, minibatch=1 loss=0.04467, Wa=1.2610, Wb=1.2324, dWa=-0.1147, dWb=-0.1710
-Epoch=59, minibatch=2 loss=0.05729, Wa=1.2610, Wb=1.2324, dWa=0.8637, dWb=0.1624
-Epoch=59, minibatch=3 loss=0.06019, Wa=1.2611, Wb=1.2324, dWa=-0.0350, dWb=-0.2498
-Epoch=59, minibatch=4 loss=0.05794, Wa=1.2611, Wb=1.2324, dWa=-0.5849, dWb=0.0363
-Epoch=59, minibatch=5 loss=0.05035, Wa=1.2611, Wb=1.2324, dWa=0.3111, dWb=0.0973
-Epoch=59, minibatch=6 loss=0.05250, Wa=1.2611, Wb=1.2324, dWa=-0.2623, dWb=-0.4344
-Epoch=59, minibatch=7 loss=0.06152, Wa=1.2611, Wb=1.2324, dWa=0.2147, dWb=-0.0858
-Epoch=60, minibatch=0 loss=0.06311, Wa=1.2611, Wb=1.2324, dWa=0.2146, dWb=0.1210
-Epoch=60, minibatch=1 loss=0.05990, Wa=1.2611, Wb=1.2324, dWa=-0.1403, dWb=-0.1576
-Epoch=60, minibatch=2 loss=0.06065, Wa=1.2611, Wb=1.2324, dWa=0.2632, dWb=-0.3563
-Epoch=60, minibatch=3 loss=0.05540, Wa=1.2611, Wb=1.2324, dWa=-0.5166, dWb=0.2576
-Epoch=60, minibatch=4 loss=0.05721, Wa=1.2611, Wb=1.2324, dWa=-0.2596, dWb=0.1239
-Epoch=60, minibatch=5 loss=0.05535, Wa=1.2612, Wb=1.2324, dWa=-0.6697, dWb=-0.4846
-Epoch=60, minibatch=6 loss=0.04812, Wa=1.2612, Wb=1.2325, dWa=1.1070, dWb=0.4794
-Epoch=60, minibatch=7 loss=0.05019, Wa=1.2612, Wb=1.2325, dWa=-0.0516, dWb=-0.0163
-Epoch=61, minibatch=0 loss=0.05840, Wa=1.2612, Wb=1.2325, dWa=-0.0713, dWb=0.0216
-Epoch=61, minibatch=1 loss=0.06464, Wa=1.2612, Wb=1.2325, dWa=0.4524, dWb=0.2790
-Epoch=61, minibatch=2 loss=0.05979, Wa=1.2612, Wb=1.2324, dWa=0.7144, dWb=-0.0023
-Epoch=61, minibatch=3 loss=0.04988, Wa=1.2612, Wb=1.2324, dWa=0.2222, dWb=-0.0802
-Epoch=61, minibatch=4 loss=0.06173, Wa=1.2611, Wb=1.2324, dWa=0.3984, dWb=0.3850
-Epoch=61, minibatch=5 loss=0.05994, Wa=1.2611, Wb=1.2324, dWa=-0.3641, dWb=-0.3683
-Epoch=61, minibatch=6 loss=0.04623, Wa=1.2611, Wb=1.2324, dWa=-0.5747, dWb=0.0666
-Epoch=61, minibatch=7 loss=0.04946, Wa=1.2610, Wb=1.2324, dWa=-0.8377, dWb=-0.3310
-Epoch=62, minibatch=0 loss=0.06030, Wa=1.2611, Wb=1.2324, dWa=-0.3923, dWb=-0.0292
-Epoch=62, minibatch=1 loss=0.05587, Wa=1.2611, Wb=1.2324, dWa=-0.3729, dWb=-0.3098
-Epoch=62, minibatch=2 loss=0.06596, Wa=1.2611, Wb=1.2324, dWa=0.4013, dWb=-0.0449
-Epoch=62, minibatch=3 loss=0.05215, Wa=1.2611, Wb=1.2325, dWa=0.2318, dWb=0.1452
-Epoch=62, minibatch=4 loss=0.06158, Wa=1.2612, Wb=1.2325, dWa=-0.0815, dWb=-0.6868
-Epoch=62, minibatch=5 loss=0.05532, Wa=1.2612, Wb=1.2325, dWa=0.1176, dWb=0.0498
-Epoch=62, minibatch=6 loss=0.05406, Wa=1.2612, Wb=1.2325, dWa=-0.7078, dWb=0.1658
-Epoch=62, minibatch=7 loss=0.04474, Wa=1.2612, Wb=1.2325, dWa=0.8032, dWb=0.7088
-Epoch=63, minibatch=0 loss=0.05640, Wa=1.2612, Wb=1.2325, dWa=-0.1405, dWb=-0.6525
-Epoch=63, minibatch=1 loss=0.05496, Wa=1.2612, Wb=1.2325, dWa=-0.1615, dWb=0.0816
-Epoch=63, minibatch=2 loss=0.05760, Wa=1.2612, Wb=1.2326, dWa=-0.6496, dWb=0.2816
-Epoch=63, minibatch=3 loss=0.05202, Wa=1.2613, Wb=1.2326, dWa=0.1134, dWb=-0.0797
-Epoch=63, minibatch=4 loss=0.05155, Wa=1.2613, Wb=1.2326, dWa=-0.0900, dWb=0.5553
-Epoch=63, minibatch=5 loss=0.05893, Wa=1.2613, Wb=1.2325, dWa=0.1554, dWb=-0.2395
-Epoch=63, minibatch=6 loss=0.05058, Wa=1.2613, Wb=1.2325, dWa=0.8222, dWb=0.5685
-Epoch=63, minibatch=7 loss=0.06794, Wa=1.2613, Wb=1.2325, dWa=0.1926, dWb=-0.4274
-Epoch=64, minibatch=0 loss=0.05153, Wa=1.2613, Wb=1.2325, dWa=0.2699, dWb=0.4921
-Epoch=64, minibatch=1 loss=0.05033, Wa=1.2613, Wb=1.2325, dWa=-0.2680, dWb=-0.4570
-Epoch=64, minibatch=2 loss=0.05737, Wa=1.2613, Wb=1.2325, dWa=-0.1593, dWb=-0.4162
-Epoch=64, minibatch=3 loss=0.05259, Wa=1.2613, Wb=1.2325, dWa=-1.3930, dWb=0.0855
-Epoch=64, minibatch=4 loss=0.05626, Wa=1.2613, Wb=1.2325, dWa=0.4540, dWb=0.4219
-Epoch=64, minibatch=5 loss=0.05909, Wa=1.2613, Wb=1.2325, dWa=1.7146, dWb=0.4801
-Epoch=64, minibatch=6 loss=0.05952, Wa=1.2613, Wb=1.2325, dWa=-0.6315, dWb=-0.5025
-Epoch=64, minibatch=7 loss=0.06330, Wa=1.2613, Wb=1.2325, dWa=0.2522, dWb=-0.0502
-Epoch=65, minibatch=0 loss=0.05636, Wa=1.2612, Wb=1.2325, dWa=-0.1243, dWb=-0.3555
-Epoch=65, minibatch=1 loss=0.05620, Wa=1.2612, Wb=1.2325, dWa=0.6495, dWb=0.4855
-Epoch=65, minibatch=2 loss=0.06444, Wa=1.2612, Wb=1.2325, dWa=-0.3494, dWb=-0.4496
-Epoch=65, minibatch=3 loss=0.05847, Wa=1.2612, Wb=1.2325, dWa=-0.0889, dWb=-0.5825
-Epoch=65, minibatch=4 loss=0.05202, Wa=1.2612, Wb=1.2325, dWa=0.0757, dWb=0.5445
-Epoch=65, minibatch=5 loss=0.05476, Wa=1.2612, Wb=1.2325, dWa=1.8912, dWb=0.1115
-Epoch=65, minibatch=6 loss=0.05534, Wa=1.2611, Wb=1.2325, dWa=-1.1949, dWb=-0.0245
-Epoch=65, minibatch=7 loss=0.05249, Wa=1.2611, Wb=1.2325, dWa=-0.8821, dWb=0.2823
-Epoch=66, minibatch=0 loss=0.05696, Wa=1.2611, Wb=1.2325, dWa=0.4523, dWb=0.9456
-Epoch=66, minibatch=1 loss=0.05707, Wa=1.2611, Wb=1.2325, dWa=-0.4194, dWb=-0.0131
-Epoch=66, minibatch=2 loss=0.05110, Wa=1.2611, Wb=1.2324, dWa=0.7635, dWb=0.0931
-Epoch=66, minibatch=3 loss=0.06378, Wa=1.2610, Wb=1.2324, dWa=0.4617, dWb=0.0111
-Epoch=66, minibatch=4 loss=0.05681, Wa=1.2610, Wb=1.2324, dWa=0.1976, dWb=-0.3861
-Epoch=66, minibatch=5 loss=0.05348, Wa=1.2610, Wb=1.2324, dWa=-0.9693, dWb=0.2334
-Epoch=66, minibatch=6 loss=0.06152, Wa=1.2610, Wb=1.2323, dWa=-0.0149, dWb=-0.6518
-Epoch=66, minibatch=7 loss=0.04944, Wa=1.2610, Wb=1.2323, dWa=-0.8095, dWb=-0.3267
-Epoch=67, minibatch=0 loss=0.04479, Wa=1.2610, Wb=1.2324, dWa=0.2954, dWb=0.0284
-Epoch=67, minibatch=1 loss=0.05279, Wa=1.2610, Wb=1.2324, dWa=0.2122, dWb=0.0489
-Epoch=67, minibatch=2 loss=0.05988, Wa=1.2610, Wb=1.2324, dWa=0.4924, dWb=-0.0114
-Epoch=67, minibatch=3 loss=0.05737, Wa=1.2610, Wb=1.2324, dWa=-1.2559, dWb=0.0943
-Epoch=67, minibatch=4 loss=0.05219, Wa=1.2610, Wb=1.2324, dWa=-0.0081, dWb=0.3316
-Epoch=67, minibatch=5 loss=0.06103, Wa=1.2610, Wb=1.2324, dWa=1.2431, dWb=-0.3269
-Epoch=67, minibatch=6 loss=0.06353, Wa=1.2610, Wb=1.2324, dWa=-0.5316, dWb=-1.0027
-Epoch=67, minibatch=7 loss=0.05836, Wa=1.2610, Wb=1.2324, dWa=-0.7839, dWb=0.7269
-Epoch=68, minibatch=0 loss=0.06055, Wa=1.2611, Wb=1.2324, dWa=0.2395, dWb=-0.0726
-Epoch=68, minibatch=1 loss=0.04989, Wa=1.2611, Wb=1.2324, dWa=-0.7510, dWb=-0.0334
-Epoch=68, minibatch=2 loss=0.05384, Wa=1.2611, Wb=1.2324, dWa=-0.4550, dWb=-0.3843
-Epoch=68, minibatch=3 loss=0.06329, Wa=1.2612, Wb=1.2325, dWa=1.7433, dWb=-0.0020
-Epoch=68, minibatch=4 loss=0.06103, Wa=1.2611, Wb=1.2325, dWa=-0.6970, dWb=-0.4108
-Epoch=68, minibatch=5 loss=0.05726, Wa=1.2612, Wb=1.2325, dWa=0.1469, dWb=0.1645
-Epoch=68, minibatch=6 loss=0.05608, Wa=1.2612, Wb=1.2325, dWa=-0.3736, dWb=0.1763
-Epoch=68, minibatch=7 loss=0.04805, Wa=1.2612, Wb=1.2325, dWa=0.0786, dWb=0.5593
-Epoch=69, minibatch=0 loss=0.05151, Wa=1.2612, Wb=1.2325, dWa=-0.1783, dWb=-0.0849
-Epoch=69, minibatch=1 loss=0.04623, Wa=1.2612, Wb=1.2325, dWa=-0.2847, dWb=-0.1900
-Epoch=69, minibatch=2 loss=0.06631, Wa=1.2612, Wb=1.2325, dWa=-0.2744, dWb=-0.2737
-Epoch=69, minibatch=3 loss=0.04961, Wa=1.2613, Wb=1.2326, dWa=0.4051, dWb=0.0832
-Epoch=69, minibatch=4 loss=0.05933, Wa=1.2613, Wb=1.2326, dWa=-0.3089, dWb=0.4645
-Epoch=69, minibatch=5 loss=0.07154, Wa=1.2613, Wb=1.2326, dWa=-0.4661, dWb=-0.4027
-Epoch=69, minibatch=6 loss=0.05410, Wa=1.2613, Wb=1.2326, dWa=0.7851, dWb=0.4933
-Epoch=69, minibatch=7 loss=0.05137, Wa=1.2613, Wb=1.2325, dWa=0.5735, dWb=0.0024
-Epoch=70, minibatch=0 loss=0.04788, Wa=1.2613, Wb=1.2325, dWa=-0.1532, dWb=-0.0551
-Epoch=70, minibatch=1 loss=0.04852, Wa=1.2613, Wb=1.2325, dWa=-0.7220, dWb=-0.4047
-Epoch=70, minibatch=2 loss=0.06474, Wa=1.2613, Wb=1.2325, dWa=-0.3466, dWb=0.2670
-Epoch=70, minibatch=3 loss=0.06769, Wa=1.2614, Wb=1.2325, dWa=0.0380, dWb=0.4251
-Epoch=70, minibatch=4 loss=0.04763, Wa=1.2614, Wb=1.2325, dWa=0.2837, dWb=0.3379
-Epoch=70, minibatch=5 loss=0.05723, Wa=1.2614, Wb=1.2325, dWa=0.3805, dWb=-0.5332
-Epoch=70, minibatch=6 loss=0.06155, Wa=1.2614, Wb=1.2325, dWa=0.0475, dWb=0.0572
-Epoch=70, minibatch=7 loss=0.05478, Wa=1.2614, Wb=1.2325, dWa=0.9330, dWb=0.0150
-Epoch=71, minibatch=0 loss=0.05401, Wa=1.2614, Wb=1.2325, dWa=-0.1765, dWb=0.6394
-Epoch=71, minibatch=1 loss=0.05394, Wa=1.2614, Wb=1.2325, dWa=0.1661, dWb=-0.0048
-Epoch=71, minibatch=2 loss=0.06638, Wa=1.2613, Wb=1.2324, dWa=-1.1890, dWb=-0.6260
-Epoch=71, minibatch=3 loss=0.05898, Wa=1.2613, Wb=1.2324, dWa=-0.5569, dWb=-0.2272
-Epoch=71, minibatch=4 loss=0.06100, Wa=1.2614, Wb=1.2324, dWa=0.0894, dWb=0.0646
-Epoch=71, minibatch=5 loss=0.05042, Wa=1.2614, Wb=1.2324, dWa=0.6049, dWb=-0.0538
-Epoch=71, minibatch=6 loss=0.05468, Wa=1.2614, Wb=1.2325, dWa=1.1656, dWb=0.0101
-Epoch=71, minibatch=7 loss=0.05062, Wa=1.2614, Wb=1.2325, dWa=0.3162, dWb=0.2568
-Epoch=72, minibatch=0 loss=0.05298, Wa=1.2613, Wb=1.2325, dWa=0.7463, dWb=0.3926
-Epoch=72, minibatch=1 loss=0.05815, Wa=1.2613, Wb=1.2324, dWa=0.7346, dWb=0.3705
-Epoch=72, minibatch=2 loss=0.06554, Wa=1.2612, Wb=1.2324, dWa=-0.1068, dWb=-0.0867
-Epoch=72, minibatch=3 loss=0.05403, Wa=1.2611, Wb=1.2324, dWa=0.0584, dWb=-0.0333
-Epoch=72, minibatch=4 loss=0.05303, Wa=1.2611, Wb=1.2324, dWa=-1.2389, dWb=0.2549
-Epoch=72, minibatch=5 loss=0.06277, Wa=1.2611, Wb=1.2324, dWa=0.0906, dWb=-0.5295
-Epoch=72, minibatch=6 loss=0.05217, Wa=1.2610, Wb=1.2323, dWa=0.0294, dWb=-0.4895
-Epoch=72, minibatch=7 loss=0.05159, Wa=1.2610, Wb=1.2324, dWa=-0.3800, dWb=0.0628
-Epoch=73, minibatch=0 loss=0.05823, Wa=1.2610, Wb=1.2324, dWa=1.0668, dWb=-0.0399
-Epoch=73, minibatch=1 loss=0.06536, Wa=1.2610, Wb=1.2324, dWa=0.0222, dWb=0.0190
-Epoch=73, minibatch=2 loss=0.05211, Wa=1.2610, Wb=1.2324, dWa=-0.0638, dWb=0.1208
-Epoch=73, minibatch=3 loss=0.05672, Wa=1.2609, Wb=1.2324, dWa=-0.1456, dWb=0.0049
-Epoch=73, minibatch=4 loss=0.05916, Wa=1.2609, Wb=1.2324, dWa=-0.2767, dWb=-0.0423
-Epoch=73, minibatch=5 loss=0.05268, Wa=1.2609, Wb=1.2324, dWa=0.2286, dWb=-0.0434
-Epoch=73, minibatch=6 loss=0.05645, Wa=1.2609, Wb=1.2324, dWa=-0.2352, dWb=-0.0701
-Epoch=73, minibatch=7 loss=0.04936, Wa=1.2609, Wb=1.2324, dWa=-1.1247, dWb=-0.0817
-Epoch=74, minibatch=0 loss=0.06756, Wa=1.2609, Wb=1.2324, dWa=-1.5393, dWb=-1.0623
-Epoch=74, minibatch=1 loss=0.04657, Wa=1.2610, Wb=1.2324, dWa=-0.0271, dWb=0.2376
-Epoch=74, minibatch=2 loss=0.06675, Wa=1.2610, Wb=1.2325, dWa=0.2467, dWb=-0.2704
-Epoch=74, minibatch=3 loss=0.05354, Wa=1.2611, Wb=1.2325, dWa=-0.0488, dWb=0.4343
-Epoch=74, minibatch=4 loss=0.05441, Wa=1.2611, Wb=1.2325, dWa=1.0404, dWb=0.6492
-Epoch=74, minibatch=5 loss=0.05502, Wa=1.2611, Wb=1.2325, dWa=-0.5843, dWb=0.5285
-Epoch=74, minibatch=6 loss=0.05518, Wa=1.2612, Wb=1.2325, dWa=0.4593, dWb=-0.4841
-Epoch=74, minibatch=7 loss=0.05131, Wa=1.2612, Wb=1.2325, dWa=0.3016, dWb=-0.0478
-Epoch=75, minibatch=0 loss=0.05346, Wa=1.2612, Wb=1.2325, dWa=-0.0255, dWb=-0.0057
-Epoch=75, minibatch=1 loss=0.06360, Wa=1.2612, Wb=1.2325, dWa=-0.3100, dWb=-0.2444
-Epoch=75, minibatch=2 loss=0.05261, Wa=1.2612, Wb=1.2325, dWa=0.3936, dWb=-0.0365
-Epoch=75, minibatch=3 loss=0.05932, Wa=1.2612, Wb=1.2325, dWa=-0.3940, dWb=-0.2086
-Epoch=75, minibatch=4 loss=0.05120, Wa=1.2612, Wb=1.2325, dWa=0.5082, dWb=-0.0257
-Epoch=75, minibatch=5 loss=0.06420, Wa=1.2612, Wb=1.2325, dWa=0.2949, dWb=-0.0479
-Epoch=75, minibatch=6 loss=0.05949, Wa=1.2612, Wb=1.2325, dWa=-0.4345, dWb=0.6635
-Epoch=75, minibatch=7 loss=0.04602, Wa=1.2612, Wb=1.2325, dWa=0.0522, dWb=-0.0514
-Epoch=76, minibatch=0 loss=0.06376, Wa=1.2612, Wb=1.2325, dWa=-0.1137, dWb=0.6403
-Epoch=76, minibatch=1 loss=0.05733, Wa=1.2612, Wb=1.2325, dWa=-0.2277, dWb=-0.1065
-Epoch=76, minibatch=2 loss=0.05330, Wa=1.2612, Wb=1.2325, dWa=-0.9116, dWb=-0.0875
-Epoch=76, minibatch=3 loss=0.05299, Wa=1.2612, Wb=1.2325, dWa=0.7832, dWb=-0.2983
-Epoch=76, minibatch=4 loss=0.04466, Wa=1.2612, Wb=1.2325, dWa=-0.3084, dWb=0.2420
-Epoch=76, minibatch=5 loss=0.05277, Wa=1.2613, Wb=1.2324, dWa=0.0427, dWb=-0.0691
-Epoch=76, minibatch=6 loss=0.06578, Wa=1.2613, Wb=1.2324, dWa=-0.0569, dWb=0.1307
-Epoch=76, minibatch=7 loss=0.05940, Wa=1.2613, Wb=1.2324, dWa=0.9414, dWb=-0.4245
-Epoch=77, minibatch=0 loss=0.05148, Wa=1.2613, Wb=1.2324, dWa=1.3230, dWb=0.2654
-Epoch=77, minibatch=1 loss=0.05676, Wa=1.2612, Wb=1.2324, dWa=0.0833, dWb=0.1150
-Epoch=77, minibatch=2 loss=0.05812, Wa=1.2612, Wb=1.2324, dWa=-0.5348, dWb=0.0273
-Epoch=77, minibatch=3 loss=0.05063, Wa=1.2611, Wb=1.2324, dWa=-0.1860, dWb=-0.1631
-Epoch=77, minibatch=4 loss=0.05926, Wa=1.2611, Wb=1.2324, dWa=0.2329, dWb=-0.7521
-Epoch=77, minibatch=5 loss=0.06030, Wa=1.2611, Wb=1.2324, dWa=0.5350, dWb=-0.0057
-Epoch=77, minibatch=6 loss=0.06016, Wa=1.2610, Wb=1.2324, dWa=-0.8723, dWb=0.9002
-Epoch=77, minibatch=7 loss=0.05346, Wa=1.2610, Wb=1.2324, dWa=-0.6218, dWb=-0.4210
-Epoch=78, minibatch=0 loss=0.04327, Wa=1.2610, Wb=1.2324, dWa=-0.6005, dWb=-0.1157
-Epoch=78, minibatch=1 loss=0.05793, Wa=1.2611, Wb=1.2324, dWa=-0.1507, dWb=0.0519
-Epoch=78, minibatch=2 loss=0.06357, Wa=1.2611, Wb=1.2324, dWa=0.7099, dWb=0.1568
-Epoch=78, minibatch=3 loss=0.04097, Wa=1.2611, Wb=1.2324, dWa=-0.0456, dWb=-0.3734
-Epoch=78, minibatch=4 loss=0.05627, Wa=1.2611, Wb=1.2325, dWa=0.2562, dWb=-0.5784
-Epoch=78, minibatch=5 loss=0.06791, Wa=1.2611, Wb=1.2325, dWa=1.3552, dWb=0.1988
-Epoch=78, minibatch=6 loss=0.05686, Wa=1.2611, Wb=1.2325, dWa=-0.5286, dWb=0.2801
-Epoch=78, minibatch=7 loss=0.06325, Wa=1.2610, Wb=1.2325, dWa=-1.1762, dWb=0.3557
-Epoch=79, minibatch=0 loss=0.05233, Wa=1.2611, Wb=1.2325, dWa=0.3557, dWb=0.0435
-Epoch=79, minibatch=1 loss=0.05381, Wa=1.2611, Wb=1.2325, dWa=-0.5913, dWb=-0.6406
-Epoch=79, minibatch=2 loss=0.05733, Wa=1.2611, Wb=1.2325, dWa=-0.0926, dWb=0.0797
-Epoch=79, minibatch=3 loss=0.06296, Wa=1.2611, Wb=1.2325, dWa=-0.3569, dWb=0.3917
-Epoch=79, minibatch=4 loss=0.05531, Wa=1.2611, Wb=1.2325, dWa=-0.0562, dWb=0.3788
-Epoch=79, minibatch=5 loss=0.05386, Wa=1.2612, Wb=1.2325, dWa=-0.2875, dWb=-0.2836
-Epoch=79, minibatch=6 loss=0.05542, Wa=1.2612, Wb=1.2325, dWa=0.1327, dWb=0.0843
-Epoch=79, minibatch=7 loss=0.05896, Wa=1.2612, Wb=1.2325, dWa=0.8458, dWb=-0.0318
-Epoch=80, minibatch=0 loss=0.05255, Wa=1.2612, Wb=1.2325, dWa=-0.1149, dWb=-0.1010
-Epoch=80, minibatch=1 loss=0.05742, Wa=1.2612, Wb=1.2325, dWa=-0.0548, dWb=0.0214
-Epoch=80, minibatch=2 loss=0.05752, Wa=1.2612, Wb=1.2325, dWa=0.1104, dWb=0.2299
-Epoch=80, minibatch=3 loss=0.05218, Wa=1.2612, Wb=1.2325, dWa=-0.1811, dWb=0.2064
-Epoch=80, minibatch=4 loss=0.05726, Wa=1.2612, Wb=1.2325, dWa=0.1537, dWb=0.0831
-Epoch=80, minibatch=5 loss=0.06011, Wa=1.2612, Wb=1.2325, dWa=1.4229, dWb=0.3131
-Epoch=80, minibatch=6 loss=0.05967, Wa=1.2612, Wb=1.2324, dWa=-0.4815, dWb=-0.7451
-Epoch=80, minibatch=7 loss=0.05324, Wa=1.2612, Wb=1.2324, dWa=-0.7407, dWb=0.0192
-Epoch=81, minibatch=0 loss=0.05488, Wa=1.2612, Wb=1.2324, dWa=-1.0161, dWb=-0.5844
-Epoch=81, minibatch=1 loss=0.05169, Wa=1.2612, Wb=1.2325, dWa=0.4478, dWb=0.1375
-Epoch=81, minibatch=2 loss=0.06577, Wa=1.2612, Wb=1.2325, dWa=0.5656, dWb=0.2981
-Epoch=81, minibatch=3 loss=0.05740, Wa=1.2612, Wb=1.2325, dWa=0.5688, dWb=-0.3427
-Epoch=81, minibatch=4 loss=0.05584, Wa=1.2612, Wb=1.2325, dWa=0.3749, dWb=0.4998
-Epoch=81, minibatch=5 loss=0.06046, Wa=1.2612, Wb=1.2325, dWa=-1.2013, dWb=0.7227
-Epoch=81, minibatch=6 loss=0.05426, Wa=1.2612, Wb=1.2325, dWa=0.0194, dWb=-0.1455
-Epoch=81, minibatch=7 loss=0.04968, Wa=1.2612, Wb=1.2324, dWa=0.2861, dWb=-0.5740
-Epoch=82, minibatch=0 loss=0.05662, Wa=1.2612, Wb=1.2324, dWa=0.6932, dWb=-0.1251
-Epoch=82, minibatch=1 loss=0.04886, Wa=1.2612, Wb=1.2325, dWa=0.0994, dWb=0.3872
-Epoch=82, minibatch=2 loss=0.05456, Wa=1.2611, Wb=1.2324, dWa=-1.0234, dWb=-0.0662
-Epoch=82, minibatch=3 loss=0.06838, Wa=1.2611, Wb=1.2324, dWa=-0.3433, dWb=0.1174
-Epoch=82, minibatch=4 loss=0.05321, Wa=1.2612, Wb=1.2324, dWa=-0.2386, dWb=0.3390
-Epoch=82, minibatch=5 loss=0.05680, Wa=1.2612, Wb=1.2324, dWa=0.4217, dWb=-0.4236
-Epoch=82, minibatch=6 loss=0.05350, Wa=1.2612, Wb=1.2324, dWa=0.0498, dWb=-0.0781
-Epoch=82, minibatch=7 loss=0.05802, Wa=1.2612, Wb=1.2324, dWa=0.3337, dWb=-0.1708
-Epoch=83, minibatch=0 loss=0.06514, Wa=1.2612, Wb=1.2324, dWa=0.7724, dWb=0.2338
-Epoch=83, minibatch=1 loss=0.05161, Wa=1.2612, Wb=1.2324, dWa=-0.2124, dWb=0.2816
-Epoch=83, minibatch=2 loss=0.04635, Wa=1.2612, Wb=1.2324, dWa=0.0446, dWb=0.0106
-Epoch=83, minibatch=3 loss=0.04824, Wa=1.2611, Wb=1.2324, dWa=0.0695, dWb=-0.3329
-Epoch=83, minibatch=4 loss=0.06314, Wa=1.2611, Wb=1.2324, dWa=-1.5866, dWb=-0.2038
-Epoch=83, minibatch=5 loss=0.06229, Wa=1.2611, Wb=1.2324, dWa=-0.1037, dWb=-0.5061
-Epoch=83, minibatch=6 loss=0.05058, Wa=1.2612, Wb=1.2324, dWa=0.0860, dWb=0.3159
-Epoch=83, minibatch=7 loss=0.06265, Wa=1.2612, Wb=1.2324, dWa=0.9015, dWb=0.1646
-Epoch=84, minibatch=0 loss=0.04667, Wa=1.2612, Wb=1.2324, dWa=0.6161, dWb=-0.5612
-Epoch=84, minibatch=1 loss=0.05095, Wa=1.2612, Wb=1.2325, dWa=0.3887, dWb=0.1736
-Epoch=84, minibatch=2 loss=0.04900, Wa=1.2612, Wb=1.2325, dWa=0.2045, dWb=0.1125
-Epoch=84, minibatch=3 loss=0.05636, Wa=1.2611, Wb=1.2325, dWa=-0.5975, dWb=0.3211
-Epoch=84, minibatch=4 loss=0.06052, Wa=1.2611, Wb=1.2325, dWa=0.8718, dWb=0.0507
-Epoch=84, minibatch=5 loss=0.05708, Wa=1.2611, Wb=1.2325, dWa=0.0266, dWb=0.4590
-Epoch=84, minibatch=6 loss=0.05314, Wa=1.2610, Wb=1.2325, dWa=-0.6611, dWb=-0.3511
-Epoch=84, minibatch=7 loss=0.07638, Wa=1.2610, Wb=1.2325, dWa=-0.9836, dWb=-0.2232
-Epoch=85, minibatch=0 loss=0.05809, Wa=1.2610, Wb=1.2325, dWa=0.3851, dWb=0.6594
-Epoch=85, minibatch=1 loss=0.06585, Wa=1.2610, Wb=1.2324, dWa=-1.0134, dWb=-0.4902
-Epoch=85, minibatch=2 loss=0.04889, Wa=1.2611, Wb=1.2324, dWa=-1.2512, dWb=-0.1747
-Epoch=85, minibatch=3 loss=0.06387, Wa=1.2611, Wb=1.2324, dWa=1.0468, dWb=-0.0225
-Epoch=85, minibatch=4 loss=0.05389, Wa=1.2612, Wb=1.2324, dWa=-0.5083, dWb=0.1066
-Epoch=85, minibatch=5 loss=0.04965, Wa=1.2612, Wb=1.2324, dWa=-0.2351, dWb=-0.1252
-Epoch=85, minibatch=6 loss=0.05382, Wa=1.2613, Wb=1.2325, dWa=1.0837, dWb=-0.2551
-Epoch=85, minibatch=7 loss=0.05611, Wa=1.2613, Wb=1.2325, dWa=0.4296, dWb=0.2887
-Epoch=86, minibatch=0 loss=0.05648, Wa=1.2613, Wb=1.2325, dWa=-0.8896, dWb=-0.0780
-Epoch=86, minibatch=1 loss=0.05282, Wa=1.2613, Wb=1.2325, dWa=0.0314, dWb=0.1251
-Epoch=86, minibatch=2 loss=0.06089, Wa=1.2613, Wb=1.2325, dWa=0.3630, dWb=0.2258
-Epoch=86, minibatch=3 loss=0.05832, Wa=1.2613, Wb=1.2325, dWa=0.7492, dWb=0.4697
-Epoch=86, minibatch=4 loss=0.05284, Wa=1.2613, Wb=1.2324, dWa=0.9502, dWb=-0.2829
-Epoch=86, minibatch=5 loss=0.04761, Wa=1.2613, Wb=1.2324, dWa=0.3791, dWb=-0.2795
-Epoch=86, minibatch=6 loss=0.06235, Wa=1.2612, Wb=1.2324, dWa=-1.1567, dWb=-0.4081
-Epoch=86, minibatch=7 loss=0.05874, Wa=1.2612, Wb=1.2324, dWa=-0.1661, dWb=0.2567
-Epoch=87, minibatch=0 loss=0.06035, Wa=1.2612, Wb=1.2324, dWa=-0.7249, dWb=0.0541
-Epoch=87, minibatch=1 loss=0.06269, Wa=1.2612, Wb=1.2324, dWa=0.1410, dWb=0.4401
-Epoch=87, minibatch=2 loss=0.06028, Wa=1.2612, Wb=1.2324, dWa=0.0319, dWb=-0.3816
-Epoch=87, minibatch=3 loss=0.04516, Wa=1.2612, Wb=1.2324, dWa=-0.4920, dWb=-0.5242
-Epoch=87, minibatch=4 loss=0.05697, Wa=1.2613, Wb=1.2325, dWa=0.8762, dWb=-0.6945
-Epoch=87, minibatch=5 loss=0.04671, Wa=1.2613, Wb=1.2325, dWa=0.0515, dWb=0.4189
-Epoch=87, minibatch=6 loss=0.05959, Wa=1.2612, Wb=1.2325, dWa=0.4185, dWb=0.6984
-Epoch=87, minibatch=7 loss=0.05823, Wa=1.2612, Wb=1.2325, dWa=-0.1499, dWb=0.0110
-Epoch=88, minibatch=0 loss=0.05994, Wa=1.2612, Wb=1.2325, dWa=1.0516, dWb=0.3636
-Epoch=88, minibatch=1 loss=0.05897, Wa=1.2612, Wb=1.2325, dWa=0.0482, dWb=0.0121
-Epoch=88, minibatch=2 loss=0.05347, Wa=1.2611, Wb=1.2325, dWa=0.1305, dWb=-0.0582
-Epoch=88, minibatch=3 loss=0.05251, Wa=1.2611, Wb=1.2325, dWa=0.0705, dWb=0.0341
-Epoch=88, minibatch=4 loss=0.05493, Wa=1.2611, Wb=1.2325, dWa=-0.0416, dWb=0.1071
-Epoch=88, minibatch=5 loss=0.05275, Wa=1.2610, Wb=1.2324, dWa=-0.4575, dWb=-0.4291
-Epoch=88, minibatch=6 loss=0.05884, Wa=1.2610, Wb=1.2324, dWa=-0.9645, dWb=0.2732
-Epoch=88, minibatch=7 loss=0.05873, Wa=1.2610, Wb=1.2324, dWa=-0.0388, dWb=-0.3295
-Epoch=89, minibatch=0 loss=0.05449, Wa=1.2610, Wb=1.2324, dWa=0.2922, dWb=-0.1073
-Epoch=89, minibatch=1 loss=0.05600, Wa=1.2610, Wb=1.2324, dWa=0.5013, dWb=0.6704
-Epoch=89, minibatch=2 loss=0.05351, Wa=1.2610, Wb=1.2324, dWa=-0.2266, dWb=-0.0469
-Epoch=89, minibatch=3 loss=0.06573, Wa=1.2610, Wb=1.2324, dWa=-0.0071, dWb=-0.8690
-Epoch=89, minibatch=4 loss=0.05226, Wa=1.2610, Wb=1.2324, dWa=-0.0976, dWb=0.3841
-Epoch=89, minibatch=5 loss=0.06004, Wa=1.2610, Wb=1.2324, dWa=-0.1891, dWb=-0.3134
-Epoch=89, minibatch=6 loss=0.05039, Wa=1.2610, Wb=1.2325, dWa=-0.2017, dWb=0.0902
-Epoch=89, minibatch=7 loss=0.05749, Wa=1.2610, Wb=1.2325, dWa=-0.3554, dWb=0.1325
-Epoch=90, minibatch=0 loss=0.06485, Wa=1.2611, Wb=1.2325, dWa=0.0622, dWb=-0.1384
-Epoch=90, minibatch=1 loss=0.05486, Wa=1.2611, Wb=1.2325, dWa=-0.1231, dWb=-0.1353
-Epoch=90, minibatch=2 loss=0.05095, Wa=1.2611, Wb=1.2325, dWa=0.8851, dWb=0.0449
-Epoch=90, minibatch=3 loss=0.06693, Wa=1.2611, Wb=1.2325, dWa=0.7782, dWb=0.6292
-Epoch=90, minibatch=4 loss=0.04851, Wa=1.2611, Wb=1.2325, dWa=0.0105, dWb=-0.1762
-Epoch=90, minibatch=5 loss=0.05418, Wa=1.2610, Wb=1.2325, dWa=-0.0181, dWb=0.1873
-Epoch=90, minibatch=6 loss=0.05026, Wa=1.2610, Wb=1.2325, dWa=-0.2163, dWb=0.0628
-Epoch=90, minibatch=7 loss=0.05954, Wa=1.2610, Wb=1.2325, dWa=-1.5912, dWb=-0.5066
-Epoch=91, minibatch=0 loss=0.05156, Wa=1.2610, Wb=1.2325, dWa=-0.1902, dWb=-0.0813
-Epoch=91, minibatch=1 loss=0.06232, Wa=1.2611, Wb=1.2325, dWa=-1.5493, dWb=-0.1722
-Epoch=91, minibatch=2 loss=0.05692, Wa=1.2611, Wb=1.2325, dWa=-0.2328, dWb=0.3147
-Epoch=91, minibatch=3 loss=0.05567, Wa=1.2612, Wb=1.2325, dWa=0.2872, dWb=-0.5992
-Epoch=91, minibatch=4 loss=0.05704, Wa=1.2613, Wb=1.2325, dWa=-0.1937, dWb=0.2341
-Epoch=91, minibatch=5 loss=0.04783, Wa=1.2613, Wb=1.2325, dWa=-0.3394, dWb=0.4085
-Epoch=91, minibatch=6 loss=0.05478, Wa=1.2614, Wb=1.2325, dWa=0.4300, dWb=-0.4385
-Epoch=91, minibatch=7 loss=0.06452, Wa=1.2614, Wb=1.2325, dWa=1.9812, dWb=0.3745
-Epoch=92, minibatch=0 loss=0.06668, Wa=1.2614, Wb=1.2325, dWa=0.7420, dWb=0.7080
-Epoch=92, minibatch=1 loss=0.05903, Wa=1.2614, Wb=1.2325, dWa=0.4251, dWb=0.2259
-Epoch=92, minibatch=2 loss=0.06180, Wa=1.2613, Wb=1.2325, dWa=-1.2247, dWb=-0.0572
-Epoch=92, minibatch=3 loss=0.05063, Wa=1.2613, Wb=1.2324, dWa=1.4614, dWb=0.2147
-Epoch=92, minibatch=4 loss=0.05108, Wa=1.2613, Wb=1.2324, dWa=-0.2415, dWb=-0.3420
-Epoch=92, minibatch=5 loss=0.05814, Wa=1.2612, Wb=1.2324, dWa=0.0794, dWb=-0.1331
-Epoch=92, minibatch=6 loss=0.04960, Wa=1.2612, Wb=1.2324, dWa=-0.2949, dWb=-0.0928
-Epoch=92, minibatch=7 loss=0.05323, Wa=1.2612, Wb=1.2324, dWa=-0.6346, dWb=-0.4990
-Epoch=93, minibatch=0 loss=0.06379, Wa=1.2612, Wb=1.2324, dWa=-0.6740, dWb=-0.3485
-Epoch=93, minibatch=1 loss=0.05101, Wa=1.2612, Wb=1.2324, dWa=1.0049, dWb=0.1612
-Epoch=93, minibatch=2 loss=0.05457, Wa=1.2612, Wb=1.2324, dWa=0.6528, dWb=0.4988
-Epoch=93, minibatch=3 loss=0.05160, Wa=1.2612, Wb=1.2324, dWa=-0.8530, dWb=-0.3049
-Epoch=93, minibatch=4 loss=0.05359, Wa=1.2612, Wb=1.2324, dWa=-0.2730, dWb=0.2780
-Epoch=93, minibatch=5 loss=0.05366, Wa=1.2612, Wb=1.2324, dWa=0.0369, dWb=-0.2426
-Epoch=93, minibatch=6 loss=0.05937, Wa=1.2612, Wb=1.2324, dWa=0.0565, dWb=-0.0691
-Epoch=93, minibatch=7 loss=0.06234, Wa=1.2612, Wb=1.2324, dWa=0.0452, dWb=-0.0008
-Epoch=94, minibatch=0 loss=0.05900, Wa=1.2612, Wb=1.2324, dWa=-1.4933, dWb=0.0834
-Epoch=94, minibatch=1 loss=0.05238, Wa=1.2612, Wb=1.2324, dWa=-0.1226, dWb=0.2042
-Epoch=94, minibatch=2 loss=0.06033, Wa=1.2613, Wb=1.2324, dWa=0.3731, dWb=-0.1606
-Epoch=94, minibatch=3 loss=0.05453, Wa=1.2613, Wb=1.2324, dWa=0.0134, dWb=0.4692
-Epoch=94, minibatch=4 loss=0.04942, Wa=1.2613, Wb=1.2324, dWa=0.2022, dWb=-0.2956
-Epoch=94, minibatch=5 loss=0.07233, Wa=1.2613, Wb=1.2324, dWa=-0.2107, dWb=0.4762
-Epoch=94, minibatch=6 loss=0.05443, Wa=1.2613, Wb=1.2324, dWa=1.6068, dWb=-0.1378
-Epoch=94, minibatch=7 loss=0.04774, Wa=1.2613, Wb=1.2324, dWa=-0.1597, dWb=-0.6274
-Epoch=95, minibatch=0 loss=0.04737, Wa=1.2613, Wb=1.2324, dWa=0.7735, dWb=0.5745
-Epoch=95, minibatch=1 loss=0.06086, Wa=1.2613, Wb=1.2324, dWa=0.3726, dWb=-0.1503
-Epoch=95, minibatch=2 loss=0.04621, Wa=1.2612, Wb=1.2324, dWa=-0.2709, dWb=0.5168
-Epoch=95, minibatch=3 loss=0.06435, Wa=1.2612, Wb=1.2324, dWa=-0.3343, dWb=-0.3466
-Epoch=95, minibatch=4 loss=0.05122, Wa=1.2611, Wb=1.2324, dWa=-0.2747, dWb=-0.4183
-Epoch=95, minibatch=5 loss=0.05477, Wa=1.2611, Wb=1.2324, dWa=-1.6752, dWb=-0.4158
-Epoch=95, minibatch=6 loss=0.05909, Wa=1.2612, Wb=1.2324, dWa=1.1070, dWb=0.2118
-Epoch=95, minibatch=7 loss=0.06620, Wa=1.2612, Wb=1.2324, dWa=0.3078, dWb=-0.0142
-Epoch=96, minibatch=0 loss=0.04935, Wa=1.2612, Wb=1.2324, dWa=-0.4148, dWb=-0.0336
-Epoch=96, minibatch=1 loss=0.05859, Wa=1.2612, Wb=1.2324, dWa=-0.2434, dWb=0.2959
-Epoch=96, minibatch=2 loss=0.05628, Wa=1.2612, Wb=1.2324, dWa=0.6077, dWb=-0.1135
-Epoch=96, minibatch=3 loss=0.05251, Wa=1.2612, Wb=1.2324, dWa=-0.6580, dWb=-0.5809
-Epoch=96, minibatch=4 loss=0.04949, Wa=1.2612, Wb=1.2324, dWa=1.1856, dWb=0.1718
-Epoch=96, minibatch=5 loss=0.05320, Wa=1.2612, Wb=1.2325, dWa=0.7389, dWb=-0.0412
-Epoch=96, minibatch=6 loss=0.07039, Wa=1.2611, Wb=1.2325, dWa=0.0623, dWb=0.7717
-Epoch=96, minibatch=7 loss=0.06020, Wa=1.2611, Wb=1.2325, dWa=-1.2924, dWb=-0.4879
-Epoch=97, minibatch=0 loss=0.05499, Wa=1.2611, Wb=1.2325, dWa=0.5265, dWb=0.2958
-Epoch=97, minibatch=1 loss=0.05994, Wa=1.2611, Wb=1.2325, dWa=0.5005, dWb=-0.3550
-Epoch=97, minibatch=2 loss=0.04825, Wa=1.2610, Wb=1.2325, dWa=-0.5952, dWb=0.0771
-Epoch=97, minibatch=3 loss=0.05773, Wa=1.2610, Wb=1.2325, dWa=0.5628, dWb=-0.1469
-Epoch=97, minibatch=4 loss=0.05768, Wa=1.2610, Wb=1.2325, dWa=-0.6322, dWb=0.0563
-Epoch=97, minibatch=5 loss=0.04973, Wa=1.2610, Wb=1.2325, dWa=0.2261, dWb=0.0641
-Epoch=97, minibatch=6 loss=0.05850, Wa=1.2610, Wb=1.2325, dWa=-0.3790, dWb=-0.2771
-Epoch=97, minibatch=7 loss=0.06314, Wa=1.2610, Wb=1.2325, dWa=-0.4778, dWb=0.2523
-Epoch=98, minibatch=0 loss=0.05301, Wa=1.2610, Wb=1.2325, dWa=-0.0175, dWb=-0.0328
-Epoch=98, minibatch=1 loss=0.06333, Wa=1.2610, Wb=1.2325, dWa=0.3189, dWb=-0.1426
-Epoch=98, minibatch=2 loss=0.05407, Wa=1.2610, Wb=1.2325, dWa=-0.8139, dWb=-0.4422
-Epoch=98, minibatch=3 loss=0.05414, Wa=1.2611, Wb=1.2325, dWa=-1.2691, dWb=-0.1506
-Epoch=98, minibatch=4 loss=0.05403, Wa=1.2611, Wb=1.2325, dWa=0.6963, dWb=-0.2745
-Epoch=98, minibatch=5 loss=0.05746, Wa=1.2612, Wb=1.2326, dWa=0.0293, dWb=1.0282
-Epoch=98, minibatch=6 loss=0.05721, Wa=1.2612, Wb=1.2326, dWa=0.8996, dWb=-0.2976
-Epoch=98, minibatch=7 loss=0.05687, Wa=1.2612, Wb=1.2326, dWa=0.1127, dWb=0.3481
-Epoch=99, minibatch=0 loss=0.06448, Wa=1.2612, Wb=1.2326, dWa=0.0539, dWb=-0.0388
-Epoch=99, minibatch=1 loss=0.06579, Wa=1.2612, Wb=1.2326, dWa=-1.4453, dWb=-0.4474
-Epoch=99, minibatch=2 loss=0.05237, Wa=1.2612, Wb=1.2326, dWa=0.2643, dWb=0.7034
-Epoch=99, minibatch=3 loss=0.04655, Wa=1.2613, Wb=1.2326, dWa=-0.0110, dWb=0.3113
-Epoch=99, minibatch=4 loss=0.04898, Wa=1.2613, Wb=1.2325, dWa=0.3554, dWb=-0.2414
-Epoch=99, minibatch=5 loss=0.04623, Wa=1.2613, Wb=1.2325, dWa=0.0780, dWb=-0.1801
-Epoch=99, minibatch=6 loss=0.06561, Wa=1.2613, Wb=1.2325, dWa=0.7903, dWb=-0.1446
-Epoch=99, minibatch=7 loss=0.06003, Wa=1.2613, Wb=1.2325, dWa=0.2055, dWb=0.1305
+update=1, Epoch=0, minibatch=0, loss=60.90100, Wa=0.1000, Wb=1.8000
+update=2, Epoch=0, minibatch=1, loss=56.29499, Wa=0.1000, Wb=1.7998
+update=3, Epoch=0, minibatch=2, loss=55.43511, Wa=0.1001, Wb=1.7996
+update=4, Epoch=0, minibatch=3, loss=65.93208, Wa=0.1013, Wb=1.7994
+update=5, Epoch=0, minibatch=4, loss=54.86081, Wa=0.1019, Wb=1.7991
+update=6, Epoch=0, minibatch=5, loss=55.45068, Wa=0.1026, Wb=1.7988
+update=7, Epoch=0, minibatch=6, loss=58.37702, Wa=0.1031, Wb=1.7984
+update=8, Epoch=0, minibatch=7, loss=56.53358, Wa=0.1049, Wb=1.7981
+update=9, Epoch=1, minibatch=0, loss=58.95705, Wa=0.1084, Wb=1.7977
+update=10, Epoch=1, minibatch=1, loss=57.46046, Wa=0.1136, Wb=1.7973
+update=11, Epoch=1, minibatch=2, loss=60.02883, Wa=0.1223, Wb=1.7969
+update=12, Epoch=1, minibatch=3, loss=51.43661, Wa=0.1302, Wb=1.7964
+update=13, Epoch=1, minibatch=4, loss=51.25135, Wa=0.1395, Wb=1.7960
+update=14, Epoch=1, minibatch=5, loss=48.91928, Wa=0.1475, Wb=1.7954
+update=15, Epoch=1, minibatch=6, loss=53.51249, Wa=0.1566, Wb=1.7948
+update=16, Epoch=1, minibatch=7, loss=58.61481, Wa=0.1680, Wb=1.7942
+update=17, Epoch=2, minibatch=0, loss=51.23108, Wa=0.1796, Wb=1.7934
+update=18, Epoch=2, minibatch=1, loss=55.69259, Wa=0.1903, Wb=1.7926
+update=19, Epoch=2, minibatch=2, loss=54.03472, Wa=0.2004, Wb=1.7918
+update=20, Epoch=2, minibatch=3, loss=39.07370, Wa=0.2190, Wb=1.7909
+update=21, Epoch=2, minibatch=4, loss=47.34493, Wa=0.2369, Wb=1.7899
+update=22, Epoch=2, minibatch=5, loss=49.77087, Wa=0.2559, Wb=1.7888
+update=23, Epoch=2, minibatch=6, loss=53.04425, Wa=0.2797, Wb=1.7877
+update=24, Epoch=2, minibatch=7, loss=41.30389, Wa=0.3110, Wb=1.7866
+update=25, Epoch=3, minibatch=0, loss=46.05548, Wa=0.3392, Wb=1.7853
+update=26, Epoch=3, minibatch=1, loss=41.16367, Wa=0.3663, Wb=1.7841
+update=27, Epoch=3, minibatch=2, loss=42.14777, Wa=0.3916, Wb=1.7826
+update=28, Epoch=3, minibatch=3, loss=36.53791, Wa=0.4163, Wb=1.7811
+update=29, Epoch=3, minibatch=4, loss=32.71773, Wa=0.4396, Wb=1.7793
+update=30, Epoch=3, minibatch=5, loss=33.57426, Wa=0.4606, Wb=1.7773
+update=31, Epoch=3, minibatch=6, loss=36.31520, Wa=0.4796, Wb=1.7751
+update=32, Epoch=3, minibatch=7, loss=34.17192, Wa=0.4976, Wb=1.7728
+update=33, Epoch=4, minibatch=0, loss=35.28995, Wa=0.5178, Wb=1.7704
+update=34, Epoch=4, minibatch=1, loss=27.96376, Wa=0.5372, Wb=1.7680
+update=35, Epoch=4, minibatch=2, loss=29.66602, Wa=0.5552, Wb=1.7653
+update=36, Epoch=4, minibatch=3, loss=29.33188, Wa=0.5731, Wb=1.7625
+update=37, Epoch=4, minibatch=4, loss=24.81127, Wa=0.5895, Wb=1.7596
+update=38, Epoch=4, minibatch=5, loss=26.88667, Wa=0.6064, Wb=1.7565
+update=39, Epoch=4, minibatch=6, loss=29.16542, Wa=0.6219, Wb=1.7532
+update=40, Epoch=4, minibatch=7, loss=20.54651, Wa=0.6380, Wb=1.7500
+update=41, Epoch=5, minibatch=0, loss=25.16374, Wa=0.6527, Wb=1.7466
+update=42, Epoch=5, minibatch=1, loss=23.92215, Wa=0.6667, Wb=1.7432
+update=43, Epoch=5, minibatch=2, loss=19.22139, Wa=0.6798, Wb=1.7397
+update=44, Epoch=5, minibatch=3, loss=20.21832, Wa=0.6959, Wb=1.7361
+update=45, Epoch=5, minibatch=4, loss=25.51724, Wa=0.7136, Wb=1.7321
+update=46, Epoch=5, minibatch=5, loss=21.47853, Wa=0.7306, Wb=1.7281
+update=47, Epoch=5, minibatch=6, loss=17.31292, Wa=0.7476, Wb=1.7242
+update=48, Epoch=5, minibatch=7, loss=20.08200, Wa=0.7629, Wb=1.7200
+update=49, Epoch=6, minibatch=0, loss=12.30278, Wa=0.7766, Wb=1.7157
+update=50, Epoch=6, minibatch=1, loss=17.98293, Wa=0.7896, Wb=1.7111
+update=51, Epoch=6, minibatch=2, loss=19.79063, Wa=0.8013, Wb=1.7065
+update=52, Epoch=6, minibatch=3, loss=19.93870, Wa=0.8138, Wb=1.7019
+update=53, Epoch=6, minibatch=4, loss=15.59427, Wa=0.8258, Wb=1.6972
+update=54, Epoch=6, minibatch=5, loss=13.81695, Wa=0.8385, Wb=1.6926
+update=55, Epoch=6, minibatch=6, loss=13.36352, Wa=0.8503, Wb=1.6878
+update=56, Epoch=6, minibatch=7, loss=12.75021, Wa=0.8626, Wb=1.6829
+update=57, Epoch=7, minibatch=0, loss=12.92307, Wa=0.8741, Wb=1.6780
+update=58, Epoch=7, minibatch=1, loss=12.93150, Wa=0.8846, Wb=1.6728
+update=59, Epoch=7, minibatch=2, loss=11.86644, Wa=0.8953, Wb=1.6676
+update=60, Epoch=7, minibatch=3, loss=8.71358, Wa=0.9061, Wb=1.6624
+update=61, Epoch=7, minibatch=4, loss=14.77028, Wa=0.9157, Wb=1.6570
+update=62, Epoch=7, minibatch=5, loss=10.25595, Wa=0.9256, Wb=1.6518
+update=63, Epoch=7, minibatch=6, loss=9.39179, Wa=0.9365, Wb=1.6465
+update=64, Epoch=7, minibatch=7, loss=11.50449, Wa=0.9469, Wb=1.6412
+update=65, Epoch=8, minibatch=0, loss=9.39369, Wa=0.9582, Wb=1.6358
+update=66, Epoch=8, minibatch=1, loss=9.04908, Wa=0.9698, Wb=1.6305
+update=67, Epoch=8, minibatch=2, loss=9.08033, Wa=0.9817, Wb=1.6253
+update=68, Epoch=8, minibatch=3, loss=9.40676, Wa=0.9935, Wb=1.6198
+update=69, Epoch=8, minibatch=4, loss=9.87808, Wa=1.0047, Wb=1.6143
+update=70, Epoch=8, minibatch=5, loss=7.99098, Wa=1.0158, Wb=1.6089
+update=71, Epoch=8, minibatch=6, loss=6.02163, Wa=1.0274, Wb=1.6034
+update=72, Epoch=8, minibatch=7, loss=6.10685, Wa=1.0378, Wb=1.5977
+update=73, Epoch=9, minibatch=0, loss=6.13204, Wa=1.0474, Wb=1.5920
+update=74, Epoch=9, minibatch=1, loss=6.96973, Wa=1.0561, Wb=1.5864
+update=75, Epoch=9, minibatch=2, loss=5.96682, Wa=1.0638, Wb=1.5806
+update=76, Epoch=9, minibatch=3, loss=5.88671, Wa=1.0711, Wb=1.5748
+update=77, Epoch=9, minibatch=4, loss=5.14646, Wa=1.0781, Wb=1.5691
+update=78, Epoch=9, minibatch=5, loss=4.65409, Wa=1.0849, Wb=1.5634
+update=79, Epoch=9, minibatch=6, loss=5.71892, Wa=1.0912, Wb=1.5576
+update=80, Epoch=9, minibatch=7, loss=4.11635, Wa=1.0975, Wb=1.5519
+update=81, Epoch=10, minibatch=0, loss=4.38188, Wa=1.1031, Wb=1.5461
+update=82, Epoch=10, minibatch=1, loss=4.74192, Wa=1.1082, Wb=1.5404
+update=83, Epoch=10, minibatch=2, loss=3.72551, Wa=1.1133, Wb=1.5348
+update=84, Epoch=10, minibatch=3, loss=3.75573, Wa=1.1180, Wb=1.5292
+update=85, Epoch=10, minibatch=4, loss=3.94429, Wa=1.1226, Wb=1.5235
+update=86, Epoch=10, minibatch=5, loss=4.25724, Wa=1.1268, Wb=1.5178
+update=87, Epoch=10, minibatch=6, loss=3.22268, Wa=1.1309, Wb=1.5121
+update=88, Epoch=10, minibatch=7, loss=4.30462, Wa=1.1347, Wb=1.5065
+update=89, Epoch=11, minibatch=0, loss=2.46942, Wa=1.1386, Wb=1.5010
+update=90, Epoch=11, minibatch=1, loss=3.15280, Wa=1.1422, Wb=1.4956
+update=91, Epoch=11, minibatch=2, loss=2.93009, Wa=1.1461, Wb=1.4902
+update=92, Epoch=11, minibatch=3, loss=3.44992, Wa=1.1495, Wb=1.4850
+update=93, Epoch=11, minibatch=4, loss=2.91666, Wa=1.1528, Wb=1.4797
+update=94, Epoch=11, minibatch=5, loss=2.82037, Wa=1.1559, Wb=1.4745
+update=95, Epoch=11, minibatch=6, loss=2.70783, Wa=1.1593, Wb=1.4693
+update=96, Epoch=11, minibatch=7, loss=2.19574, Wa=1.1633, Wb=1.4642
+update=97, Epoch=12, minibatch=0, loss=2.47742, Wa=1.1670, Wb=1.4591
+update=98, Epoch=12, minibatch=1, loss=2.38137, Wa=1.1704, Wb=1.4541
+update=99, Epoch=12, minibatch=2, loss=2.40080, Wa=1.1735, Wb=1.4492
+update=100, Epoch=12, minibatch=3, loss=2.03167, Wa=1.1762, Wb=1.4442
+update=101, Epoch=12, minibatch=4, loss=1.84280, Wa=1.1786, Wb=1.4393
+update=102, Epoch=12, minibatch=5, loss=1.62182, Wa=1.1814, Wb=1.4345
+update=103, Epoch=12, minibatch=6, loss=1.91834, Wa=1.1840, Wb=1.4298
+update=104, Epoch=12, minibatch=7, loss=1.42777, Wa=1.1866, Wb=1.4252
+update=105, Epoch=13, minibatch=0, loss=1.48379, Wa=1.1890, Wb=1.4207
+update=106, Epoch=13, minibatch=1, loss=1.59012, Wa=1.1914, Wb=1.4162
+update=107, Epoch=13, minibatch=2, loss=1.62867, Wa=1.1936, Wb=1.4119
+update=108, Epoch=13, minibatch=3, loss=1.21198, Wa=1.1956, Wb=1.4076
+update=109, Epoch=13, minibatch=4, loss=1.16771, Wa=1.1977, Wb=1.4033
+update=110, Epoch=13, minibatch=5, loss=1.73917, Wa=1.1996, Wb=1.3992
+update=111, Epoch=13, minibatch=6, loss=1.34024, Wa=1.2016, Wb=1.3951
+update=112, Epoch=13, minibatch=7, loss=0.97141, Wa=1.2034, Wb=1.3911
+update=113, Epoch=14, minibatch=0, loss=1.25550, Wa=1.2050, Wb=1.3872
+update=114, Epoch=14, minibatch=1, loss=1.02184, Wa=1.2065, Wb=1.3834
+update=115, Epoch=14, minibatch=2, loss=0.92035, Wa=1.2080, Wb=1.3796
+update=116, Epoch=14, minibatch=3, loss=0.89614, Wa=1.2100, Wb=1.3759
+update=117, Epoch=14, minibatch=4, loss=1.12838, Wa=1.2120, Wb=1.3723
+update=118, Epoch=14, minibatch=5, loss=0.83606, Wa=1.2141, Wb=1.3688
+update=119, Epoch=14, minibatch=6, loss=0.71998, Wa=1.2164, Wb=1.3653
+update=120, Epoch=14, minibatch=7, loss=0.71735, Wa=1.2184, Wb=1.3619
+update=121, Epoch=15, minibatch=0, loss=0.78047, Wa=1.2207, Wb=1.3586
+update=122, Epoch=15, minibatch=1, loss=0.62269, Wa=1.2227, Wb=1.3554
+update=123, Epoch=15, minibatch=2, loss=0.64916, Wa=1.2247, Wb=1.3522
+update=124, Epoch=15, minibatch=3, loss=0.69065, Wa=1.2266, Wb=1.3491
+update=125, Epoch=15, minibatch=4, loss=0.64446, Wa=1.2283, Wb=1.3460
+update=126, Epoch=15, minibatch=5, loss=0.55212, Wa=1.2299, Wb=1.3430
+update=127, Epoch=15, minibatch=6, loss=0.49312, Wa=1.2315, Wb=1.3401
+update=128, Epoch=15, minibatch=7, loss=0.54766, Wa=1.2329, Wb=1.3371
+update=129, Epoch=16, minibatch=0, loss=0.42016, Wa=1.2346, Wb=1.3343
+update=130, Epoch=16, minibatch=1, loss=0.54129, Wa=1.2362, Wb=1.3315
+update=131, Epoch=16, minibatch=2, loss=0.43918, Wa=1.2377, Wb=1.3288
+update=132, Epoch=16, minibatch=3, loss=0.41983, Wa=1.2391, Wb=1.3262
+update=133, Epoch=16, minibatch=4, loss=0.36447, Wa=1.2405, Wb=1.3236
+update=134, Epoch=16, minibatch=5, loss=0.40485, Wa=1.2417, Wb=1.3210
+update=135, Epoch=16, minibatch=6, loss=0.36528, Wa=1.2428, Wb=1.3186
+update=136, Epoch=16, minibatch=7, loss=0.36466, Wa=1.2437, Wb=1.3161
+update=137, Epoch=17, minibatch=0, loss=0.36894, Wa=1.2446, Wb=1.3137
+update=138, Epoch=17, minibatch=1, loss=0.30685, Wa=1.2455, Wb=1.3114
+update=139, Epoch=17, minibatch=2, loss=0.21504, Wa=1.2463, Wb=1.3091
+update=140, Epoch=17, minibatch=3, loss=0.29565, Wa=1.2470, Wb=1.3070
+update=141, Epoch=17, minibatch=4, loss=0.29379, Wa=1.2476, Wb=1.3048
+update=142, Epoch=17, minibatch=5, loss=0.27972, Wa=1.2482, Wb=1.3027
+update=143, Epoch=17, minibatch=6, loss=0.20971, Wa=1.2487, Wb=1.3006
+update=144, Epoch=17, minibatch=7, loss=0.26866, Wa=1.2492, Wb=1.2986
+update=145, Epoch=18, minibatch=0, loss=0.25402, Wa=1.2495, Wb=1.2966
+update=146, Epoch=18, minibatch=1, loss=0.18799, Wa=1.2498, Wb=1.2947
+update=147, Epoch=18, minibatch=2, loss=0.19403, Wa=1.2501, Wb=1.2928
+update=148, Epoch=18, minibatch=3, loss=0.15342, Wa=1.2503, Wb=1.2909
+update=149, Epoch=18, minibatch=4, loss=0.19301, Wa=1.2505, Wb=1.2892
+update=150, Epoch=18, minibatch=5, loss=0.23185, Wa=1.2507, Wb=1.2874
+update=151, Epoch=18, minibatch=6, loss=0.17985, Wa=1.2508, Wb=1.2857
+update=152, Epoch=18, minibatch=7, loss=0.15883, Wa=1.2510, Wb=1.2841
+update=153, Epoch=19, minibatch=0, loss=0.15491, Wa=1.2512, Wb=1.2825
+update=154, Epoch=19, minibatch=1, loss=0.16650, Wa=1.2514, Wb=1.2809
+update=155, Epoch=19, minibatch=2, loss=0.15102, Wa=1.2516, Wb=1.2794
+update=156, Epoch=19, minibatch=3, loss=0.16619, Wa=1.2517, Wb=1.2779
+update=157, Epoch=19, minibatch=4, loss=0.16531, Wa=1.2518, Wb=1.2765
+update=158, Epoch=19, minibatch=5, loss=0.09542, Wa=1.2519, Wb=1.2751
+update=159, Epoch=19, minibatch=6, loss=0.10293, Wa=1.2520, Wb=1.2738
+update=160, Epoch=19, minibatch=7, loss=0.14117, Wa=1.2521, Wb=1.2725
+update=161, Epoch=20, minibatch=0, loss=0.11838, Wa=1.2523, Wb=1.2712
+update=162, Epoch=20, minibatch=1, loss=0.11740, Wa=1.2528, Wb=1.2700
+update=163, Epoch=20, minibatch=2, loss=0.10119, Wa=1.2532, Wb=1.2688
+update=164, Epoch=20, minibatch=3, loss=0.10347, Wa=1.2536, Wb=1.2676
+update=165, Epoch=20, minibatch=4, loss=0.12296, Wa=1.2539, Wb=1.2665
+update=166, Epoch=20, minibatch=5, loss=0.08779, Wa=1.2544, Wb=1.2654
+update=167, Epoch=20, minibatch=6, loss=0.12904, Wa=1.2549, Wb=1.2644
+update=168, Epoch=20, minibatch=7, loss=0.08220, Wa=1.2553, Wb=1.2634
+update=169, Epoch=21, minibatch=0, loss=0.07691, Wa=1.2556, Wb=1.2624
+update=170, Epoch=21, minibatch=1, loss=0.08628, Wa=1.2559, Wb=1.2614
+update=171, Epoch=21, minibatch=2, loss=0.10741, Wa=1.2562, Wb=1.2606
+update=172, Epoch=21, minibatch=3, loss=0.10404, Wa=1.2565, Wb=1.2597
+update=173, Epoch=21, minibatch=4, loss=0.06865, Wa=1.2567, Wb=1.2588
+update=174, Epoch=21, minibatch=5, loss=0.08782, Wa=1.2570, Wb=1.2579
+update=175, Epoch=21, minibatch=6, loss=0.08216, Wa=1.2572, Wb=1.2571
+update=176, Epoch=21, minibatch=7, loss=0.07508, Wa=1.2575, Wb=1.2563
+update=177, Epoch=22, minibatch=0, loss=0.06140, Wa=1.2578, Wb=1.2555
+update=178, Epoch=22, minibatch=1, loss=0.08876, Wa=1.2580, Wb=1.2548
+update=179, Epoch=22, minibatch=2, loss=0.07215, Wa=1.2582, Wb=1.2540
+update=180, Epoch=22, minibatch=3, loss=0.07893, Wa=1.2583, Wb=1.2533
+update=181, Epoch=22, minibatch=4, loss=0.07344, Wa=1.2584, Wb=1.2526
+update=182, Epoch=22, minibatch=5, loss=0.07431, Wa=1.2586, Wb=1.2519
+update=183, Epoch=22, minibatch=6, loss=0.06141, Wa=1.2587, Wb=1.2513
+update=184, Epoch=22, minibatch=7, loss=0.07519, Wa=1.2588, Wb=1.2506
+update=185, Epoch=23, minibatch=0, loss=0.07170, Wa=1.2590, Wb=1.2500
+update=186, Epoch=23, minibatch=1, loss=0.07217, Wa=1.2591, Wb=1.2494
+update=187, Epoch=23, minibatch=2, loss=0.06084, Wa=1.2592, Wb=1.2489
+update=188, Epoch=23, minibatch=3, loss=0.06523, Wa=1.2593, Wb=1.2483
+update=189, Epoch=23, minibatch=4, loss=0.06500, Wa=1.2594, Wb=1.2478
+update=190, Epoch=23, minibatch=5, loss=0.05933, Wa=1.2594, Wb=1.2473
+update=191, Epoch=23, minibatch=6, loss=0.06659, Wa=1.2595, Wb=1.2468
+update=192, Epoch=23, minibatch=7, loss=0.06746, Wa=1.2596, Wb=1.2463
+update=193, Epoch=24, minibatch=0, loss=0.05198, Wa=1.2596, Wb=1.2458
+update=194, Epoch=24, minibatch=1, loss=0.05987, Wa=1.2597, Wb=1.2454
+update=195, Epoch=24, minibatch=2, loss=0.06249, Wa=1.2597, Wb=1.2450
+update=196, Epoch=24, minibatch=3, loss=0.06807, Wa=1.2597, Wb=1.2446
+update=197, Epoch=24, minibatch=4, loss=0.05833, Wa=1.2598, Wb=1.2442
+update=198, Epoch=24, minibatch=5, loss=0.05464, Wa=1.2598, Wb=1.2437
+update=199, Epoch=24, minibatch=6, loss=0.07205, Wa=1.2598, Wb=1.2434
+update=200, Epoch=24, minibatch=7, loss=0.06713, Wa=1.2598, Wb=1.2430
+update=201, Epoch=25, minibatch=0, loss=0.05978, Wa=1.2598, Wb=1.2426
+update=202, Epoch=25, minibatch=1, loss=0.06083, Wa=1.2598, Wb=1.2423
+update=203, Epoch=25, minibatch=2, loss=0.06543, Wa=1.2599, Wb=1.2419
+update=204, Epoch=25, minibatch=3, loss=0.06095, Wa=1.2599, Wb=1.2416
+update=205, Epoch=25, minibatch=4, loss=0.05112, Wa=1.2599, Wb=1.2413
+update=206, Epoch=25, minibatch=5, loss=0.05524, Wa=1.2600, Wb=1.2410
+update=207, Epoch=25, minibatch=6, loss=0.06091, Wa=1.2600, Wb=1.2407
+update=208, Epoch=25, minibatch=7, loss=0.06173, Wa=1.2600, Wb=1.2404
+update=209, Epoch=26, minibatch=0, loss=0.05752, Wa=1.2600, Wb=1.2401
+update=210, Epoch=26, minibatch=1, loss=0.05674, Wa=1.2600, Wb=1.2399
+update=211, Epoch=26, minibatch=2, loss=0.05793, Wa=1.2600, Wb=1.2396
+update=212, Epoch=26, minibatch=3, loss=0.05354, Wa=1.2600, Wb=1.2393
+update=213, Epoch=26, minibatch=4, loss=0.06641, Wa=1.2599, Wb=1.2391
+update=214, Epoch=26, minibatch=5, loss=0.06006, Wa=1.2599, Wb=1.2389
+update=215, Epoch=26, minibatch=6, loss=0.05691, Wa=1.2599, Wb=1.2386
+update=216, Epoch=26, minibatch=7, loss=0.05603, Wa=1.2599, Wb=1.2384
+update=217, Epoch=27, minibatch=0, loss=0.05288, Wa=1.2600, Wb=1.2382
+update=218, Epoch=27, minibatch=1, loss=0.06738, Wa=1.2600, Wb=1.2380
+update=219, Epoch=27, minibatch=2, loss=0.05292, Wa=1.2600, Wb=1.2378
+update=220, Epoch=27, minibatch=3, loss=0.04744, Wa=1.2600, Wb=1.2376
+update=221, Epoch=27, minibatch=4, loss=0.05083, Wa=1.2600, Wb=1.2375
+update=222, Epoch=27, minibatch=5, loss=0.06767, Wa=1.2601, Wb=1.2373
+update=223, Epoch=27, minibatch=6, loss=0.06090, Wa=1.2601, Wb=1.2371
+update=224, Epoch=27, minibatch=7, loss=0.05844, Wa=1.2601, Wb=1.2370
+update=225, Epoch=28, minibatch=0, loss=0.06874, Wa=1.2601, Wb=1.2368
+update=226, Epoch=28, minibatch=1, loss=0.05179, Wa=1.2601, Wb=1.2367
+update=227, Epoch=28, minibatch=2, loss=0.05860, Wa=1.2602, Wb=1.2365
+update=228, Epoch=28, minibatch=3, loss=0.04581, Wa=1.2602, Wb=1.2364
+update=229, Epoch=28, minibatch=4, loss=0.04933, Wa=1.2603, Wb=1.2363
+update=230, Epoch=28, minibatch=5, loss=0.05055, Wa=1.2604, Wb=1.2362
+update=231, Epoch=28, minibatch=6, loss=0.06436, Wa=1.2604, Wb=1.2361
+update=232, Epoch=28, minibatch=7, loss=0.06586, Wa=1.2604, Wb=1.2359
+update=233, Epoch=29, minibatch=0, loss=0.05921, Wa=1.2604, Wb=1.2358
+update=234, Epoch=29, minibatch=1, loss=0.06008, Wa=1.2604, Wb=1.2357
+update=235, Epoch=29, minibatch=2, loss=0.04505, Wa=1.2604, Wb=1.2356
+update=236, Epoch=29, minibatch=3, loss=0.05345, Wa=1.2604, Wb=1.2355
+update=237, Epoch=29, minibatch=4, loss=0.06095, Wa=1.2604, Wb=1.2354
+update=238, Epoch=29, minibatch=5, loss=0.05408, Wa=1.2604, Wb=1.2353
+update=239, Epoch=29, minibatch=6, loss=0.05782, Wa=1.2603, Wb=1.2352
+update=240, Epoch=29, minibatch=7, loss=0.06230, Wa=1.2604, Wb=1.2351
+update=241, Epoch=30, minibatch=0, loss=0.04838, Wa=1.2604, Wb=1.2350
+update=242, Epoch=30, minibatch=1, loss=0.05435, Wa=1.2604, Wb=1.2349
+update=243, Epoch=30, minibatch=2, loss=0.05320, Wa=1.2605, Wb=1.2348
+update=244, Epoch=30, minibatch=3, loss=0.06518, Wa=1.2605, Wb=1.2348
+update=245, Epoch=30, minibatch=4, loss=0.05765, Wa=1.2606, Wb=1.2347
+update=246, Epoch=30, minibatch=5, loss=0.05001, Wa=1.2607, Wb=1.2346
+update=247, Epoch=30, minibatch=6, loss=0.06560, Wa=1.2607, Wb=1.2346
+update=248, Epoch=30, minibatch=7, loss=0.05753, Wa=1.2608, Wb=1.2345
+update=249, Epoch=31, minibatch=0, loss=0.06272, Wa=1.2608, Wb=1.2344
+update=250, Epoch=31, minibatch=1, loss=0.05045, Wa=1.2608, Wb=1.2344
+update=251, Epoch=31, minibatch=2, loss=0.04430, Wa=1.2609, Wb=1.2343
+update=252, Epoch=31, minibatch=3, loss=0.06364, Wa=1.2609, Wb=1.2343
+update=253, Epoch=31, minibatch=4, loss=0.05061, Wa=1.2609, Wb=1.2342
+update=254, Epoch=31, minibatch=5, loss=0.06047, Wa=1.2609, Wb=1.2342
+update=255, Epoch=31, minibatch=6, loss=0.05732, Wa=1.2609, Wb=1.2341
+update=256, Epoch=31, minibatch=7, loss=0.06136, Wa=1.2609, Wb=1.2341
+update=257, Epoch=32, minibatch=0, loss=0.05773, Wa=1.2609, Wb=1.2340
+update=258, Epoch=32, minibatch=1, loss=0.05857, Wa=1.2609, Wb=1.2339
+update=259, Epoch=32, minibatch=2, loss=0.05744, Wa=1.2609, Wb=1.2339
+update=260, Epoch=32, minibatch=3, loss=0.04978, Wa=1.2609, Wb=1.2338
+update=261, Epoch=32, minibatch=4, loss=0.04925, Wa=1.2608, Wb=1.2337
+update=262, Epoch=32, minibatch=5, loss=0.05600, Wa=1.2608, Wb=1.2337
+update=263, Epoch=32, minibatch=6, loss=0.05705, Wa=1.2608, Wb=1.2336
+update=264, Epoch=32, minibatch=7, loss=0.06509, Wa=1.2608, Wb=1.2336
+update=265, Epoch=33, minibatch=0, loss=0.06746, Wa=1.2608, Wb=1.2335
+update=266, Epoch=33, minibatch=1, loss=0.05928, Wa=1.2608, Wb=1.2335
+update=267, Epoch=33, minibatch=2, loss=0.06110, Wa=1.2608, Wb=1.2335
+update=268, Epoch=33, minibatch=3, loss=0.04638, Wa=1.2607, Wb=1.2334
+update=269, Epoch=33, minibatch=4, loss=0.04996, Wa=1.2607, Wb=1.2334
+update=270, Epoch=33, minibatch=5, loss=0.04938, Wa=1.2607, Wb=1.2333
+update=271, Epoch=33, minibatch=6, loss=0.05955, Wa=1.2607, Wb=1.2333
+update=272, Epoch=33, minibatch=7, loss=0.05751, Wa=1.2607, Wb=1.2333
+update=273, Epoch=34, minibatch=0, loss=0.04968, Wa=1.2608, Wb=1.2332
+update=274, Epoch=34, minibatch=1, loss=0.05998, Wa=1.2608, Wb=1.2332
+update=275, Epoch=34, minibatch=2, loss=0.06744, Wa=1.2608, Wb=1.2332
+update=276, Epoch=34, minibatch=3, loss=0.05993, Wa=1.2609, Wb=1.2331
+update=277, Epoch=34, minibatch=4, loss=0.05070, Wa=1.2609, Wb=1.2331
+update=278, Epoch=34, minibatch=5, loss=0.04604, Wa=1.2610, Wb=1.2331
+update=279, Epoch=34, minibatch=6, loss=0.05764, Wa=1.2610, Wb=1.2331
+update=280, Epoch=34, minibatch=7, loss=0.05871, Wa=1.2610, Wb=1.2331
+update=281, Epoch=35, minibatch=0, loss=0.04981, Wa=1.2610, Wb=1.2331
+update=282, Epoch=35, minibatch=1, loss=0.06129, Wa=1.2610, Wb=1.2330
+update=283, Epoch=35, minibatch=2, loss=0.06004, Wa=1.2611, Wb=1.2330
+update=284, Epoch=35, minibatch=3, loss=0.06275, Wa=1.2611, Wb=1.2330
+update=285, Epoch=35, minibatch=4, loss=0.05860, Wa=1.2611, Wb=1.2330
+update=286, Epoch=35, minibatch=5, loss=0.06385, Wa=1.2612, Wb=1.2329
+update=287, Epoch=35, minibatch=6, loss=0.04615, Wa=1.2612, Wb=1.2329
+update=288, Epoch=35, minibatch=7, loss=0.04765, Wa=1.2612, Wb=1.2329
+update=289, Epoch=36, minibatch=0, loss=0.06003, Wa=1.2612, Wb=1.2329
+update=290, Epoch=36, minibatch=1, loss=0.06367, Wa=1.2612, Wb=1.2329
+update=291, Epoch=36, minibatch=2, loss=0.04872, Wa=1.2612, Wb=1.2329
+update=292, Epoch=36, minibatch=3, loss=0.06360, Wa=1.2612, Wb=1.2329
+update=293, Epoch=36, minibatch=4, loss=0.05160, Wa=1.2612, Wb=1.2328
+update=294, Epoch=36, minibatch=5, loss=0.04990, Wa=1.2612, Wb=1.2328
+update=295, Epoch=36, minibatch=6, loss=0.05380, Wa=1.2611, Wb=1.2328
+update=296, Epoch=36, minibatch=7, loss=0.05871, Wa=1.2611, Wb=1.2328
+update=297, Epoch=37, minibatch=0, loss=0.04978, Wa=1.2611, Wb=1.2328
+update=298, Epoch=37, minibatch=1, loss=0.04801, Wa=1.2612, Wb=1.2328
+update=299, Epoch=37, minibatch=2, loss=0.05030, Wa=1.2612, Wb=1.2328
+update=300, Epoch=37, minibatch=3, loss=0.05298, Wa=1.2612, Wb=1.2328
+update=301, Epoch=37, minibatch=4, loss=0.05526, Wa=1.2612, Wb=1.2328
+update=302, Epoch=37, minibatch=5, loss=0.05881, Wa=1.2612, Wb=1.2328
+update=303, Epoch=37, minibatch=6, loss=0.06962, Wa=1.2611, Wb=1.2328
+update=304, Epoch=37, minibatch=7, loss=0.06526, Wa=1.2611, Wb=1.2327
+update=305, Epoch=38, minibatch=0, loss=0.05243, Wa=1.2611, Wb=1.2327
+update=306, Epoch=38, minibatch=1, loss=0.05830, Wa=1.2611, Wb=1.2328
+update=307, Epoch=38, minibatch=2, loss=0.05755, Wa=1.2611, Wb=1.2328
+update=308, Epoch=38, minibatch=3, loss=0.05054, Wa=1.2611, Wb=1.2328
+update=309, Epoch=38, minibatch=4, loss=0.05815, Wa=1.2611, Wb=1.2328
+update=310, Epoch=38, minibatch=5, loss=0.06629, Wa=1.2612, Wb=1.2328
+update=311, Epoch=38, minibatch=6, loss=0.04145, Wa=1.2612, Wb=1.2328
+update=312, Epoch=38, minibatch=7, loss=0.06523, Wa=1.2612, Wb=1.2328
+update=313, Epoch=39, minibatch=0, loss=0.06189, Wa=1.2612, Wb=1.2328
+update=314, Epoch=39, minibatch=1, loss=0.05367, Wa=1.2612, Wb=1.2327
+update=315, Epoch=39, minibatch=2, loss=0.04897, Wa=1.2612, Wb=1.2327
+update=316, Epoch=39, minibatch=3, loss=0.06034, Wa=1.2612, Wb=1.2327
+update=317, Epoch=39, minibatch=4, loss=0.04909, Wa=1.2612, Wb=1.2327
+update=318, Epoch=39, minibatch=5, loss=0.05364, Wa=1.2612, Wb=1.2327
+update=319, Epoch=39, minibatch=6, loss=0.06465, Wa=1.2611, Wb=1.2326
+update=320, Epoch=39, minibatch=7, loss=0.05779, Wa=1.2611, Wb=1.2326
+update=321, Epoch=40, minibatch=0, loss=0.05625, Wa=1.2611, Wb=1.2326
+update=322, Epoch=40, minibatch=1, loss=0.05574, Wa=1.2611, Wb=1.2326
+update=323, Epoch=40, minibatch=2, loss=0.05812, Wa=1.2611, Wb=1.2326
+update=324, Epoch=40, minibatch=3, loss=0.06482, Wa=1.2611, Wb=1.2326
+update=325, Epoch=40, minibatch=4, loss=0.05074, Wa=1.2611, Wb=1.2326
+update=326, Epoch=40, minibatch=5, loss=0.04595, Wa=1.2611, Wb=1.2326
+update=327, Epoch=40, minibatch=6, loss=0.05784, Wa=1.2611, Wb=1.2326
+update=328, Epoch=40, minibatch=7, loss=0.06049, Wa=1.2611, Wb=1.2326
+update=329, Epoch=41, minibatch=0, loss=0.06337, Wa=1.2611, Wb=1.2326
+update=330, Epoch=41, minibatch=1, loss=0.05907, Wa=1.2611, Wb=1.2326
+update=331, Epoch=41, minibatch=2, loss=0.05475, Wa=1.2610, Wb=1.2326
+update=332, Epoch=41, minibatch=3, loss=0.05102, Wa=1.2610, Wb=1.2326
+update=333, Epoch=41, minibatch=4, loss=0.06093, Wa=1.2611, Wb=1.2326
+update=334, Epoch=41, minibatch=5, loss=0.04904, Wa=1.2611, Wb=1.2326
+update=335, Epoch=41, minibatch=6, loss=0.05745, Wa=1.2611, Wb=1.2326
+update=336, Epoch=41, minibatch=7, loss=0.05431, Wa=1.2611, Wb=1.2326
+update=337, Epoch=42, minibatch=0, loss=0.05743, Wa=1.2611, Wb=1.2326
+update=338, Epoch=42, minibatch=1, loss=0.05808, Wa=1.2611, Wb=1.2326
+update=339, Epoch=42, minibatch=2, loss=0.05464, Wa=1.2611, Wb=1.2326
+update=340, Epoch=42, minibatch=3, loss=0.06219, Wa=1.2611, Wb=1.2325
+update=341, Epoch=42, minibatch=4, loss=0.04994, Wa=1.2611, Wb=1.2326
+update=342, Epoch=42, minibatch=5, loss=0.04803, Wa=1.2611, Wb=1.2325
+update=343, Epoch=42, minibatch=6, loss=0.06355, Wa=1.2611, Wb=1.2325
+update=344, Epoch=42, minibatch=7, loss=0.05605, Wa=1.2612, Wb=1.2325
+update=345, Epoch=43, minibatch=0, loss=0.06671, Wa=1.2612, Wb=1.2325
+update=346, Epoch=43, minibatch=1, loss=0.05840, Wa=1.2612, Wb=1.2325
+update=347, Epoch=43, minibatch=2, loss=0.05136, Wa=1.2612, Wb=1.2325
+update=348, Epoch=43, minibatch=3, loss=0.05207, Wa=1.2612, Wb=1.2326
+update=349, Epoch=43, minibatch=4, loss=0.05144, Wa=1.2613, Wb=1.2326
+update=350, Epoch=43, minibatch=5, loss=0.05851, Wa=1.2613, Wb=1.2326
+update=351, Epoch=43, minibatch=6, loss=0.05749, Wa=1.2613, Wb=1.2325
+update=352, Epoch=43, minibatch=7, loss=0.05396, Wa=1.2613, Wb=1.2326
+update=353, Epoch=44, minibatch=0, loss=0.05737, Wa=1.2613, Wb=1.2326
+update=354, Epoch=44, minibatch=1, loss=0.05806, Wa=1.2613, Wb=1.2326
+update=355, Epoch=44, minibatch=2, loss=0.04611, Wa=1.2613, Wb=1.2326
+update=356, Epoch=44, minibatch=3, loss=0.06431, Wa=1.2613, Wb=1.2326
+update=357, Epoch=44, minibatch=4, loss=0.05913, Wa=1.2613, Wb=1.2326
+update=358, Epoch=44, minibatch=5, loss=0.05679, Wa=1.2613, Wb=1.2326
+update=359, Epoch=44, minibatch=6, loss=0.05494, Wa=1.2612, Wb=1.2326
+update=360, Epoch=44, minibatch=7, loss=0.05334, Wa=1.2612, Wb=1.2326
+update=361, Epoch=45, minibatch=0, loss=0.05726, Wa=1.2612, Wb=1.2326
+update=362, Epoch=45, minibatch=1, loss=0.05954, Wa=1.2612, Wb=1.2326
+update=363, Epoch=45, minibatch=2, loss=0.05621, Wa=1.2611, Wb=1.2326
+update=364, Epoch=45, minibatch=3, loss=0.06036, Wa=1.2612, Wb=1.2326
+update=365, Epoch=45, minibatch=4, loss=0.05277, Wa=1.2612, Wb=1.2326
+update=366, Epoch=45, minibatch=5, loss=0.05707, Wa=1.2612, Wb=1.2326
+update=367, Epoch=45, minibatch=6, loss=0.05260, Wa=1.2612, Wb=1.2326
+update=368, Epoch=45, minibatch=7, loss=0.05425, Wa=1.2612, Wb=1.2326
+update=369, Epoch=46, minibatch=0, loss=0.05145, Wa=1.2612, Wb=1.2326
+update=370, Epoch=46, minibatch=1, loss=0.06447, Wa=1.2612, Wb=1.2326
+update=371, Epoch=46, minibatch=2, loss=0.05958, Wa=1.2612, Wb=1.2326
+update=372, Epoch=46, minibatch=3, loss=0.04893, Wa=1.2613, Wb=1.2326
+update=373, Epoch=46, minibatch=4, loss=0.04967, Wa=1.2612, Wb=1.2326
+update=374, Epoch=46, minibatch=5, loss=0.06041, Wa=1.2612, Wb=1.2326
+update=375, Epoch=46, minibatch=6, loss=0.05938, Wa=1.2612, Wb=1.2326
+update=376, Epoch=46, minibatch=7, loss=0.05610, Wa=1.2612, Wb=1.2326
+update=377, Epoch=47, minibatch=0, loss=0.05020, Wa=1.2612, Wb=1.2326
+update=378, Epoch=47, minibatch=1, loss=0.05746, Wa=1.2612, Wb=1.2326
+update=379, Epoch=47, minibatch=2, loss=0.06242, Wa=1.2612, Wb=1.2326
+update=380, Epoch=47, minibatch=3, loss=0.05483, Wa=1.2613, Wb=1.2326
+update=381, Epoch=47, minibatch=4, loss=0.05913, Wa=1.2613, Wb=1.2326
+update=382, Epoch=47, minibatch=5, loss=0.05976, Wa=1.2612, Wb=1.2326
+update=383, Epoch=47, minibatch=6, loss=0.05302, Wa=1.2612, Wb=1.2326
+update=384, Epoch=47, minibatch=7, loss=0.05325, Wa=1.2612, Wb=1.2326
+update=385, Epoch=48, minibatch=0, loss=0.05953, Wa=1.2612, Wb=1.2326
+update=386, Epoch=48, minibatch=1, loss=0.05554, Wa=1.2611, Wb=1.2325
+update=387, Epoch=48, minibatch=2, loss=0.05613, Wa=1.2611, Wb=1.2325
+update=388, Epoch=48, minibatch=3, loss=0.06785, Wa=1.2611, Wb=1.2325
+update=389, Epoch=48, minibatch=4, loss=0.04724, Wa=1.2610, Wb=1.2325
+update=390, Epoch=48, minibatch=5, loss=0.05742, Wa=1.2610, Wb=1.2325
+update=391, Epoch=48, minibatch=6, loss=0.05480, Wa=1.2610, Wb=1.2325
+update=392, Epoch=48, minibatch=7, loss=0.05153, Wa=1.2610, Wb=1.2325
+update=393, Epoch=49, minibatch=0, loss=0.04833, Wa=1.2610, Wb=1.2325
+update=394, Epoch=49, minibatch=1, loss=0.05826, Wa=1.2611, Wb=1.2325
+update=395, Epoch=49, minibatch=2, loss=0.05317, Wa=1.2611, Wb=1.2325
+update=396, Epoch=49, minibatch=3, loss=0.06012, Wa=1.2612, Wb=1.2324
+update=397, Epoch=49, minibatch=4, loss=0.06130, Wa=1.2612, Wb=1.2324
+update=398, Epoch=49, minibatch=5, loss=0.06901, Wa=1.2613, Wb=1.2324
+update=399, Epoch=49, minibatch=6, loss=0.04760, Wa=1.2613, Wb=1.2324
+update=400, Epoch=49, minibatch=7, loss=0.05244, Wa=1.2613, Wb=1.2325
+update=401, Epoch=50, minibatch=0, loss=0.05890, Wa=1.2613, Wb=1.2325
+update=402, Epoch=50, minibatch=1, loss=0.06519, Wa=1.2612, Wb=1.2324
+update=403, Epoch=50, minibatch=2, loss=0.06014, Wa=1.2612, Wb=1.2325
+update=404, Epoch=50, minibatch=3, loss=0.05766, Wa=1.2611, Wb=1.2325
+update=405, Epoch=50, minibatch=4, loss=0.04937, Wa=1.2611, Wb=1.2325
+update=406, Epoch=50, minibatch=5, loss=0.05163, Wa=1.2611, Wb=1.2324
+update=407, Epoch=50, minibatch=6, loss=0.05997, Wa=1.2610, Wb=1.2324
+update=408, Epoch=50, minibatch=7, loss=0.04728, Wa=1.2610, Wb=1.2324
+update=409, Epoch=51, minibatch=0, loss=0.05074, Wa=1.2610, Wb=1.2324
+update=410, Epoch=51, minibatch=1, loss=0.05457, Wa=1.2611, Wb=1.2324
+update=411, Epoch=51, minibatch=2, loss=0.05592, Wa=1.2611, Wb=1.2324
+update=412, Epoch=51, minibatch=3, loss=0.05559, Wa=1.2612, Wb=1.2324
+update=413, Epoch=51, minibatch=4, loss=0.04851, Wa=1.2612, Wb=1.2325
+update=414, Epoch=51, minibatch=5, loss=0.06376, Wa=1.2612, Wb=1.2325
+update=415, Epoch=51, minibatch=6, loss=0.06394, Wa=1.2613, Wb=1.2325
+update=416, Epoch=51, minibatch=7, loss=0.05713, Wa=1.2613, Wb=1.2325
+update=417, Epoch=52, minibatch=0, loss=0.05283, Wa=1.2612, Wb=1.2325
+update=418, Epoch=52, minibatch=1, loss=0.05721, Wa=1.2612, Wb=1.2325
+update=419, Epoch=52, minibatch=2, loss=0.05528, Wa=1.2612, Wb=1.2325
+update=420, Epoch=52, minibatch=3, loss=0.05272, Wa=1.2611, Wb=1.2325
+update=421, Epoch=52, minibatch=4, loss=0.06217, Wa=1.2611, Wb=1.2325
+update=422, Epoch=52, minibatch=5, loss=0.05124, Wa=1.2611, Wb=1.2325
+update=423, Epoch=52, minibatch=6, loss=0.05383, Wa=1.2610, Wb=1.2325
+update=424, Epoch=52, minibatch=7, loss=0.06484, Wa=1.2611, Wb=1.2325
+update=425, Epoch=53, minibatch=0, loss=0.05701, Wa=1.2611, Wb=1.2325
+update=426, Epoch=53, minibatch=1, loss=0.06546, Wa=1.2611, Wb=1.2325
+update=427, Epoch=53, minibatch=2, loss=0.05513, Wa=1.2611, Wb=1.2325
+update=428, Epoch=53, minibatch=3, loss=0.05880, Wa=1.2611, Wb=1.2325
+update=429, Epoch=53, minibatch=4, loss=0.05038, Wa=1.2611, Wb=1.2325
+update=430, Epoch=53, minibatch=5, loss=0.05911, Wa=1.2611, Wb=1.2325
+update=431, Epoch=53, minibatch=6, loss=0.05820, Wa=1.2611, Wb=1.2325
+update=432, Epoch=53, minibatch=7, loss=0.04582, Wa=1.2611, Wb=1.2325
+update=433, Epoch=54, minibatch=0, loss=0.05645, Wa=1.2611, Wb=1.2325
+update=434, Epoch=54, minibatch=1, loss=0.05579, Wa=1.2611, Wb=1.2325
+update=435, Epoch=54, minibatch=2, loss=0.05442, Wa=1.2611, Wb=1.2325
+update=436, Epoch=54, minibatch=3, loss=0.06215, Wa=1.2612, Wb=1.2325
+update=437, Epoch=54, minibatch=4, loss=0.05983, Wa=1.2612, Wb=1.2325
+update=438, Epoch=54, minibatch=5, loss=0.05196, Wa=1.2612, Wb=1.2325
+update=439, Epoch=54, minibatch=6, loss=0.05206, Wa=1.2613, Wb=1.2325
+update=440, Epoch=54, minibatch=7, loss=0.05750, Wa=1.2613, Wb=1.2325
+update=441, Epoch=55, minibatch=0, loss=0.06251, Wa=1.2613, Wb=1.2325
+update=442, Epoch=55, minibatch=1, loss=0.05595, Wa=1.2613, Wb=1.2325
+update=443, Epoch=55, minibatch=2, loss=0.05622, Wa=1.2613, Wb=1.2325
+update=444, Epoch=55, minibatch=3, loss=0.06262, Wa=1.2613, Wb=1.2325
+update=445, Epoch=55, minibatch=4, loss=0.05322, Wa=1.2613, Wb=1.2325
+update=446, Epoch=55, minibatch=5, loss=0.05426, Wa=1.2613, Wb=1.2325
+update=447, Epoch=55, minibatch=6, loss=0.05515, Wa=1.2612, Wb=1.2325
+update=448, Epoch=55, minibatch=7, loss=0.05000, Wa=1.2612, Wb=1.2325
+update=449, Epoch=56, minibatch=0, loss=0.06091, Wa=1.2612, Wb=1.2325
+update=450, Epoch=56, minibatch=1, loss=0.05048, Wa=1.2612, Wb=1.2325
+update=451, Epoch=56, minibatch=2, loss=0.05517, Wa=1.2612, Wb=1.2325
+update=452, Epoch=56, minibatch=3, loss=0.05960, Wa=1.2612, Wb=1.2325
+update=453, Epoch=56, minibatch=4, loss=0.05310, Wa=1.2612, Wb=1.2324
+update=454, Epoch=56, minibatch=5, loss=0.05294, Wa=1.2612, Wb=1.2324
+update=455, Epoch=56, minibatch=6, loss=0.06517, Wa=1.2612, Wb=1.2324
+update=456, Epoch=56, minibatch=7, loss=0.05274, Wa=1.2611, Wb=1.2324
+update=457, Epoch=57, minibatch=0, loss=0.05776, Wa=1.2611, Wb=1.2324
+update=458, Epoch=57, minibatch=1, loss=0.05360, Wa=1.2612, Wb=1.2324
+update=459, Epoch=57, minibatch=2, loss=0.05192, Wa=1.2612, Wb=1.2324
+update=460, Epoch=57, minibatch=3, loss=0.05864, Wa=1.2612, Wb=1.2324
+update=461, Epoch=57, minibatch=4, loss=0.05685, Wa=1.2612, Wb=1.2324
+update=462, Epoch=57, minibatch=5, loss=0.04946, Wa=1.2613, Wb=1.2324
+update=463, Epoch=57, minibatch=6, loss=0.05810, Wa=1.2613, Wb=1.2324
+update=464, Epoch=57, minibatch=7, loss=0.06373, Wa=1.2612, Wb=1.2325
+update=465, Epoch=58, minibatch=0, loss=0.05840, Wa=1.2612, Wb=1.2325
+update=466, Epoch=58, minibatch=1, loss=0.06714, Wa=1.2612, Wb=1.2324
+update=467, Epoch=58, minibatch=2, loss=0.04894, Wa=1.2611, Wb=1.2324
+update=468, Epoch=58, minibatch=3, loss=0.05236, Wa=1.2610, Wb=1.2324
+update=469, Epoch=58, minibatch=4, loss=0.05361, Wa=1.2610, Wb=1.2325
+update=470, Epoch=58, minibatch=5, loss=0.05428, Wa=1.2610, Wb=1.2325
+update=471, Epoch=58, minibatch=6, loss=0.06030, Wa=1.2610, Wb=1.2325
+update=472, Epoch=58, minibatch=7, loss=0.05536, Wa=1.2610, Wb=1.2325
+update=473, Epoch=59, minibatch=0, loss=0.06549, Wa=1.2610, Wb=1.2325
+update=474, Epoch=59, minibatch=1, loss=0.04467, Wa=1.2610, Wb=1.2324
+update=475, Epoch=59, minibatch=2, loss=0.05729, Wa=1.2610, Wb=1.2324
+update=476, Epoch=59, minibatch=3, loss=0.06019, Wa=1.2611, Wb=1.2324
+update=477, Epoch=59, minibatch=4, loss=0.05794, Wa=1.2611, Wb=1.2324
+update=478, Epoch=59, minibatch=5, loss=0.05035, Wa=1.2611, Wb=1.2324
+update=479, Epoch=59, minibatch=6, loss=0.05250, Wa=1.2611, Wb=1.2324
+update=480, Epoch=59, minibatch=7, loss=0.06152, Wa=1.2611, Wb=1.2324
+update=481, Epoch=60, minibatch=0, loss=0.06311, Wa=1.2611, Wb=1.2324
+update=482, Epoch=60, minibatch=1, loss=0.05990, Wa=1.2611, Wb=1.2324
+update=483, Epoch=60, minibatch=2, loss=0.06065, Wa=1.2611, Wb=1.2324
+update=484, Epoch=60, minibatch=3, loss=0.05540, Wa=1.2611, Wb=1.2324
+update=485, Epoch=60, minibatch=4, loss=0.05721, Wa=1.2611, Wb=1.2324
+update=486, Epoch=60, minibatch=5, loss=0.05535, Wa=1.2612, Wb=1.2324
+update=487, Epoch=60, minibatch=6, loss=0.04812, Wa=1.2612, Wb=1.2325
+update=488, Epoch=60, minibatch=7, loss=0.05019, Wa=1.2612, Wb=1.2325
+update=489, Epoch=61, minibatch=0, loss=0.05840, Wa=1.2612, Wb=1.2325
+update=490, Epoch=61, minibatch=1, loss=0.06464, Wa=1.2612, Wb=1.2325
+update=491, Epoch=61, minibatch=2, loss=0.05979, Wa=1.2612, Wb=1.2324
+update=492, Epoch=61, minibatch=3, loss=0.04988, Wa=1.2612, Wb=1.2324
+update=493, Epoch=61, minibatch=4, loss=0.06173, Wa=1.2611, Wb=1.2324
+update=494, Epoch=61, minibatch=5, loss=0.05994, Wa=1.2611, Wb=1.2324
+update=495, Epoch=61, minibatch=6, loss=0.04623, Wa=1.2611, Wb=1.2324
+update=496, Epoch=61, minibatch=7, loss=0.04946, Wa=1.2610, Wb=1.2324
+update=497, Epoch=62, minibatch=0, loss=0.06030, Wa=1.2611, Wb=1.2324
+update=498, Epoch=62, minibatch=1, loss=0.05587, Wa=1.2611, Wb=1.2324
+update=499, Epoch=62, minibatch=2, loss=0.06596, Wa=1.2611, Wb=1.2324
+update=500, Epoch=62, minibatch=3, loss=0.05215, Wa=1.2611, Wb=1.2325
+update=501, Epoch=62, minibatch=4, loss=0.06158, Wa=1.2612, Wb=1.2325
+update=502, Epoch=62, minibatch=5, loss=0.05532, Wa=1.2612, Wb=1.2325
+update=503, Epoch=62, minibatch=6, loss=0.05406, Wa=1.2612, Wb=1.2325
+update=504, Epoch=62, minibatch=7, loss=0.04474, Wa=1.2612, Wb=1.2325
+update=505, Epoch=63, minibatch=0, loss=0.05640, Wa=1.2612, Wb=1.2325
+update=506, Epoch=63, minibatch=1, loss=0.05496, Wa=1.2612, Wb=1.2325
+update=507, Epoch=63, minibatch=2, loss=0.05760, Wa=1.2612, Wb=1.2326
+update=508, Epoch=63, minibatch=3, loss=0.05202, Wa=1.2613, Wb=1.2326
+update=509, Epoch=63, minibatch=4, loss=0.05155, Wa=1.2613, Wb=1.2326
+update=510, Epoch=63, minibatch=5, loss=0.05893, Wa=1.2613, Wb=1.2325
+update=511, Epoch=63, minibatch=6, loss=0.05058, Wa=1.2613, Wb=1.2325
+update=512, Epoch=63, minibatch=7, loss=0.06794, Wa=1.2613, Wb=1.2325
+update=513, Epoch=64, minibatch=0, loss=0.05153, Wa=1.2613, Wb=1.2325
+update=514, Epoch=64, minibatch=1, loss=0.05033, Wa=1.2613, Wb=1.2325
+update=515, Epoch=64, minibatch=2, loss=0.05737, Wa=1.2613, Wb=1.2325
+update=516, Epoch=64, minibatch=3, loss=0.05259, Wa=1.2613, Wb=1.2325
+update=517, Epoch=64, minibatch=4, loss=0.05626, Wa=1.2613, Wb=1.2325
+update=518, Epoch=64, minibatch=5, loss=0.05909, Wa=1.2613, Wb=1.2325
+update=519, Epoch=64, minibatch=6, loss=0.05952, Wa=1.2613, Wb=1.2325
+update=520, Epoch=64, minibatch=7, loss=0.06330, Wa=1.2613, Wb=1.2325
+update=521, Epoch=65, minibatch=0, loss=0.05636, Wa=1.2612, Wb=1.2325
+update=522, Epoch=65, minibatch=1, loss=0.05620, Wa=1.2612, Wb=1.2325
+update=523, Epoch=65, minibatch=2, loss=0.06444, Wa=1.2612, Wb=1.2325
+update=524, Epoch=65, minibatch=3, loss=0.05847, Wa=1.2612, Wb=1.2325
+update=525, Epoch=65, minibatch=4, loss=0.05202, Wa=1.2612, Wb=1.2325
+update=526, Epoch=65, minibatch=5, loss=0.05476, Wa=1.2612, Wb=1.2325
+update=527, Epoch=65, minibatch=6, loss=0.05534, Wa=1.2611, Wb=1.2325
+update=528, Epoch=65, minibatch=7, loss=0.05249, Wa=1.2611, Wb=1.2325
+update=529, Epoch=66, minibatch=0, loss=0.05696, Wa=1.2611, Wb=1.2325
+update=530, Epoch=66, minibatch=1, loss=0.05707, Wa=1.2611, Wb=1.2325
+update=531, Epoch=66, minibatch=2, loss=0.05110, Wa=1.2611, Wb=1.2324
+update=532, Epoch=66, minibatch=3, loss=0.06378, Wa=1.2610, Wb=1.2324
+update=533, Epoch=66, minibatch=4, loss=0.05681, Wa=1.2610, Wb=1.2324
+update=534, Epoch=66, minibatch=5, loss=0.05348, Wa=1.2610, Wb=1.2324
+update=535, Epoch=66, minibatch=6, loss=0.06152, Wa=1.2610, Wb=1.2323
+update=536, Epoch=66, minibatch=7, loss=0.04944, Wa=1.2610, Wb=1.2323
+update=537, Epoch=67, minibatch=0, loss=0.04479, Wa=1.2610, Wb=1.2324
+update=538, Epoch=67, minibatch=1, loss=0.05279, Wa=1.2610, Wb=1.2324
+update=539, Epoch=67, minibatch=2, loss=0.05988, Wa=1.2610, Wb=1.2324
+update=540, Epoch=67, minibatch=3, loss=0.05737, Wa=1.2610, Wb=1.2324
+update=541, Epoch=67, minibatch=4, loss=0.05219, Wa=1.2610, Wb=1.2324
+update=542, Epoch=67, minibatch=5, loss=0.06103, Wa=1.2610, Wb=1.2324
+update=543, Epoch=67, minibatch=6, loss=0.06353, Wa=1.2610, Wb=1.2324
+update=544, Epoch=67, minibatch=7, loss=0.05836, Wa=1.2610, Wb=1.2324
+update=545, Epoch=68, minibatch=0, loss=0.06055, Wa=1.2611, Wb=1.2324
+update=546, Epoch=68, minibatch=1, loss=0.04989, Wa=1.2611, Wb=1.2324
+update=547, Epoch=68, minibatch=2, loss=0.05384, Wa=1.2611, Wb=1.2324
+update=548, Epoch=68, minibatch=3, loss=0.06329, Wa=1.2612, Wb=1.2325
+update=549, Epoch=68, minibatch=4, loss=0.06103, Wa=1.2611, Wb=1.2325
+update=550, Epoch=68, minibatch=5, loss=0.05726, Wa=1.2612, Wb=1.2325
+update=551, Epoch=68, minibatch=6, loss=0.05608, Wa=1.2612, Wb=1.2325
+update=552, Epoch=68, minibatch=7, loss=0.04805, Wa=1.2612, Wb=1.2325
+update=553, Epoch=69, minibatch=0, loss=0.05151, Wa=1.2612, Wb=1.2325
+update=554, Epoch=69, minibatch=1, loss=0.04623, Wa=1.2612, Wb=1.2325
+update=555, Epoch=69, minibatch=2, loss=0.06631, Wa=1.2612, Wb=1.2325
+update=556, Epoch=69, minibatch=3, loss=0.04961, Wa=1.2613, Wb=1.2326
+update=557, Epoch=69, minibatch=4, loss=0.05933, Wa=1.2613, Wb=1.2326
+update=558, Epoch=69, minibatch=5, loss=0.07154, Wa=1.2613, Wb=1.2326
+update=559, Epoch=69, minibatch=6, loss=0.05410, Wa=1.2613, Wb=1.2326
+update=560, Epoch=69, minibatch=7, loss=0.05137, Wa=1.2613, Wb=1.2325
+update=561, Epoch=70, minibatch=0, loss=0.04788, Wa=1.2613, Wb=1.2325
+update=562, Epoch=70, minibatch=1, loss=0.04852, Wa=1.2613, Wb=1.2325
+update=563, Epoch=70, minibatch=2, loss=0.06474, Wa=1.2613, Wb=1.2325
+update=564, Epoch=70, minibatch=3, loss=0.06769, Wa=1.2614, Wb=1.2325
+update=565, Epoch=70, minibatch=4, loss=0.04763, Wa=1.2614, Wb=1.2325
+update=566, Epoch=70, minibatch=5, loss=0.05723, Wa=1.2614, Wb=1.2325
+update=567, Epoch=70, minibatch=6, loss=0.06155, Wa=1.2614, Wb=1.2325
+update=568, Epoch=70, minibatch=7, loss=0.05478, Wa=1.2614, Wb=1.2325
+update=569, Epoch=71, minibatch=0, loss=0.05401, Wa=1.2614, Wb=1.2325
+update=570, Epoch=71, minibatch=1, loss=0.05394, Wa=1.2614, Wb=1.2325
+update=571, Epoch=71, minibatch=2, loss=0.06638, Wa=1.2613, Wb=1.2324
+update=572, Epoch=71, minibatch=3, loss=0.05898, Wa=1.2613, Wb=1.2324
+update=573, Epoch=71, minibatch=4, loss=0.06100, Wa=1.2614, Wb=1.2324
+update=574, Epoch=71, minibatch=5, loss=0.05042, Wa=1.2614, Wb=1.2324
+update=575, Epoch=71, minibatch=6, loss=0.05468, Wa=1.2614, Wb=1.2325
+update=576, Epoch=71, minibatch=7, loss=0.05062, Wa=1.2614, Wb=1.2325
+update=577, Epoch=72, minibatch=0, loss=0.05298, Wa=1.2613, Wb=1.2325
+update=578, Epoch=72, minibatch=1, loss=0.05815, Wa=1.2613, Wb=1.2324
+update=579, Epoch=72, minibatch=2, loss=0.06554, Wa=1.2612, Wb=1.2324
+update=580, Epoch=72, minibatch=3, loss=0.05403, Wa=1.2611, Wb=1.2324
+update=581, Epoch=72, minibatch=4, loss=0.05303, Wa=1.2611, Wb=1.2324
+update=582, Epoch=72, minibatch=5, loss=0.06277, Wa=1.2611, Wb=1.2324
+update=583, Epoch=72, minibatch=6, loss=0.05217, Wa=1.2610, Wb=1.2323
+update=584, Epoch=72, minibatch=7, loss=0.05159, Wa=1.2610, Wb=1.2324
+update=585, Epoch=73, minibatch=0, loss=0.05823, Wa=1.2610, Wb=1.2324
+update=586, Epoch=73, minibatch=1, loss=0.06536, Wa=1.2610, Wb=1.2324
+update=587, Epoch=73, minibatch=2, loss=0.05211, Wa=1.2610, Wb=1.2324
+update=588, Epoch=73, minibatch=3, loss=0.05672, Wa=1.2609, Wb=1.2324
+update=589, Epoch=73, minibatch=4, loss=0.05916, Wa=1.2609, Wb=1.2324
+update=590, Epoch=73, minibatch=5, loss=0.05268, Wa=1.2609, Wb=1.2324
+update=591, Epoch=73, minibatch=6, loss=0.05645, Wa=1.2609, Wb=1.2324
+update=592, Epoch=73, minibatch=7, loss=0.04936, Wa=1.2609, Wb=1.2324
+update=593, Epoch=74, minibatch=0, loss=0.06756, Wa=1.2609, Wb=1.2324
+update=594, Epoch=74, minibatch=1, loss=0.04657, Wa=1.2610, Wb=1.2324
+update=595, Epoch=74, minibatch=2, loss=0.06675, Wa=1.2610, Wb=1.2325
+update=596, Epoch=74, minibatch=3, loss=0.05354, Wa=1.2611, Wb=1.2325
+update=597, Epoch=74, minibatch=4, loss=0.05441, Wa=1.2611, Wb=1.2325
+update=598, Epoch=74, minibatch=5, loss=0.05502, Wa=1.2611, Wb=1.2325
+update=599, Epoch=74, minibatch=6, loss=0.05518, Wa=1.2612, Wb=1.2325
+update=600, Epoch=74, minibatch=7, loss=0.05131, Wa=1.2612, Wb=1.2325
+update=601, Epoch=75, minibatch=0, loss=0.05346, Wa=1.2612, Wb=1.2325
+update=602, Epoch=75, minibatch=1, loss=0.06360, Wa=1.2612, Wb=1.2325
+update=603, Epoch=75, minibatch=2, loss=0.05261, Wa=1.2612, Wb=1.2325
+update=604, Epoch=75, minibatch=3, loss=0.05932, Wa=1.2612, Wb=1.2325
+update=605, Epoch=75, minibatch=4, loss=0.05120, Wa=1.2612, Wb=1.2325
+update=606, Epoch=75, minibatch=5, loss=0.06420, Wa=1.2612, Wb=1.2325
+update=607, Epoch=75, minibatch=6, loss=0.05949, Wa=1.2612, Wb=1.2325
+update=608, Epoch=75, minibatch=7, loss=0.04602, Wa=1.2612, Wb=1.2325
+update=609, Epoch=76, minibatch=0, loss=0.06376, Wa=1.2612, Wb=1.2325
+update=610, Epoch=76, minibatch=1, loss=0.05733, Wa=1.2612, Wb=1.2325
+update=611, Epoch=76, minibatch=2, loss=0.05330, Wa=1.2612, Wb=1.2325
+update=612, Epoch=76, minibatch=3, loss=0.05299, Wa=1.2612, Wb=1.2325
+update=613, Epoch=76, minibatch=4, loss=0.04466, Wa=1.2612, Wb=1.2325
+update=614, Epoch=76, minibatch=5, loss=0.05277, Wa=1.2613, Wb=1.2324
+update=615, Epoch=76, minibatch=6, loss=0.06578, Wa=1.2613, Wb=1.2324
+update=616, Epoch=76, minibatch=7, loss=0.05940, Wa=1.2613, Wb=1.2324
+update=617, Epoch=77, minibatch=0, loss=0.05148, Wa=1.2613, Wb=1.2324
+update=618, Epoch=77, minibatch=1, loss=0.05676, Wa=1.2612, Wb=1.2324
+update=619, Epoch=77, minibatch=2, loss=0.05812, Wa=1.2612, Wb=1.2324
+update=620, Epoch=77, minibatch=3, loss=0.05063, Wa=1.2611, Wb=1.2324
+update=621, Epoch=77, minibatch=4, loss=0.05926, Wa=1.2611, Wb=1.2324
+update=622, Epoch=77, minibatch=5, loss=0.06030, Wa=1.2611, Wb=1.2324
+update=623, Epoch=77, minibatch=6, loss=0.06016, Wa=1.2610, Wb=1.2324
+update=624, Epoch=77, minibatch=7, loss=0.05346, Wa=1.2610, Wb=1.2324
+update=625, Epoch=78, minibatch=0, loss=0.04327, Wa=1.2610, Wb=1.2324
+update=626, Epoch=78, minibatch=1, loss=0.05793, Wa=1.2611, Wb=1.2324
+update=627, Epoch=78, minibatch=2, loss=0.06357, Wa=1.2611, Wb=1.2324
+update=628, Epoch=78, minibatch=3, loss=0.04097, Wa=1.2611, Wb=1.2324
+update=629, Epoch=78, minibatch=4, loss=0.05627, Wa=1.2611, Wb=1.2325
+update=630, Epoch=78, minibatch=5, loss=0.06791, Wa=1.2611, Wb=1.2325
+update=631, Epoch=78, minibatch=6, loss=0.05686, Wa=1.2611, Wb=1.2325
+update=632, Epoch=78, minibatch=7, loss=0.06325, Wa=1.2610, Wb=1.2325
+update=633, Epoch=79, minibatch=0, loss=0.05233, Wa=1.2611, Wb=1.2325
+update=634, Epoch=79, minibatch=1, loss=0.05381, Wa=1.2611, Wb=1.2325
+update=635, Epoch=79, minibatch=2, loss=0.05733, Wa=1.2611, Wb=1.2325
+update=636, Epoch=79, minibatch=3, loss=0.06296, Wa=1.2611, Wb=1.2325
+update=637, Epoch=79, minibatch=4, loss=0.05531, Wa=1.2611, Wb=1.2325
+update=638, Epoch=79, minibatch=5, loss=0.05386, Wa=1.2612, Wb=1.2325
+update=639, Epoch=79, minibatch=6, loss=0.05542, Wa=1.2612, Wb=1.2325
+update=640, Epoch=79, minibatch=7, loss=0.05896, Wa=1.2612, Wb=1.2325
+update=641, Epoch=80, minibatch=0, loss=0.05255, Wa=1.2612, Wb=1.2325
+update=642, Epoch=80, minibatch=1, loss=0.05742, Wa=1.2612, Wb=1.2325
+update=643, Epoch=80, minibatch=2, loss=0.05752, Wa=1.2612, Wb=1.2325
+update=644, Epoch=80, minibatch=3, loss=0.05218, Wa=1.2612, Wb=1.2325
+update=645, Epoch=80, minibatch=4, loss=0.05726, Wa=1.2612, Wb=1.2325
+update=646, Epoch=80, minibatch=5, loss=0.06011, Wa=1.2612, Wb=1.2325
+update=647, Epoch=80, minibatch=6, loss=0.05967, Wa=1.2612, Wb=1.2324
+update=648, Epoch=80, minibatch=7, loss=0.05324, Wa=1.2612, Wb=1.2324
+update=649, Epoch=81, minibatch=0, loss=0.05488, Wa=1.2612, Wb=1.2324
+update=650, Epoch=81, minibatch=1, loss=0.05169, Wa=1.2612, Wb=1.2325
+update=651, Epoch=81, minibatch=2, loss=0.06577, Wa=1.2612, Wb=1.2325
+update=652, Epoch=81, minibatch=3, loss=0.05740, Wa=1.2612, Wb=1.2325
+update=653, Epoch=81, minibatch=4, loss=0.05584, Wa=1.2612, Wb=1.2325
+update=654, Epoch=81, minibatch=5, loss=0.06046, Wa=1.2612, Wb=1.2325
+update=655, Epoch=81, minibatch=6, loss=0.05426, Wa=1.2612, Wb=1.2325
+update=656, Epoch=81, minibatch=7, loss=0.04968, Wa=1.2612, Wb=1.2324
+update=657, Epoch=82, minibatch=0, loss=0.05662, Wa=1.2612, Wb=1.2324
+update=658, Epoch=82, minibatch=1, loss=0.04886, Wa=1.2612, Wb=1.2325
+update=659, Epoch=82, minibatch=2, loss=0.05456, Wa=1.2611, Wb=1.2324
+update=660, Epoch=82, minibatch=3, loss=0.06838, Wa=1.2611, Wb=1.2324
+update=661, Epoch=82, minibatch=4, loss=0.05321, Wa=1.2612, Wb=1.2324
+update=662, Epoch=82, minibatch=5, loss=0.05680, Wa=1.2612, Wb=1.2324
+update=663, Epoch=82, minibatch=6, loss=0.05350, Wa=1.2612, Wb=1.2324
+update=664, Epoch=82, minibatch=7, loss=0.05802, Wa=1.2612, Wb=1.2324
+update=665, Epoch=83, minibatch=0, loss=0.06514, Wa=1.2612, Wb=1.2324
+update=666, Epoch=83, minibatch=1, loss=0.05161, Wa=1.2612, Wb=1.2324
+update=667, Epoch=83, minibatch=2, loss=0.04635, Wa=1.2612, Wb=1.2324
+update=668, Epoch=83, minibatch=3, loss=0.04824, Wa=1.2611, Wb=1.2324
+update=669, Epoch=83, minibatch=4, loss=0.06314, Wa=1.2611, Wb=1.2324
+update=670, Epoch=83, minibatch=5, loss=0.06229, Wa=1.2611, Wb=1.2324
+update=671, Epoch=83, minibatch=6, loss=0.05058, Wa=1.2612, Wb=1.2324
+update=672, Epoch=83, minibatch=7, loss=0.06265, Wa=1.2612, Wb=1.2324
+update=673, Epoch=84, minibatch=0, loss=0.04667, Wa=1.2612, Wb=1.2324
+update=674, Epoch=84, minibatch=1, loss=0.05095, Wa=1.2612, Wb=1.2325
+update=675, Epoch=84, minibatch=2, loss=0.04900, Wa=1.2612, Wb=1.2325
+update=676, Epoch=84, minibatch=3, loss=0.05636, Wa=1.2611, Wb=1.2325
+update=677, Epoch=84, minibatch=4, loss=0.06052, Wa=1.2611, Wb=1.2325
+update=678, Epoch=84, minibatch=5, loss=0.05708, Wa=1.2611, Wb=1.2325
+update=679, Epoch=84, minibatch=6, loss=0.05314, Wa=1.2610, Wb=1.2325
+update=680, Epoch=84, minibatch=7, loss=0.07638, Wa=1.2610, Wb=1.2325
+update=681, Epoch=85, minibatch=0, loss=0.05809, Wa=1.2610, Wb=1.2325
+update=682, Epoch=85, minibatch=1, loss=0.06585, Wa=1.2610, Wb=1.2324
+update=683, Epoch=85, minibatch=2, loss=0.04889, Wa=1.2611, Wb=1.2324
+update=684, Epoch=85, minibatch=3, loss=0.06387, Wa=1.2611, Wb=1.2324
+update=685, Epoch=85, minibatch=4, loss=0.05389, Wa=1.2612, Wb=1.2324
+update=686, Epoch=85, minibatch=5, loss=0.04965, Wa=1.2612, Wb=1.2324
+update=687, Epoch=85, minibatch=6, loss=0.05382, Wa=1.2613, Wb=1.2325
+update=688, Epoch=85, minibatch=7, loss=0.05611, Wa=1.2613, Wb=1.2325
+update=689, Epoch=86, minibatch=0, loss=0.05648, Wa=1.2613, Wb=1.2325
+update=690, Epoch=86, minibatch=1, loss=0.05282, Wa=1.2613, Wb=1.2325
+update=691, Epoch=86, minibatch=2, loss=0.06089, Wa=1.2613, Wb=1.2325
+update=692, Epoch=86, minibatch=3, loss=0.05832, Wa=1.2613, Wb=1.2325
+update=693, Epoch=86, minibatch=4, loss=0.05284, Wa=1.2613, Wb=1.2324
+update=694, Epoch=86, minibatch=5, loss=0.04761, Wa=1.2613, Wb=1.2324
+update=695, Epoch=86, minibatch=6, loss=0.06235, Wa=1.2612, Wb=1.2324
+update=696, Epoch=86, minibatch=7, loss=0.05874, Wa=1.2612, Wb=1.2324
+update=697, Epoch=87, minibatch=0, loss=0.06035, Wa=1.2612, Wb=1.2324
+update=698, Epoch=87, minibatch=1, loss=0.06269, Wa=1.2612, Wb=1.2324
+update=699, Epoch=87, minibatch=2, loss=0.06028, Wa=1.2612, Wb=1.2324
+update=700, Epoch=87, minibatch=3, loss=0.04516, Wa=1.2612, Wb=1.2324
+update=701, Epoch=87, minibatch=4, loss=0.05697, Wa=1.2613, Wb=1.2325
+update=702, Epoch=87, minibatch=5, loss=0.04671, Wa=1.2613, Wb=1.2325
+update=703, Epoch=87, minibatch=6, loss=0.05959, Wa=1.2612, Wb=1.2325
+update=704, Epoch=87, minibatch=7, loss=0.05823, Wa=1.2612, Wb=1.2325
+update=705, Epoch=88, minibatch=0, loss=0.05994, Wa=1.2612, Wb=1.2325
+update=706, Epoch=88, minibatch=1, loss=0.05897, Wa=1.2612, Wb=1.2325
+update=707, Epoch=88, minibatch=2, loss=0.05347, Wa=1.2611, Wb=1.2325
+update=708, Epoch=88, minibatch=3, loss=0.05251, Wa=1.2611, Wb=1.2325
+update=709, Epoch=88, minibatch=4, loss=0.05493, Wa=1.2611, Wb=1.2325
+update=710, Epoch=88, minibatch=5, loss=0.05275, Wa=1.2610, Wb=1.2324
+update=711, Epoch=88, minibatch=6, loss=0.05884, Wa=1.2610, Wb=1.2324
+update=712, Epoch=88, minibatch=7, loss=0.05873, Wa=1.2610, Wb=1.2324
+update=713, Epoch=89, minibatch=0, loss=0.05449, Wa=1.2610, Wb=1.2324
+update=714, Epoch=89, minibatch=1, loss=0.05600, Wa=1.2610, Wb=1.2324
+update=715, Epoch=89, minibatch=2, loss=0.05351, Wa=1.2610, Wb=1.2324
+update=716, Epoch=89, minibatch=3, loss=0.06573, Wa=1.2610, Wb=1.2324
+update=717, Epoch=89, minibatch=4, loss=0.05226, Wa=1.2610, Wb=1.2324
+update=718, Epoch=89, minibatch=5, loss=0.06004, Wa=1.2610, Wb=1.2324
+update=719, Epoch=89, minibatch=6, loss=0.05039, Wa=1.2610, Wb=1.2325
+update=720, Epoch=89, minibatch=7, loss=0.05749, Wa=1.2610, Wb=1.2325
+update=721, Epoch=90, minibatch=0, loss=0.06485, Wa=1.2611, Wb=1.2325
+update=722, Epoch=90, minibatch=1, loss=0.05486, Wa=1.2611, Wb=1.2325
+update=723, Epoch=90, minibatch=2, loss=0.05095, Wa=1.2611, Wb=1.2325
+update=724, Epoch=90, minibatch=3, loss=0.06693, Wa=1.2611, Wb=1.2325
+update=725, Epoch=90, minibatch=4, loss=0.04851, Wa=1.2611, Wb=1.2325
+update=726, Epoch=90, minibatch=5, loss=0.05418, Wa=1.2610, Wb=1.2325
+update=727, Epoch=90, minibatch=6, loss=0.05026, Wa=1.2610, Wb=1.2325
+update=728, Epoch=90, minibatch=7, loss=0.05954, Wa=1.2610, Wb=1.2325
+update=729, Epoch=91, minibatch=0, loss=0.05156, Wa=1.2610, Wb=1.2325
+update=730, Epoch=91, minibatch=1, loss=0.06232, Wa=1.2611, Wb=1.2325
+update=731, Epoch=91, minibatch=2, loss=0.05692, Wa=1.2611, Wb=1.2325
+update=732, Epoch=91, minibatch=3, loss=0.05567, Wa=1.2612, Wb=1.2325
+update=733, Epoch=91, minibatch=4, loss=0.05704, Wa=1.2613, Wb=1.2325
+update=734, Epoch=91, minibatch=5, loss=0.04783, Wa=1.2613, Wb=1.2325
+update=735, Epoch=91, minibatch=6, loss=0.05478, Wa=1.2614, Wb=1.2325
+update=736, Epoch=91, minibatch=7, loss=0.06452, Wa=1.2614, Wb=1.2325
+update=737, Epoch=92, minibatch=0, loss=0.06668, Wa=1.2614, Wb=1.2325
+update=738, Epoch=92, minibatch=1, loss=0.05903, Wa=1.2614, Wb=1.2325
+update=739, Epoch=92, minibatch=2, loss=0.06180, Wa=1.2613, Wb=1.2325
+update=740, Epoch=92, minibatch=3, loss=0.05063, Wa=1.2613, Wb=1.2324
+update=741, Epoch=92, minibatch=4, loss=0.05108, Wa=1.2613, Wb=1.2324
+update=742, Epoch=92, minibatch=5, loss=0.05814, Wa=1.2612, Wb=1.2324
+update=743, Epoch=92, minibatch=6, loss=0.04960, Wa=1.2612, Wb=1.2324
+update=744, Epoch=92, minibatch=7, loss=0.05323, Wa=1.2612, Wb=1.2324
+update=745, Epoch=93, minibatch=0, loss=0.06379, Wa=1.2612, Wb=1.2324
+update=746, Epoch=93, minibatch=1, loss=0.05101, Wa=1.2612, Wb=1.2324
+update=747, Epoch=93, minibatch=2, loss=0.05457, Wa=1.2612, Wb=1.2324
+update=748, Epoch=93, minibatch=3, loss=0.05160, Wa=1.2612, Wb=1.2324
+update=749, Epoch=93, minibatch=4, loss=0.05359, Wa=1.2612, Wb=1.2324
+update=750, Epoch=93, minibatch=5, loss=0.05366, Wa=1.2612, Wb=1.2324
+update=751, Epoch=93, minibatch=6, loss=0.05937, Wa=1.2612, Wb=1.2324
+update=752, Epoch=93, minibatch=7, loss=0.06234, Wa=1.2612, Wb=1.2324
+update=753, Epoch=94, minibatch=0, loss=0.05900, Wa=1.2612, Wb=1.2324
+update=754, Epoch=94, minibatch=1, loss=0.05238, Wa=1.2612, Wb=1.2324
+update=755, Epoch=94, minibatch=2, loss=0.06033, Wa=1.2613, Wb=1.2324
+update=756, Epoch=94, minibatch=3, loss=0.05453, Wa=1.2613, Wb=1.2324
+update=757, Epoch=94, minibatch=4, loss=0.04942, Wa=1.2613, Wb=1.2324
+update=758, Epoch=94, minibatch=5, loss=0.07233, Wa=1.2613, Wb=1.2324
+update=759, Epoch=94, minibatch=6, loss=0.05443, Wa=1.2613, Wb=1.2324
+update=760, Epoch=94, minibatch=7, loss=0.04774, Wa=1.2613, Wb=1.2324
+update=761, Epoch=95, minibatch=0, loss=0.04737, Wa=1.2613, Wb=1.2324
+update=762, Epoch=95, minibatch=1, loss=0.06086, Wa=1.2613, Wb=1.2324
+update=763, Epoch=95, minibatch=2, loss=0.04621, Wa=1.2612, Wb=1.2324
+update=764, Epoch=95, minibatch=3, loss=0.06435, Wa=1.2612, Wb=1.2324
+update=765, Epoch=95, minibatch=4, loss=0.05122, Wa=1.2611, Wb=1.2324
+update=766, Epoch=95, minibatch=5, loss=0.05477, Wa=1.2611, Wb=1.2324
+update=767, Epoch=95, minibatch=6, loss=0.05909, Wa=1.2612, Wb=1.2324
+update=768, Epoch=95, minibatch=7, loss=0.06620, Wa=1.2612, Wb=1.2324
+update=769, Epoch=96, minibatch=0, loss=0.04935, Wa=1.2612, Wb=1.2324
+update=770, Epoch=96, minibatch=1, loss=0.05859, Wa=1.2612, Wb=1.2324
+update=771, Epoch=96, minibatch=2, loss=0.05628, Wa=1.2612, Wb=1.2324
+update=772, Epoch=96, minibatch=3, loss=0.05251, Wa=1.2612, Wb=1.2324
+update=773, Epoch=96, minibatch=4, loss=0.04949, Wa=1.2612, Wb=1.2324
+update=774, Epoch=96, minibatch=5, loss=0.05320, Wa=1.2612, Wb=1.2325
+update=775, Epoch=96, minibatch=6, loss=0.07039, Wa=1.2611, Wb=1.2325
+update=776, Epoch=96, minibatch=7, loss=0.06020, Wa=1.2611, Wb=1.2325
+update=777, Epoch=97, minibatch=0, loss=0.05499, Wa=1.2611, Wb=1.2325
+update=778, Epoch=97, minibatch=1, loss=0.05994, Wa=1.2611, Wb=1.2325
+update=779, Epoch=97, minibatch=2, loss=0.04825, Wa=1.2610, Wb=1.2325
+update=780, Epoch=97, minibatch=3, loss=0.05773, Wa=1.2610, Wb=1.2325
+update=781, Epoch=97, minibatch=4, loss=0.05768, Wa=1.2610, Wb=1.2325
+update=782, Epoch=97, minibatch=5, loss=0.04973, Wa=1.2610, Wb=1.2325
+update=783, Epoch=97, minibatch=6, loss=0.05850, Wa=1.2610, Wb=1.2325
+update=784, Epoch=97, minibatch=7, loss=0.06314, Wa=1.2610, Wb=1.2325
+update=785, Epoch=98, minibatch=0, loss=0.05301, Wa=1.2610, Wb=1.2325
+update=786, Epoch=98, minibatch=1, loss=0.06333, Wa=1.2610, Wb=1.2325
+update=787, Epoch=98, minibatch=2, loss=0.05407, Wa=1.2610, Wb=1.2325
+update=788, Epoch=98, minibatch=3, loss=0.05414, Wa=1.2611, Wb=1.2325
+update=789, Epoch=98, minibatch=4, loss=0.05403, Wa=1.2611, Wb=1.2325
+update=790, Epoch=98, minibatch=5, loss=0.05746, Wa=1.2612, Wb=1.2326
+update=791, Epoch=98, minibatch=6, loss=0.05721, Wa=1.2612, Wb=1.2326
+update=792, Epoch=98, minibatch=7, loss=0.05687, Wa=1.2612, Wb=1.2326
+update=793, Epoch=99, minibatch=0, loss=0.06448, Wa=1.2612, Wb=1.2326
+update=794, Epoch=99, minibatch=1, loss=0.06579, Wa=1.2612, Wb=1.2326
+update=795, Epoch=99, minibatch=2, loss=0.05237, Wa=1.2612, Wb=1.2326
+update=796, Epoch=99, minibatch=3, loss=0.04655, Wa=1.2613, Wb=1.2326
+update=797, Epoch=99, minibatch=4, loss=0.04898, Wa=1.2613, Wb=1.2325
+update=798, Epoch=99, minibatch=5, loss=0.04623, Wa=1.2613, Wb=1.2325
+update=799, Epoch=99, minibatch=6, loss=0.06561, Wa=1.2613, Wb=1.2325
+update=800, Epoch=99, minibatch=7, loss=0.06003, Wa=1.2613, Wb=1.2325
 The ground truth is A=1.2618, B=1.2344
 PyTorch built-in AutoGradient+optimizer result: Final estimated Wa=1.2613, Wb=1.2325
