@@ -7,7 +7,7 @@ from torch import optim
 
 
 def main():
-    flag_manual_implement = True  # True: using our custom implementation; False: using Torch built-in
+    flag_manual_implement = False  # True: using our custom implementation; False: using Torch built-in
     flag_plot_final_result = True
     flag_log = True
 
@@ -27,7 +27,7 @@ def main():
     nsamples = 512
     batch_size = 64
     epoch = 100
-    learning_rate = 0.002
+    learning_rate = 0.003
     alpha = 0.9
     eps = 1e-08
 
