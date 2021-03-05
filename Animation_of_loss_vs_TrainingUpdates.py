@@ -96,49 +96,43 @@ def main():
     point_SGD_MOMENTUM, = ax.plot([], [], 'ro', lw=0.5, markersize=4)
     line_SGD_MOMENTUM, = ax.plot([], [], '-r', lw=2, label=method_SGD_MOMENTUM+' '+lr_SGD_MOMENTUM)
 
-    wblist_Adam = []
-    walist_Adam = []
-    point_Adam, = ax.plot([], [], 'go', lw=0.5, markersize=4)
-    line_Adam, = ax.plot([], [], '-g', lw=2, label=method_Adam+' '+lr_Adam)
-
     wblist_RMSprop = []
     walist_RMSprop = []
     point_RMSprop, = ax.plot([], [], 'mo', lw=0.5, markersize=4)
     line_RMSprop, = ax.plot([], [], '-m', lw=2, label=method_RMSprop+' '+lr_RMSprop)
 
+    wblist_Adam = []
+    walist_Adam = []
+    point_Adam, = ax.plot([], [], 'go', lw=0.5, markersize=4)
+    line_Adam, = ax.plot([], [], '-g', lw=2, label=method_Adam+' '+lr_Adam)
+
     text_update = ax.text(0.03, 0.03, '', transform=ax.transAxes, color="white", fontsize=14)
 
     leg = ax.legend()
     fig.tight_layout()
-    # plt.show(block=False)
+    plt.show(block=False)
 
     # initialization function: plot the background of each frame
     def init():
-
-        point_Adam.set_data([], [])
-        line_Adam.set_data([], [])
-
-        point_RMSprop.set_data([], [])
-        line_RMSprop.set_data([], [])
-
         point_SGD.set_data([], [])
         line_SGD.set_data([], [])
 
         point_SGD_MOMENTUM.set_data([], [])
         line_SGD_MOMENTUM.set_data([], [])
 
+        point_RMSprop.set_data([], [])
+        line_RMSprop.set_data([], [])
+
+        point_Adam.set_data([], [])
+        line_Adam.set_data([], [])
+
         text_update.set_text('')
 
-        return point_Adam, line_Adam, point_RMSprop, line_RMSprop, point_SGD, line_SGD, point_SGD_MOMENTUM, line_SGD_MOMENTUM, text_update
+        return point_SGD, line_SGD, point_SGD_MOMENTUM, line_SGD_MOMENTUM, point_RMSprop, line_RMSprop, point_Adam, line_Adam, text_update
 
     # animation function.  This is called sequentially
     def animate(i):
         if i == 0:
-            wblist_Adam[:] = []
-            walist_Adam[:] = []
-
-            wblist_RMSprop[:] = []
-            walist_RMSprop[:] = []
 
             wblist_SGD[:] = []
             walist_SGD[:] = []
@@ -146,19 +140,13 @@ def main():
             wblist_SGD_MOMENTUM[:] = []
             walist_SGD_MOMENTUM[:] = []
 
-        wa_Adam, wb_Adam  = WaTraces_Adam[i], WbTraces_Adam[i]
-        wblist_Adam.append(wa_Adam)
-        walist_Adam.append(wb_Adam)
-        point_Adam.set_data(wa_Adam, wb_Adam)
-        line_Adam.set_data(wblist_Adam, walist_Adam)
+            wblist_RMSprop[:] = []
+            walist_RMSprop[:] = []
 
-        wa_RMSprop, wb_RMSprop  = WaTraces_RMSprop[i], WbTraces_RMSprop[i]
-        wblist_RMSprop.append(wa_RMSprop)
-        walist_RMSprop.append(wb_RMSprop)
-        point_RMSprop.set_data(wa_RMSprop, wb_RMSprop)
-        line_RMSprop.set_data(wblist_RMSprop, walist_RMSprop)
+            wblist_Adam[:] = []
+            walist_Adam[:] = []
 
-        wa_SGD, wb_SGD  = WaTraces_SGD[i], WbTraces_SGD[i]
+        wa_SGD, wb_SGD = WaTraces_SGD[i], WbTraces_SGD[i]
         wblist_SGD.append(wa_SGD)
         walist_SGD.append(wb_SGD)
         point_SGD.set_data(wa_SGD, wb_SGD)
@@ -170,10 +158,22 @@ def main():
         point_SGD_MOMENTUM.set_data(wa_SGD_MOMENTUM, wb_SGD_MOMENTUM)
         line_SGD_MOMENTUM.set_data(wblist_SGD_MOMENTUM, walist_SGD_MOMENTUM)
 
+        wa_RMSprop, wb_RMSprop = WaTraces_RMSprop[i], WbTraces_RMSprop[i]
+        wblist_RMSprop.append(wa_RMSprop)
+        walist_RMSprop.append(wb_RMSprop)
+        point_RMSprop.set_data(wa_RMSprop, wb_RMSprop)
+        line_RMSprop.set_data(wblist_RMSprop, walist_RMSprop)
+
+        wa_Adam, wb_Adam = WaTraces_Adam[i], WbTraces_Adam[i]
+        wblist_Adam.append(wa_Adam)
+        walist_Adam.append(wb_Adam)
+        point_Adam.set_data(wa_Adam, wb_Adam)
+        line_Adam.set_data(wblist_Adam, walist_Adam)
+
         update, epoch, minibatch = updateTraces[i], EpochTraces[i]+1, minibatchTraces[i]+1
         text_update.set_text('Update = {:d}, epoch={:d}, minibatch={:d}'.format(update, epoch, minibatch))
 
-        return point_Adam, line_Adam, point_RMSprop, line_RMSprop, point_SGD, line_SGD, point_SGD_MOMENTUM, line_SGD_MOMENTUM, text_update
+        return point_SGD, line_SGD, point_SGD_MOMENTUM, line_SGD_MOMENTUM, point_RMSprop, line_RMSprop, point_Adam, line_Adam, text_update
 
     # call the animator.  blit=True means only re-draw the parts that have changed.
     intervalms = 10  # this means 10 ms per frame
@@ -183,7 +183,6 @@ def main():
     anim.save('Animation_of_loss_vs_TrainingUpdates.mp4', fps=30, bitrate=1800, extra_args=['-vcodec', 'libx264'])
 
     plt.show()
-
 
     print('Done!')
 

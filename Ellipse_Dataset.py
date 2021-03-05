@@ -62,7 +62,7 @@ def generate_training_data(N, a, b, noise_scale=0.1, plot_data=True):
             Xs.append(newX)
             Ys.append(newY)
 
-        plt.plot(Xs, Ys, color="blue", linewidth=1.0, linestyle="-")
+        # plt.plot(Xs, Ys, color="blue", linewidth=1.0, linestyle="-")
         plt.show(block=False)
 
     return (xHohmann, yNoise)

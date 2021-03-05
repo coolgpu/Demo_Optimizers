@@ -21,13 +21,17 @@ def main():
 
     device = torch.device('cpu')
     torch.manual_seed(9999)
+    # a and b are used to generate the training dataset
     a = 1.261845
     b = 1.234378
     c = math.sqrt(a * a - b * b)
     nsamples = 512
     batch_size = 64
     epoch = 100
-    learning_rate = 0.01
+    learning_rate = 0.03
+    lr_milestones = [16]
+    lr_gamma = 0.5
+
     beta1, beta2 = 0.9, 0.999
     eps = 1e-08
 
@@ -56,35 +60,41 @@ def main():
         optimizer = None
     else:
         optimizer = optim.Adam([Wa, Wb], lr=learning_rate, betas=(beta1, beta2), eps=eps)
+        scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=lr_milestones, gamma=lr_gamma)
 
-    update = 0
+    updates = 0
     for t in range(epoch):
+
         for i_batch, sample_batched in enumerate(xy_dataloader):
             x, y = sample_batched['x'], sample_batched['y']
 
             # Step 1: Perform forward pass
-            y_pred_sqr = Wb ** 2 * (1.0 - (x + c) ** 2 / Wa ** 2)
-            y_pred_sqr[y_pred_sqr < 0.00000001] = 0.00000001  # handle negative values caused by noise
-            y_pred = torch.sqrt(y_pred_sqr)
+            y_pred_sqr = 1.0 - (x + c) ** 2 / Wa ** 2
+            negativeloc = y_pred_sqr < 0  # record the non-negative y_pred_sqr elements, to be used later
+            y_pred_sqr[negativeloc] = 0  # handle negative values caused by noise
+            y_pred = torch.sqrt(y_pred_sqr) * Wb
 
             # Step 2: Compute loss
-            loss = (y_pred - y).pow(2).sum()
+            loss = ((y_pred - y).pow(2))[~negativeloc].mean()
 
             if flag_log:
-                update += 1
-                logstr = 'update={}, Epoch={}, minibatch={}, loss={:.5f}, Wa={:.4f}, Wb={:.4f}\n'.format(
-                    update, t, i_batch, loss.item(), Wa.data.numpy(), Wb.data.numpy())
+
+                logstr = 'updates={}, Epoch={}, minibatch={}, loss={:.5f}, Wa={:.4f}, Wb={:.4f}\n'.format(
+                    updates+1, t, i_batch, loss.item(), Wa.data.numpy(), Wb.data.numpy())
                 foutput.write(logstr)
                 if t % 10 == 0 and i_batch == 0:
                     print(logstr)
 
             if flag_manual_implement: # do the job manually
-                # Step 3: perform back-propagation and calculate the gradients of loss w.r.t. Wa and Wb
-                dWa_via_yi = 2.0 * (y_pred - y) * ((x+c) ** 2) * (Wb**2) / (Wa**3) / y_pred
-                dWa = dWa_via_yi[y_pred_sqr > 0.00000001].sum()
+                if updates in lr_milestones:
+                    learning_rate *= lr_gamma
 
-                dWb_via_yi = (2.0 * (y_pred - y) * y_pred / Wb)
-                dWb = dWb_via_yi[y_pred_sqr > 0.00000001].sum()
+                # Step 3: perform back-propagation and calculate the gradients of loss w.r.t. Wa and Wb
+                dWa_via_yi = (2.0 * (y_pred - y) * ((x + c) ** 2) * (Wb ** 2) / (Wa ** 3) / y_pred)
+                dWa = dWa_via_yi[~negativeloc].mean()  # sum()
+
+                dWb_via_yi = ((2.0 * (y_pred - y) * y_pred / Wb))
+                dWb = dWb_via_yi[~negativeloc].mean()  #.sum()
 
                 # Step 4: Update weights using Adam algorithm.
                 with torch.no_grad():
@@ -107,6 +117,9 @@ def main():
                 loss.backward()
                 # Step 4: Update weights using Adam algorithm.
                 optimizer.step()
+                scheduler.step()
+
+            updates += 1
 
     # log the final results
     if flag_log:
